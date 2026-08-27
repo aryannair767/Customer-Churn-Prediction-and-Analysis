@@ -1,0 +1,351 @@
+company_id,company_name,industry,employee_count,country,plan_tier,billing_cycle,acquisition_channel,mrr,num_seats,signup_date
+COMP-0001,"Rodriguez, Figueroa and Sanchez",Non-Profit,56,CU,STARTER,annual,referral_program,462.26,3,2022-07-03
+COMP-0002,"Garcia, Yang and Gardner",Legal,3932,UA,starter_plan,annual,partner_channel,152.27,14,07/08/2023
+COMP-0003,Johnson-Davis,Finance,1379,HT,starter_plan,annual,referral,432.49,13,10-06-2022
+COMP-0004,"Guzman, Hoffman and Baldwin",Consulting,,ME,Pro,annual,PAID SEARCH,964.64,26,2024-04-29
+COMP-0005,"Barnes, Cole and Ramirez",Consulting,850,AF,starter_plan,monthly,Referral,395.64,12,23/11/2022
+COMP-0006,Wolfe LLC,Education,168,IT,professional,annual,PARTNER,966.48,10,07-24-2024
+COMP-0007,Lewis LLC,Education,3684,CA,STARTER,annual,ORGANIC,242.71,5,02/10/2024
+COMP-0008,James LLC,Legal,199,LY,ENTERPRISE,monthly,ORGANIC,7412.58,245,2022-11-11
+COMP-0009,"Baker, Williams and Stevens",Consulting,2563,CM,pro,annual,direct sales,618.37,54,2023-12-02
+COMP-0010,Miller-Carter,Logistics,78,YE,PROFESSIONAL,annual,direct sales,1021.42,40,2024-09-16
+COMP-0011,"Mcclure, Ward and Lee",Energy,,BJ,starter,annual,referral,422.52,10,02/11/2024
+COMP-0012,Stanley LLC,Technology,17,BR,starter_plan,annual,paid search,406.17,15,11-28-2023
+COMP-0013,Delacruz Group,Finance,2085,IT,enterprise_plan,annual,PARTNER,6984.14,207,06-18-2023
+COMP-0014,Reid-Diaz,Real Estate,38,MN,Starter,ANNUAL,paid_search,227.08,3,2024-01-31
+COMP-0015,Clark-Adams,Hospitality,134,KZ,STARTER,monthly,referral_program,403.17,11,02-04-2023
+COMP-0016,"Jones, Reid and Ferguson",Logistics,1397,HN,STARTER,monthly,DIRECT SALES,168.96,12,20/02/2024
+COMP-0017,Ford LLC,Education,98,DZ,PROFESSIONAL,monthly,Paid Search,2077.22,36,10-08-2024
+COMP-0018,"Hawkins, Cohen and Cameron",Energy,73,BG,starter,monthly,PaidSearch,290.36,2,2022-06-03
+COMP-0019,Underwood LLC,Retail,3853,MZ,STARTER,monthly,DIRECT SALES,352.71,10,04-18-2023
+COMP-0020,Jones-Gentry,Hospitality,43,TN,Ent,monthly,Paid Search,8101.82,128,02-08-2023
+COMP-0021,"Edwards, Rios and Foster",Technology,629,BA,enterprise,monthly,partner,4051.46,126,04/04/2023
+COMP-0022,Thomas-Taylor,Hospitality,14,CH,starter_plan,MONTHLY,Organic,476.64,3,08/07/2024
+COMP-0023,"Ryan, Burgess and Patterson",Media,44,TV,PROFESSIONAL,annual,DIRECT SALES,765.74,16,18/09/2022
+COMP-0024,Cox-Osborn,Finance,819,CU,STARTER,annual,organic_search,320.99,15,08-08-2023
+COMP-0025,"Snyder, Campos and Callahan",Technology,989,DE,starter_plan,monthly,referral_program,346.32,3,2022-10-31
+COMP-0026,"Moore, Becker and Carlson",Energy,1606,MV,starter,monthly,DIRECT SALES,428.64,15,2023-06-02
+COMP-0027,Carlson-Mcdonald,Manufacturing,154,ID,enterprise,monthly,paid search,7699.27,70,13/01/2024
+COMP-0028,"Valencia, Smith and Le",Hospitality,155,KZ,Starter,annual,Paid Search,455.26,15,2022-12-22
+COMP-0029,"Potter, Mack and Peterson",Media,32,KE,Professional,monthly,ORGANIC,711.07,57,04/11/2023
+COMP-0030,Moore-Smith,Energy,228,WS,STARTER,annual,organic,187.94,8,04-18-2023
+COMP-0031,"Baker, Mason and White",Real Estate,790,CD,starter,monthly,organic,432.28,12,2025-01-14
+COMP-0032,"Evans, Fowler and Lynch",Education,271,DE,PROFESSIONAL,annual,PAID SEARCH,2040.07,40,07-24-2023
+COMP-0033,Farmer-Ryan,Government,1785,SM,PROFESSIONAL,MONTHLY,partner_channel,878.44,44,12-14-2023
+COMP-0034,George Group,Retail,640,AM,professional,monthly,PaidSearch,1357.1,58,12-03-2024
+COMP-0035,Hickman LLC,Legal,969,GY,starter_plan,monthly,PaidSearch,235.69,9,14/08/2022
+COMP-0036,Allen PLC,Hospitality,3942,BR,Pro,monthly,referral,608.87,56,24/02/2024
+COMP-0037,Dennis Inc,Education,,PS,Ent,monthly,PAID SEARCH,5520.18,160,10-31-2024
+COMP-0038,"Cannon, Anderson and Alvarez",Logistics,4402,SY,enterprise,annual,ORGANIC,4184.75,88,05-21-2024
+COMP-0039,Baker PLC,Real Estate,41,NO,Pro,monthly,organic_search,2028.84,13,23/01/2023
+COMP-0040,Hickman Ltd,Finance,624,FM,pro,monthly,paid search,1272.23,57,2022-06-21
+COMP-0041,Marquez Group,Logistics,688,SV,starter_plan,monthly,DirectSales,442.51,10,10-06-2024
+COMP-0042,"Brooks, Lam and Hayes",Hospitality,2117,HU,Pro,monthly,referral_program,1877.03,54,09-22-2023
+COMP-0043,Brown Inc,Legal,44,TZ,starter,monthly,DirectSales,213.61,6,01-03-2023
+COMP-0044,"Hall, Robinson and Jones",Manufacturing,4896,ZM,STARTER,monthly,PAID SEARCH,338.8,7,10/08/2022
+COMP-0045,Perez Inc,Non-Profit,12,LS,Pro,monthly,organic,783.02,21,18/02/2023
+COMP-0046,Palmer LLC,Finance,79,SV,Enterprise,monthly,paid_search,4527.72,198,07-11-2024
+COMP-0047,Lewis-Anderson,Government,69,TO,starter_plan,annual,partner,360.14,3,10-16-2024
+COMP-0048,"Kennedy, Mueller and Aguirre",Manufacturing,44,ET,Professional,monthly,partner,1915.73,14,2023-06-06
+COMP-0049,Davis Group,Energy,645,MH,Pro,annual,Partner,1343.8,60,17/05/2024
+COMP-0050,Jenkins-Shields,Education,1998,BF,professional,annual,ORGANIC,1390.89,28,04/01/2023
+COMP-0051,"Valdez, Lucas and Brown",Retail,810,ZA,PROFESSIONAL,monthly,paid_search,986.17,34,2023-02-02
+COMP-0052,Mcbride-Rodriguez,Non-Profit,217,FI,starter,annual,Organic,353.54,9,05-19-2023
+COMP-0053,Herrera and Sons,Government,3878,NO,starter_plan,monthly,paid search,217.4,3,25/01/2025
+COMP-0054,Ramirez and Sons,Education,483,BO,Enterprise,annual,Organic,4845.73,102,29/11/2023
+COMP-0055,Morton-Chase,Technology,191,BZ,Pro,annual,paid search,619.62,26,26/08/2023
+COMP-0056,Pearson PLC,Technology,26,AL,Professional,monthly,referral,685.77,17,04/06/2024
+COMP-0057,House and Sons,Logistics,3140,DM,PROFESSIONAL,monthly,direct sales,2184.05,27,08-01-2022
+COMP-0058,Tucker-Lewis,Government,840,MZ,pro,monthly,Paid Search,720.1,8,2023-09-25
+COMP-0059,Martin Inc,Education,4520,MW,STARTER,monthly,Organic,426.94,11,2022-12-20
+COMP-0060,House-Glover,Real Estate,88,JO,starter,monthly,organic_search,412.14,11,12/08/2024
+COMP-0061,Horton-Cross,Retail,42,TH,pro,annual,Partner,1565.94,9,2022-06-22
+COMP-0062,"Higgins, Moore and Phillips",Non-Profit,197,BG,pro,annual,direct_sales,890.38,45,2023-10-17
+COMP-0063,"Fitzgerald, Brown and Edwards",Media,32,BE,enterprise,monthly,referral,4373.42,127,08/10/2024
+COMP-0064,"Woods, Calhoun and Schmidt",Healthcare,1474,BG,Enterprise,annual,Paid Search,8150.89,143,12-10-2022
+COMP-0065,"Miller, Lopez and Larson",Legal,163,GQ,Starter,monthly,organic,458.3,9,02-01-2023
+COMP-0066,Powell PLC,Retail,,HU,STARTER,annual,paid_search,481.47,12,12/09/2024
+COMP-0067,"Wheeler, Harvey and Barnes",Retail,4419,TV,ENTERPRISE,monthly,referral,4993.31,178,10-18-2022
+COMP-0068,"Mills, Donovan and Harris",Retail,36,VC,starter_plan,monthly,REFERRAL,499.62,9,08-16-2024
+COMP-0069,Allen-Foster,Manufacturing,3225,SV,professional,monthly,PaidSearch,1716.0,44,26/07/2023
+COMP-0070,"Evans, Stewart and Walton",Consulting,237,BN,enterprise_plan,ANNUAL,organic,5918.68,141,26/10/2022
+COMP-0071,Ellis PLC,Non-Profit,680,BZ,STARTER,annual,REFERRAL,448.12,15,11-29-2023
+COMP-0072,Medina PLC,Manufacturing,50,IN,starter_plan,annual,organic,229.62,3,09/09/2022
+COMP-0073,Mahoney Inc,Government,370,HN,enterprise_plan,monthly,partner,4406.89,120,02-06-2023
+COMP-0074,Mitchell-Kim,Legal,1323,ST,Pro,monthly,direct sales,828.99,37,09-14-2023
+COMP-0075,"Turner, Riggs and Roman",Technology,123,SM,starter,annual,DirectSales,254.7,8,11/09/2023
+COMP-0076,Contreras PLC,Education,1971,KG,Professional,annual,Direct Sales,1072.37,50,2022-06-09
+COMP-0077,"Garcia, Humphrey and Baker",Non-Profit,177,CD,professional,monthly,Referral,1593.43,51,2025-01-27
+COMP-0078,"Tran, Nelson and Jacobs",Energy,18,VC,Starter,monthly,referral_program,406.33,3,06-16-2024
+COMP-0079,Harris-Walters,Finance,752,IN,pro,ANNUAL,PARTNER,1011.15,60,05-31-2024
+COMP-0080,"Freeman, Whitehead and Mathis",Manufacturing,169,BW,Enterprise,annual,Direct Sales,8787.25,230,01/09/2022
+COMP-0081,"Henderson, Hill and Smith",Technology,326,CO,Professional,annual,referral_program,1915.87,31,01-26-2023
+COMP-0082,"Whitney, Martin and Ramos",Legal,45,MA,Pro,monthly,REFERRAL,1638.78,15,07-09-2022
+COMP-0083,Hoffman-Rodriguez,Media,74,FM,STARTER,MONTHLY,DirectSales,393.77,10,06/11/2022
+COMP-0084,Gardner LLC,Non-Profit,830,TV,Starter,monthly,organic,482.69,15,06-12-2023
+COMP-0085,"Hernandez, Anderson and Parker",Non-Profit,65,BB,enterprise,annual,partner_channel,3095.88,79,2022-06-22
+COMP-0086,Clark-Wright,Manufacturing,25,CA,enterprise_plan,annual,referral,7784.84,84,10-30-2022
+COMP-0087,Deleon-Henson,Legal,348,NE,Enterprise,monthly,DirectSales,3356.72,116,05-01-2024
+COMP-0088,"Brady, Frost and Young",Technology,1519,DK,Pro,annual,Organic,1844.83,40,06/09/2023
+COMP-0089,Keith Inc,Legal,12,EE,STARTER,monthly,organic,390.13,9,15/08/2024
+COMP-0090,"Middleton, Patton and Jenkins",Finance,481,SV,STARTER,annual,ORGANIC,326.94,8,09-26-2022
+COMP-0091,"Cochran, Adams and Cobb",Non-Profit,105,CD,Pro,annual,ORGANIC,1767.38,28,2023-02-17
+COMP-0092,Brennan-Garrison,Finance,40,GN,starter_plan,monthly,PARTNER,434.12,10,28/12/2023
+COMP-0093,Velasquez Group,Non-Profit,4578,MG,Enterprise,annual,Direct Sales,6402.67,115,11-02-2023
+COMP-0094,Hoover-Savage,Non-Profit,310,GR,starter,MONTHLY,PAID SEARCH,300.19,10,2024-11-14
+COMP-0095,Keller Group,Non-Profit,823,LS,STARTER,monthly,Partner,472.54,7,25/10/2022
+COMP-0096,Lin-Rasmussen,Consulting,14,IT,starter,MONTHLY,Organic,308.78,4,2023-04-29
+COMP-0097,May-Ross,Legal,71,SO,ENTERPRISE,monthly,PAID SEARCH,5380.23,133,27/08/2023
+COMP-0098,Crosby-Wilson,Education,42,IL,STARTER,annual,Organic,383.5,2,2022-07-27
+COMP-0099,Carpenter LLC,Logistics,18,AZ,Starter,annual,PAID SEARCH,283.07,13,12-25-2023
+COMP-0100,Carlson LLC,Logistics,32,ZA,pro,monthly,Paid Search,1100.9,35,08-02-2023
+COMP-0101,Graham-Joyce,Consulting,4282,CI,enterprise_plan,ANNUAL,paid_search,7989.15,87,16/07/2023
+COMP-0102,Lam-Lee,Consulting,136,BD,STARTER,annual,referral_program,217.87,14,2022-10-30
+COMP-0103,"Graham, Meyer and Drake",Finance,100,LA,enterprise_plan,annual,Paid Search,7523.51,151,2023-12-30
+COMP-0104,"Bentley, Mclaughlin and Gonzalez",Media,132,NR,PROFESSIONAL,monthly,Referral,1874.13,45,02/11/2023
+COMP-0105,Rush LLC,Technology,33,VU,pro,monthly,organic,1486.91,58,22/01/2024
+COMP-0106,Alvarado-Martinez,Logistics,3478,KG,Pro,annual,Organic,1897.55,29,13/02/2024
+COMP-0107,"Parker, Ortiz and Powell",Finance,2793,KE,professional,annual,organic,2068.7,32,05-13-2023
+COMP-0108,"Martinez, Fisher and Bentley",Technology,50,GD,Professional,monthly,organic_search,1962.51,46,19/06/2024
+COMP-0109,"Orr, Gilbert and Turner",Retail,35,SY,starter,monthly,partner,434.61,12,13/01/2025
+COMP-0110,Torres and Sons,Hospitality,3746,NR,pro,monthly,organic,2121.87,29,09-05-2024
+COMP-0111,"Lawson, Morris and Ramos",Finance,19,GQ,professional,MONTHLY,partner,1442.45,50,13/10/2022
+COMP-0112,Dixon Ltd,Finance,96,DO,pro,MONTHLY,Organic,1751.34,36,03/09/2023
+COMP-0113,"Miller, Robertson and Schultz",Education,2506,LT,PROFESSIONAL,monthly,organic,1443.94,18,2024-11-05
+COMP-0114,Cardenas and Sons,Retail,13,GQ,PROFESSIONAL,monthly,paid search,734.2,18,08/11/2023
+COMP-0115,Walker-Gonzalez,Energy,38,AR,starter,MONTHLY,organic_search,178.56,5,2022-09-10
+COMP-0116,Sanchez Group,Non-Profit,340,VA,ENTERPRISE,monthly,partner,7432.47,145,2022-06-06
+COMP-0117,Gibson Ltd,Technology,3247,TR,Starter,monthly,organic,166.71,8,12/09/2023
+COMP-0118,Higgins Group,Legal,54,SA,Professional,monthly,PAID SEARCH,1164.51,44,27/08/2022
+COMP-0119,Sanchez-Douglas,Manufacturing,14,AF,starter_plan,monthly,Referral,493.36,6,2024-07-01
+COMP-0120,Osborne and Sons,Manufacturing,990,EE,starter,monthly,ORGANIC,374.98,15,2024-08-25
+COMP-0121,"Holmes, Williams and Wright",Media,1258,CM,Starter,monthly,partner_channel,460.03,7,2024-09-20
+COMP-0122,Anderson-Marshall,Energy,171,SM,STARTER,ANNUAL,paid search,379.51,6,06-12-2023
+COMP-0123,"Larson, Dodson and Vance",Consulting,148,VA,pro,MONTHLY,DIRECT SALES,1430.84,59,2023-08-09
+COMP-0124,"Mcclain, Simmons and Meadows",Real Estate,305,PE,Professional,monthly,referral_program,1281.79,52,09-01-2023
+COMP-0125,Manning Group,Legal,37,PG,STARTER,ANNUAL,Organic,430.38,12,07-02-2022
+COMP-0126,Walton-Larsen,Legal,58,IS,Ent,monthly,organic,6187.09,179,09-04-2023
+COMP-0127,"Washington, Allen and Gonzales",Manufacturing,787,LC,Starter,annual,PAID SEARCH,189.71,13,2023-11-13
+COMP-0128,Young-Rogers,Real Estate,2066,SR,starter,annual,referral,499.52,5,08-15-2022
+COMP-0129,Taylor and Sons,Hospitality,898,MV,Professional,annual,Referral,1064.58,27,30/12/2024
+COMP-0130,"Hernandez, Lewis and Perry",Government,,LS,starter_plan,monthly,paid_search,426.63,2,06-13-2023
+COMP-0131,"Owens, Brown and Wall",Real Estate,2266,MW,ENTERPRISE,annual,ORGANIC,7499.57,235,10-07-2022
+COMP-0132,"Shah, Smith and Gilmore",Non-Profit,677,TR,STARTER,annual,Referral,355.73,14,2024-08-09
+COMP-0133,Woods-Bender,Energy,730,KG,STARTER,monthly,referral,271.11,10,02-10-2024
+COMP-0134,Castaneda-Ashley,Non-Profit,328,NL,professional,monthly,Referral,1546.89,45,05-12-2023
+COMP-0135,"Adkins, Payne and Morrison",Legal,283,GN,pro,annual,organic,1622.39,39,06/10/2024
+COMP-0136,Robinson-Graham,Retail,901,AT,PROFESSIONAL,annual,PaidSearch,1264.99,37,2022-10-26
+COMP-0137,Rogers-Shelton,Government,608,NA,professional,monthly,PaidSearch,796.04,36,2022-09-08
+COMP-0138,"Martin, Mcdonald and Anderson",Consulting,535,VU,STARTER,monthly,DirectSales,313.39,6,2022-09-01
+COMP-0139,"Johnson, Long and Elliott",Real Estate,420,AR,starter,MONTHLY,REFERRAL,445.0,12,12-02-2023
+COMP-0140,Day and Sons,Hospitality,982,PL,Starter,monthly,referral,276.88,6,10-30-2023
+COMP-0141,Williams Group,Real Estate,27,LR,Starter,annual,ORGANIC,478.63,14,04/11/2023
+COMP-0142,Gibson LLC,Technology,340,PS,ENTERPRISE,monthly,paid_search,8305.36,60,04-23-2023
+COMP-0143,Ramirez-Bean,Legal,4392,NL,PROFESSIONAL,monthly,partner,1189.37,51,2023-08-01
+COMP-0144,Conley-Ruiz,Logistics,811,AE,Enterprise,annual,PARTNER,6254.62,209,10-05-2023
+COMP-0145,"Williams, Crane and Walker",Non-Profit,147,BJ,starter,annual,paid search,156.63,7,07-28-2023
+COMP-0146,"Williams, Johnson and Wright",Consulting,42,AO,Pro,monthly,referral,2197.0,38,04-18-2023
+COMP-0147,"Hernandez, Martinez and Caldwell",Media,759,TM,PROFESSIONAL,monthly,paid search,1492.94,22,2024-06-01
+COMP-0148,Marshall LLC,Government,524,MN,professional,annual,partner,1060.46,44,2023-06-24
+COMP-0149,Obrien Ltd,Consulting,497,VC,ENTERPRISE,monthly,direct_sales,6763.82,216,2022-12-24
+COMP-0150,Strickland and Sons,Retail,119,KR,starter,annual,Referral,373.28,2,05/05/2023
+COMP-0151,Lane LLC,Healthcare,51,TR,pro,annual,direct_sales,1363.92,20,2024-05-27
+COMP-0152,"Odonnell, Brooks and David",Non-Profit,72,FJ,Pro,annual,direct_sales,2061.17,19,28/11/2022
+COMP-0153,Vargas Ltd,Technology,390,HN,ENTERPRISE,monthly,referral_program,3197.45,110,12-09-2023
+COMP-0154,Terry LLC,Hospitality,179,LA,enterprise_plan,monthly,Partner,6713.85,208,2023-05-12
+COMP-0155,"Trujillo, Hogan and Knight",Legal,4506,BB,enterprise,monthly,PaidSearch,6850.16,72,2024-09-01
+COMP-0156,Patel-Stanley,Education,1964,BJ,enterprise_plan,annual,organic_search,7198.74,27,2023-06-04
+COMP-0157,"Holland, Smith and Fisher",Technology,1654,RW,professional,annual,DIRECT SALES,1831.75,52,30/03/2023
+COMP-0158,Hamilton LLC,Education,1627,ZW,Pro,annual,organic,1478.78,38,2024-12-06
+COMP-0159,Zimmerman-Graham,Logistics,738,ES,starter,annual,paid_search,341.68,10,12-02-2023
+COMP-0160,"Sheppard, Nelson and Morton",Media,3388,SO,Starter,monthly,partner,308.7,10,12-30-2023
+COMP-0161,Marshall-Petersen,Government,11,UA,pro,annual,paid search,1151.25,12,2022-08-01
+COMP-0162,Morris-Sanchez,Healthcare,58,BT,enterprise,annual,direct_sales,6698.23,132,2023-06-27
+COMP-0163,Keith-Sanchez,Hospitality,146,PL,Pro,monthly,Paid Search,1459.61,41,01-15-2023
+COMP-0164,"Bishop, Gray and Johnson",Logistics,3758,LR,professional,ANNUAL,Paid Search,1153.86,25,09-24-2022
+COMP-0165,Freeman LLC,Logistics,11,IL,PROFESSIONAL,monthly,Referral,1995.54,23,07-24-2024
+COMP-0166,Ramirez-Carlson,Real Estate,343,IS,starter,annual,referral_program,352.12,14,2023-04-25
+COMP-0167,"Smith, Vaughan and Miller",Hospitality,426,WS,STARTER,annual,referral,407.32,4,08-12-2023
+COMP-0168,Freeman-Chang,Technology,2305,FM,Professional,monthly,paid_search,1460.69,23,02/06/2024
+COMP-0169,Brewer-Henry,Finance,2690,AM,PROFESSIONAL,MONTHLY,paid search,925.34,49,2023-09-04
+COMP-0170,Phillips Group,Healthcare,,MD,Professional,annual,DirectSales,901.06,56,25/12/2023
+COMP-0171,Torres PLC,Education,127,MN,Ent,monthly,DirectSales,5612.99,87,27/12/2022
+COMP-0172,Tran-Cooper,Education,2159,CH,professional,annual,organic,1175.43,39,24/09/2023
+COMP-0173,"Rivera, Warner and Nelson",Manufacturing,,ID,Pro,monthly,Paid Search,1017.24,45,08-02-2023
+COMP-0174,Martinez and Sons,Education,108,KW,PROFESSIONAL,ANNUAL,referral,1011.72,60,10-16-2023
+COMP-0175,Newton Ltd,Government,3950,ER,STARTER,ANNUAL,Direct Sales,485.03,10,08-16-2022
+COMP-0176,Robinson Group,Non-Profit,51,IS,STARTER,monthly,PAID SEARCH,309.6,2,08/10/2023
+COMP-0177,"Lawrence, Wolf and Carlson",Technology,10,BZ,starter,annual,referral,250.34,10,12-11-2024
+COMP-0178,Phillips LLC,Hospitality,77,EE,starter,annual,organic_search,274.05,14,2023-06-18
+COMP-0179,Smith-Ferguson,Media,913,IS,Professional,annual,REFERRAL,1973.15,56,2023-07-21
+COMP-0180,Mccann PLC,Real Estate,64,JP,starter_plan,annual,Referral,265.94,15,09-27-2024
+COMP-0181,"Raymond, Little and Mullins",Education,23,CA,ENTERPRISE,annual,ORGANIC,6029.7,193,04-19-2023
+COMP-0182,Andrews Group,Logistics,69,QA,professional,ANNUAL,Referral,1464.9,32,03-12-2024
+COMP-0183,Peterson-Sheppard,Government,963,ID,Starter,monthly,partner_channel,269.21,14,07-12-2023
+COMP-0184,Wilson-Jones,Manufacturing,119,RW,STARTER,annual,organic_search,387.89,12,03-30-2023
+COMP-0185,Ray Ltd,Government,1631,BF,pro,annual,PARTNER,1106.69,14,12/04/2023
+COMP-0186,Hernandez PLC,Logistics,76,KI,pro,annual,organic_search,765.27,13,09-04-2022
+COMP-0187,Mcknight Inc,Logistics,,TH,starter,monthly,DIRECT SALES,466.82,5,2022-11-21
+COMP-0188,Obrien-Gibbs,Finance,2099,GR,starter_plan,monthly,Organic,254.91,14,02-13-2023
+COMP-0189,"James, Kerr and Evans",Government,176,TZ,Pro,MONTHLY,paid_search,1233.11,47,05-04-2023
+COMP-0190,Torres-Oliver,Consulting,84,VA,professional,monthly,Organic,1110.62,55,16/10/2023
+COMP-0191,"Garcia, Farmer and Garrett",Logistics,2148,IN,Starter,annual,PAID SEARCH,499.04,4,2023-12-16
+COMP-0192,"Miller, Allen and Arnold",Media,3756,DJ,Starter,monthly,ORGANIC,203.95,8,02-07-2024
+COMP-0193,Ortiz Ltd,Legal,3188,UG,Professional,annual,organic,2032.8,42,08-27-2022
+COMP-0194,Carter-Hall,Education,32,MA,Pro,annual,referral_program,2146.9,29,08/08/2024
+COMP-0195,Warner-Gibson,Healthcare,106,LA,professional,monthly,partner_channel,1541.74,40,26/06/2022
+COMP-0196,Bradshaw Ltd,Retail,71,TZ,starter_plan,monthly,partner_channel,332.39,7,08-23-2023
+COMP-0197,"Lara, Gonzalez and Wilson",Media,30,GR,STARTER,monthly,PaidSearch,430.02,13,11-26-2022
+COMP-0198,"Hernandez, Baker and Thomas",Manufacturing,1949,BH,Professional,monthly,referral,1232.93,55,20/12/2022
+COMP-0199,Sparks PLC,Consulting,51,AE,Starter,annual,partner,352.07,14,05/04/2024
+COMP-0200,"Morse, Gonzales and Harrison",Education,3747,KI,pro,annual,referral,1578.09,45,05-27-2023
+COMP-0201,"Powell, Nelson and Fernandez",Legal,21,OM,Professional,monthly,PAID SEARCH,787.12,31,2023-11-06
+COMP-0202,George Group,Legal,197,LK,PROFESSIONAL,MONTHLY,direct_sales,2089.11,19,15/10/2023
+COMP-0203,Munoz-Johnson,Finance,834,GT,Ent,monthly,PAID SEARCH,4995.64,168,2023-10-20
+COMP-0204,"Huff, Johnston and Sampson",Media,36,GQ,PROFESSIONAL,annual,Paid Search,652.31,22,20/11/2022
+COMP-0205,Johnston-Hines,Legal,41,EC,Starter,monthly,direct_sales,339.72,14,26/08/2023
+COMP-0206,Stone-Ramos,Consulting,16,IT,Pro,monthly,PARTNER,1302.51,15,2024-05-01
+COMP-0207,Shea Group,Government,3499,ZW,starter,monthly,paid search,222.43,2,11-28-2023
+COMP-0208,Costa-Harrison,Government,28,NE,Starter,annual,Organic,170.75,6,03-05-2024
+COMP-0209,Morris-Garcia,Finance,87,DK,Enterprise,annual,ORGANIC,6253.27,93,06-20-2023
+COMP-0210,Jenkins-Simpson,Non-Profit,727,HR,PROFESSIONAL,annual,Organic,1380.87,45,2022-09-04
+COMP-0211,Cervantes-Pierce,Media,4259,PH,STARTER,monthly,paid search,243.99,15,13/12/2023
+COMP-0212,Edwards LLC,Legal,41,CI,starter_plan,annual,Partner,155.7,15,2023-09-11
+COMP-0213,Hancock-Bryan,Government,362,AD,Starter,monthly,PaidSearch,382.58,12,07-11-2023
+COMP-0214,"Booth, Murray and Brown",Government,24,SI,STARTER,monthly,PaidSearch,229.17,12,06-09-2022
+COMP-0215,Dean-Jimenez,Energy,1541,PA,STARTER,monthly,partner,185.85,7,03/04/2023
+COMP-0216,Harris PLC,Non-Profit,,CO,pro,MONTHLY,organic_search,940.89,55,07-27-2023
+COMP-0217,Kim-Wolfe,Media,23,CM,Professional,monthly,Direct Sales,1103.21,16,26/08/2022
+COMP-0218,Dudley PLC,Legal,48,GY,enterprise,annual,organic_search,5865.37,155,2023-07-07
+COMP-0219,"Moore, Pierce and Tran",Technology,176,BW,pro,annual,Organic,2164.32,31,08/03/2024
+COMP-0220,Gay Inc,Energy,157,PL,enterprise_plan,ANNUAL,partner,2608.48,42,01-07-2023
+COMP-0221,Holland and Sons,Real Estate,2701,SB,Pro,monthly,Referral,1585.68,25,08-20-2022
+COMP-0222,"Carter, Thornton and Perry",Education,19,RO,starter_plan,monthly,direct_sales,233.52,5,08-19-2023
+COMP-0223,Sanchez-Arnold,Retail,80,MV,PROFESSIONAL,monthly,DIRECT SALES,1436.81,58,05-12-2024
+COMP-0224,Weeks PLC,Finance,27,AE,STARTER,monthly,ORGANIC,242.03,11,22/10/2023
+COMP-0225,Shields LLC,Manufacturing,780,NI,Starter,annual,DIRECT SALES,385.94,3,04/11/2023
+COMP-0226,Villa-Romero,Education,170,AD,STARTER,annual,PaidSearch,431.09,13,02/08/2024
+COMP-0227,Barber-Monroe,Education,36,TT,Professional,monthly,REFERRAL,684.28,22,24/01/2024
+COMP-0228,"Burns, Hernandez and Ryan",Healthcare,992,LY,starter_plan,annual,paid_search,220.23,11,2025-01-13
+COMP-0229,Arnold-Daniels,Media,176,PH,pro,monthly,partner,840.91,34,07/12/2023
+COMP-0230,Kane-Pollard,Energy,4108,GY,enterprise,annual,PaidSearch,5943.79,85,08-01-2022
+COMP-0231,"Reyes, Chase and Jenkins",Finance,73,LB,ENTERPRISE,monthly,referral,4921.2,216,09-06-2022
+COMP-0232,"Kennedy, Mcintyre and James",Non-Profit,35,HR,pro,ANNUAL,paid_search,1017.59,28,20/07/2024
+COMP-0233,"Pollard, Simpson and Johnson",Government,131,SC,Starter,monthly,partner_channel,354.65,4,2023-09-04
+COMP-0234,"Rivera, Garcia and Kirk",Consulting,187,BZ,pro,monthly,Partner,744.67,59,12/07/2022
+COMP-0235,"Lozano, Smith and Thomas",Energy,87,TD,ENTERPRISE,monthly,paid_search,4442.46,234,2024-01-16
+COMP-0236,Jones LLC,Energy,192,LU,starter,monthly,Partner,192.51,2,23/04/2024
+COMP-0237,"Schwartz, Santos and Christian",Non-Profit,796,GQ,enterprise_plan,monthly,DIRECT SALES,3785.38,190,2022-10-10
+COMP-0238,"James, Stewart and Higgins",Energy,4859,PS,starter,annual,ORGANIC,403.55,9,08-11-2023
+COMP-0239,Brennan-Johnson,Education,120,BJ,STARTER,annual,paid_search,253.29,8,2024-09-02
+COMP-0240,Welch LLC,Consulting,22,GT,enterprise_plan,annual,Organic,6039.37,149,2023-10-28
+COMP-0241,"Davis, Good and Hodges",Retail,56,MA,STARTER,annual,Organic,433.03,9,2023-01-25
+COMP-0242,Wallace Ltd,Healthcare,25,KG,Enterprise,ANNUAL,REFERRAL,8887.32,124,2022-11-25
+COMP-0243,Williams Inc,Legal,805,KE,enterprise,annual,referral_program,3723.52,232,09/09/2024
+COMP-0244,Brooks-Thomas,Finance,59,SM,Pro,monthly,organic_search,1130.77,47,10-12-2022
+COMP-0245,Knight-Sparks,Finance,65,DO,enterprise,ANNUAL,direct_sales,8743.63,120,05/12/2024
+COMP-0246,Miller Group,Healthcare,127,VN,Pro,monthly,referral,1379.52,28,2023-12-28
+COMP-0247,"Allen, Durham and Thomas",Hospitality,,PL,starter,ANNUAL,Organic,212.2,2,10-20-2024
+COMP-0248,"King, Scott and Smith",Logistics,386,PT,Ent,annual,paid_search,6176.08,152,2022-08-19
+COMP-0249,Byrd-Moore,Manufacturing,925,PA,Pro,monthly,paid_search,708.47,24,03/01/2025
+COMP-0250,Huerta-Evans,Finance,2438,NO,starter,monthly,direct_sales,377.84,12,06/09/2023
+COMP-0251,"Wright, Bruce and Gonzalez",Technology,307,MV,starter_plan,monthly,PARTNER,341.47,3,2023-10-08
+COMP-0252,Rodriguez-James,Consulting,20,MK,starter_plan,annual,organic,343.94,13,03-16-2023
+COMP-0253,"Phillips, Lyons and Johnson",Healthcare,3251,KM,STARTER,monthly,Organic,253.09,12,10-05-2023
+COMP-0254,Hill-Knight,Non-Profit,28,LA,STARTER,monthly,Organic,381.36,3,2023-07-02
+COMP-0255,"Beltran, Lozano and Mcgee",Finance,2801,JO,starter,annual,REFERRAL,202.9,13,08-27-2022
+COMP-0256,Lawson LLC,Logistics,155,GN,Professional,annual,partner,1269.81,42,09-30-2023
+COMP-0257,"Lee, King and Campos",Education,40,KM,Professional,annual,PARTNER,1684.06,47,09-03-2023
+COMP-0258,"Massey, Fuller and Berger",Finance,1174,KH,Starter,annual,paid_search,437.9,4,05-12-2024
+COMP-0259,Parker Group,Government,3278,AU,PROFESSIONAL,annual,organic_search,2067.46,8,15/11/2024
+COMP-0260,"Diaz, Anderson and Browning",Logistics,78,LR,PROFESSIONAL,ANNUAL,direct sales,760.33,14,09-12-2022
+COMP-0261,"Perry, Gonzalez and Buchanan",Energy,2081,MM,PROFESSIONAL,ANNUAL,ORGANIC,875.52,33,2023-07-17
+COMP-0262,"Shaw, Nelson and Martin",Government,963,RO,enterprise_plan,monthly,Partner,4469.86,96,12-22-2024
+COMP-0263,Francis-Morgan,Energy,4990,CI,enterprise_plan,monthly,Partner,6432.36,47,01-03-2023
+COMP-0264,Mccarty-Taylor,Consulting,41,GR,Professional,monthly,ORGANIC,1410.87,16,25/09/2024
+COMP-0265,"Ramsey, Whitney and Coffey",Technology,21,TH,STARTER,monthly,Direct Sales,396.62,6,09-19-2023
+COMP-0266,Davis-Foster,Non-Profit,2525,IN,professional,monthly,direct_sales,1539.01,30,02-20-2023
+COMP-0267,"Martinez, Richardson and Curry",Government,15,IN,starter,annual,direct_sales,449.99,12,2022-12-29
+COMP-0268,"James, Little and Watson",Consulting,42,GQ,PROFESSIONAL,monthly,Paid Search,1881.38,22,2023-04-09
+COMP-0269,Ruiz PLC,Government,585,TJ,Pro,monthly,organic_search,1433.02,47,13/09/2022
+COMP-0270,Herman-Walker,Real Estate,48,BI,professional,monthly,organic,1120.22,25,2023-04-02
+COMP-0271,"Colon, Blankenship and Turner",Real Estate,814,NE,PROFESSIONAL,ANNUAL,Referral,2195.95,24,26/07/2024
+COMP-0272,Taylor Inc,Technology,196,KI,PROFESSIONAL,annual,organic_search,2105.07,30,11-22-2022
+COMP-0273,Wilson-Young,Hospitality,1399,SO,starter,monthly,partner_channel,417.02,4,20/06/2024
+COMP-0274,Price LLC,Education,962,SV,professional,ANNUAL,organic_search,1536.91,37,28/08/2024
+COMP-0275,"Horton, Fernandez and Matthews",Legal,14,ZA,Ent,monthly,ORGANIC,2851.4,243,2022-12-23
+COMP-0276,Mcclure Ltd,Legal,86,BZ,Enterprise,monthly,REFERRAL,3649.36,187,09-06-2023
+COMP-0277,Gilbert-Crosby,Logistics,1648,IT,ENTERPRISE,annual,PAID SEARCH,5319.12,134,02/10/2023
+COMP-0278,Vaughn and Sons,Technology,44,PA,enterprise_plan,annual,referral_program,2616.45,26,2023-02-10
+COMP-0279,Sampson-Foley,Hospitality,1420,BZ,pro,monthly,paid search,673.15,26,2023-11-15
+COMP-0280,"Richardson, Winters and Newman",Manufacturing,,BH,STARTER,MONTHLY,DirectSales,471.37,8,2023-01-16
+COMP-0281,Hill-Donaldson,Finance,55,PH,Starter,ANNUAL,partner_channel,281.32,12,30/11/2023
+COMP-0282,Bates Ltd,Legal,13,DZ,STARTER,monthly,organic,193.26,6,2022-11-04
+COMP-0283,"Maddox, Williams and Cook",Retail,878,CN,Professional,ANNUAL,Organic,2037.8,40,2024-03-01
+COMP-0284,"Harris, Gallegos and Spencer",Logistics,177,TZ,enterprise_plan,annual,Direct Sales,4826.49,129,07-11-2022
+COMP-0285,Li and Sons,Hospitality,23,LS,starter,monthly,paid_search,350.95,9,09-01-2022
+COMP-0286,Kramer PLC,Healthcare,1946,AD,enterprise,monthly,Organic,3148.76,69,28/05/2024
+COMP-0287,Garrison-Thomas,Non-Profit,30,CO,Enterprise,annual,paid_search,3399.56,190,02/06/2023
+COMP-0288,"King, Thompson and Guerrero",Legal,581,AR,STARTER,monthly,DIRECT SALES,245.14,8,2023-10-03
+COMP-0289,Smith and Sons,Non-Profit,20,TZ,Ent,annual,paid_search,8422.97,148,13/12/2024
+COMP-0290,Smith-Baker,Legal,141,CN,professional,MONTHLY,direct_sales,1305.1,12,2023-04-18
+COMP-0291,"Fisher, Wilson and Brown",Logistics,429,PE,pro,annual,referral_program,1292.56,54,2023-05-21
+COMP-0292,Palmer-Rodriguez,Non-Profit,34,SC,starter_plan,annual,organic,314.25,9,08/02/2024
+COMP-0293,Dougherty Inc,Manufacturing,134,ZA,PROFESSIONAL,MONTHLY,Partner,726.13,36,08-17-2024
+COMP-0294,"Boyd, Ellis and Maynard",Healthcare,2652,BH,STARTER,MONTHLY,partner_channel,427.12,11,11-03-2023
+COMP-0295,Boone-Simmons,Non-Profit,39,CD,Enterprise,annual,Organic,7488.21,178,06-08-2023
+COMP-0296,Joseph-Wallace,Healthcare,202,BR,ENTERPRISE,annual,organic_search,5892.9,204,16/11/2022
+COMP-0297,Franklin-Jones,Energy,77,IS,starter_plan,annual,organic_search,309.97,14,2023-05-13
+COMP-0298,"Schultz, Kelley and Nguyen",Energy,4652,UG,pro,ANNUAL,organic,2142.17,8,20/07/2022
+COMP-0299,"Phillips, Wagner and Jordan",Consulting,173,ME,Professional,monthly,PARTNER,765.69,50,2023-04-26
+COMP-0300,Farrell Ltd,Consulting,480,TG,Enterprise,monthly,PAID SEARCH,5182.85,204,2024-09-19
+COMP-0301,"Glenn, Jordan and Beasley",Government,130,NG,starter_plan,annual,ORGANIC,270.85,12,2022-11-30
+COMP-0302,Wilcox-Ross,Government,927,ZA,Pro,annual,direct sales,1736.2,51,2024-09-30
+COMP-0303,Edwards LLC,Energy,37,TL,STARTER,MONTHLY,paid_search,243.44,14,03-21-2023
+COMP-0304,Brooks-Hernandez,Finance,,PY,starter,MONTHLY,referral,386.43,10,01-15-2025
+COMP-0305,Davis Inc,Consulting,25,BW,enterprise,monthly,direct_sales,8842.85,105,01-28-2024
+COMP-0306,Davis-Rodgers,Energy,848,CO,ENTERPRISE,monthly,referral_program,7544.95,74,29/11/2022
+COMP-0307,"Brown, Frye and Hoffman",Healthcare,21,SV,Starter,monthly,Referral,195.52,11,01-03-2024
+COMP-0308,Jenkins Ltd,Government,357,GB,Professional,ANNUAL,referral_program,1949.02,27,12-16-2023
+COMP-0309,Parrish-Griffith,Logistics,184,JO,pro,annual,paid_search,1468.93,33,01-13-2023
+COMP-0310,"Edwards, Garcia and Romero",Non-Profit,134,DE,enterprise,annual,organic,6148.68,217,2024-01-05
+COMP-0311,"Olson, Boone and Bell",Manufacturing,111,TH,Ent,annual,Organic,8453.56,54,2023-12-06
+COMP-0312,Wilson-Ramirez,Technology,4288,GR,professional,MONTHLY,referral,1112.5,13,26/03/2024
+COMP-0313,Bruce-Villegas,Logistics,44,VU,Starter,annual,paid_search,389.89,15,2023-12-03
+COMP-0314,"Leonard, Hawkins and Lynch",Hospitality,68,KM,Starter,annual,Paid Search,175.64,4,2024-10-12
+COMP-0315,"Adams, White and Park",Consulting,2656,KR,Starter,monthly,paid search,152.06,13,07-17-2022
+COMP-0316,Bell-White,Healthcare,308,CV,Pro,MONTHLY,DIRECT SALES,1210.26,60,09-29-2023
+COMP-0317,"Sandoval, Jones and Figueroa",Logistics,849,AT,professional,annual,PARTNER,1766.92,31,2024-01-06
+COMP-0318,Reese and Sons,Real Estate,1020,MT,pro,annual,organic,1797.27,54,2023-07-28
+COMP-0319,Chavez-Moore,Energy,86,KR,Pro,monthly,paid search,1673.56,44,19/01/2025
+COMP-0320,"Nguyen, Pugh and Carlson",Real Estate,39,BF,starter,MONTHLY,Referral,483.04,7,01-27-2023
+COMP-0321,Moore PLC,Manufacturing,,BE,pro,monthly,referral_program,1892.32,35,17/04/2023
+COMP-0322,"Miller, Ramos and Coleman",Education,568,UZ,Enterprise,MONTHLY,Organic,4485.57,166,08-23-2022
+COMP-0323,Perry-Lewis,Energy,18,SG,pro,annual,PARTNER,1610.6,60,20/07/2023
+COMP-0324,Reed Inc,Education,3226,JM,professional,MONTHLY,organic,2026.3,45,28/05/2024
+COMP-0325,"Gregory, Tucker and Estrada",Real Estate,42,BD,Pro,annual,partner,1582.46,18,2024-03-12
+COMP-0326,Foster PLC,Finance,194,BG,pro,monthly,organic,950.11,39,2023-02-26
+COMP-0327,Harris and Sons,Technology,2589,CU,ENTERPRISE,annual,PAID SEARCH,6715.41,51,2024-09-23
+COMP-0328,Roberts-Wilson,Retail,198,SB,Starter,monthly,Referral,464.38,3,06-21-2023
+COMP-0329,"Jordan, Anderson and Patel",Education,561,GT,pro,monthly,referral,1402.94,16,2023-01-22
+COMP-0330,"Hansen, Barnett and Gomez",Finance,21,MY,PROFESSIONAL,monthly,Organic,781.34,51,01-02-2023
+COMP-0331,"Williams, Smith and Morse",Non-Profit,55,KW,Pro,monthly,referral_program,662.71,44,2022-11-18
+COMP-0332,"Patterson, Sullivan and Bowman",Finance,43,JP,Enterprise,annual,PARTNER,8657.15,80,26/09/2023
+COMP-0333,Sullivan LLC,Finance,155,DO,pro,MONTHLY,paid_search,1696.95,37,08-10-2022
+COMP-0334,"Stevens, Norris and Cox",Technology,3803,NZ,enterprise,annual,paid search,8360.45,178,2023-11-27
+COMP-0335,Sanchez PLC,Healthcare,15,MZ,Enterprise,annual,referral,5893.29,119,23/12/2024
+COMP-0336,"Miller, Harrell and Reese",Education,40,GN,Pro,monthly,partner,2056.14,13,2023-12-09
+COMP-0337,Maxwell-Jones,Education,10,ZW,Professional,monthly,PAID SEARCH,1886.86,34,06/11/2022
+COMP-0338,Schmidt and Sons,Legal,748,MG,professional,annual,organic_search,925.91,43,09-04-2024
+COMP-0339,Luna-Fuentes,Real Estate,459,CY,Ent,monthly,Paid Search,8114.9,55,08-16-2024
+COMP-0340,Garcia LLC,Finance,720,FJ,Ent,annual,referral,2838.34,124,01-03-2024
+COMP-0341,Morrison Ltd,Energy,19,BO,starter,monthly,PAID SEARCH,163.21,8,2024-07-24
+COMP-0342,Bean Ltd,Real Estate,64,SA,Professional,MONTHLY,PaidSearch,1651.01,59,17/12/2022
+COMP-0343,Webster-Wolf,Government,890,PE,starter_plan,monthly,paid_search,498.89,14,10/07/2023
+COMP-0344,"Glass, Cunningham and Reid",Education,43,VU,enterprise_plan,monthly,partner,6134.24,174,03-11-2023
+COMP-0345,Lin-Burton,Education,788,CZ,starter,MONTHLY,referral,326.11,7,19/09/2024
+COMP-0346,Jones-Ramos,Hospitality,3843,KI,enterprise,annual,partner_channel,7423.58,223,09-15-2023
+COMP-0347,Vargas-Bell,Energy,11,BN,starter_plan,annual,paid search,395.41,14,2023-05-28
+COMP-0348,Murray-Johnson,Technology,1380,MN,pro,annual,paid search,2090.23,38,10/01/2023
+COMP-0349,Jones-Lin,Retail,98,BW,Starter,monthly,Organic,230.22,15,05-31-2023
+COMP-0350,"Wheeler, Cruz and Carpenter",Non-Profit,41,SZ,Enterprise,monthly,organic_search,8337.79,250,05-20-2024

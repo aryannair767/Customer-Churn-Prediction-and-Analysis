@@ -1,0 +1,1748 @@
+ticket_id,company_id,created_date,resolved_date,priority,category,description,satisfaction_score
+TKT-000001,COMP-0001,03-27-2024,04-09-2024,high,technical,,3
+TKT-000002,COMP-0001,03-23-2024,04-01-2024,medium,bug_report,Formatting lost when pasting from Word,
+TKT-000003,COMP-0001,03-17-2024,03-19-2024,medium,billing,Requesting refund for unused period,2
+TKT-000004,COMP-0001,01-01-2024,01-14-2024,low,billing,Requesting refund for unused period,3
+TKT-000005,COMP-0001,02-02-2024,02-03-2024,high,onboarding,Best practices documentation request,1
+TKT-000006,COMP-0001,04-07-2024,04-21-2024,high,feature_request,,2
+TKT-000007,COMP-0001,02-11-2024,02-16-2024,low,bug_report,,
+TKT-000008,COMP-0001,04-28-2024,05-12-2024,high,account,Change primary admin contact,4
+TKT-000009,COMP-0001,02-07-2024,,medium,bug_report,Notifications arriving late,4
+TKT-000010,COMP-0001,01-08-2024,01-16-2024,high,technical,Application loading slowly for our team,2
+TKT-000011,COMP-0002,05-27-2024,05-29-2024,medium,technical,Error 500 when accessing the dashboard,1
+TKT-000012,COMP-0002,04-16-2025,04-29-2025,high,feature_request,Dark mode support requested,2
+TKT-000013,COMP-0003,09-11-2024,09-14-2024,low,bug_report,Calendar sync showing wrong timezone,5
+TKT-000014,COMP-0003,07-22-2024,07-26-2024,low,technical,SSO login failing intermittently,2
+TKT-000015,COMP-0003,12-16-2024,12-30-2024,HIGH,account,Change primary admin contact,1
+TKT-000016,COMP-0003,02-29-2024,03-11-2024,low,technical,Mobile app crashing on iOS 17,1
+TKT-000017,COMP-0003,09-25-2024,09-27-2024,critical,bug_report,Search returning incorrect results,4
+TKT-000018,COMP-0003,12-16-2024,12-19-2024,low,account,Account permissions not working correctly,5
+TKT-000019,COMP-0003,11-25-2024,11-29-2024,medium,bug_report,Calendar sync showing wrong timezone,1
+TKT-000020,COMP-0004,04-16-2025,04-23-2025,low,onboarding,Best practices documentation request,
+TKT-000021,COMP-0004,04-21-2025,04-26-2025,medium,billing,Tax exemption certificate submission,4
+TKT-000022,COMP-0005,02-03-2024,02-07-2024,high,onboarding,Training session request for team,3
+TKT-000023,COMP-0005,06-13-2025,06-23-2025,high,bug_report,,5
+TKT-000024,COMP-0006,06-09-2025,06-19-2025,medium,bug_report,Formatting lost when pasting from Word,5
+TKT-000025,COMP-0006,08-21-2024,08-25-2024,CRITICAL,technical,Data export timing out for large datasets,4
+TKT-000026,COMP-0006,10-14-2024,10-28-2024,low,technical,Data export timing out for large datasets,3
+TKT-000027,COMP-0006,02-09-2025,02-20-2025,medium,onboarding,Migration assistance from competitor tool,
+TKT-000028,COMP-0007,10-23-2024,,high,onboarding,Training session request for team,5
+TKT-000029,COMP-0007,06-30-2025,06-30-2025,low,technical,Data export timing out for large datasets,3
+TKT-000030,COMP-0007,03-16-2025,03-24-2025,low,technical,SSO login failing intermittently,4
+TKT-000031,COMP-0007,04-22-2025,04-23-2025,low,onboarding,Template setup assistance needed,4
+TKT-000032,COMP-0007,01-25-2025,01-31-2025,low,feature_request,,1
+TKT-000033,COMP-0008,08-30-2024,09-12-2024,medium,account,Change primary admin contact,
+TKT-000034,COMP-0008,10-12-2024,10-19-2024,medium,onboarding,Need help setting up first project,4
+TKT-000035,COMP-0008,05-15-2024,05-25-2024,medium,technical,SSO login failing intermittently,
+TKT-000036,COMP-0008,10-29-2024,11-06-2024,high,feature_request,Dark mode support requested,4
+TKT-000037,COMP-0008,06-11-2024,06-12-2024,medium,account,Change primary admin contact,5
+TKT-000038,COMP-0009,10-11-2024,10-18-2024,low,feature_request,,5
+TKT-000039,COMP-0009,05-17-2024,05-26-2024,medium,bug_report,Calendar sync showing wrong timezone,4
+TKT-000040,COMP-0009,03-11-2025,03-20-2025,critical,account,Need to merge duplicate accounts,
+TKT-000041,COMP-0010,02-02-2025,02-05-2025,low,feature_request,,4
+TKT-000042,COMP-0010,06-27-2025,06-30-2025,high,feature_request,Would like bulk import from Excel,3
+TKT-000043,COMP-0010,02-09-2025,02-16-2025,critical,feature_request,,
+TKT-000044,COMP-0011,03-24-2025,04-01-2025,medium,onboarding,Template setup assistance needed,3
+TKT-000045,COMP-0011,11-09-2024,,medium,bug_report,Calendar sync showing wrong timezone,5
+TKT-000046,COMP-0011,06-15-2025,06-27-2025,high,technical,Integration with Slack is not syncing,3
+TKT-000047,COMP-0011,06-18-2025,06-19-2025,low,feature_request,Custom workflow automation rules,5
+TKT-000048,COMP-0012,04-01-2025,04-05-2025,medium,feature_request,Need better reporting filters,3
+TKT-000049,COMP-0012,08-31-2024,09-01-2024,medium,onboarding,Migration assistance from competitor tool,
+TKT-000050,COMP-0012,12-17-2024,12-18-2024,medium,feature_request,Need better reporting filters,4
+TKT-000051,COMP-0012,10-20-2024,10-27-2024,medium,bug_report,Search returning incorrect results,
+TKT-000052,COMP-0012,11-20-2024,12-02-2024,medium,technical,Integration with Slack is not syncing,3
+TKT-000053,COMP-0012,02-10-2025,02-21-2025,low,feature_request,,4
+TKT-000054,COMP-0013,01-21-2025,01-26-2025,high,account,Need to merge duplicate accounts,4
+TKT-000055,COMP-0013,01-07-2025,01-20-2025,low,feature_request,Requesting custom field types,2
+TKT-000056,COMP-0013,04-27-2025,05-04-2025,medium,feature_request,,1
+TKT-000057,COMP-0013,02-14-2024,02-20-2024,low,technical,Error 500 when accessing the dashboard,4
+TKT-000058,COMP-0013,02-11-2024,02-13-2024,medium,onboarding,Best practices documentation request,
+TKT-000059,COMP-0013,04-09-2024,04-12-2024,low,bug_report,Attachment upload fails over 10 MB,1
+TKT-000060,COMP-0014,10-22-2024,11-03-2024,medium,onboarding,Template setup assistance needed,5
+TKT-000061,COMP-0014,08-09-2024,08-14-2024,high,feature_request,Requesting custom field types,5
+TKT-000062,COMP-0014,06-07-2025,06-15-2025,low,account,Change primary admin contact,5
+TKT-000063,COMP-0014,01-31-2025,02-13-2025,low,bug_report,Calendar sync showing wrong timezone,3
+TKT-000064,COMP-0014,04-08-2024,04-22-2024,medium,feature_request,Custom workflow automation rules,2
+TKT-000065,COMP-0014,01-31-2025,02-01-2025,medium,account,,1
+TKT-000066,COMP-0014,02-18-2025,02-27-2025,medium,bug_report,Notifications arriving late,4
+TKT-000067,COMP-0015,01-07-2024,01-09-2024,medium,technical,,
+TKT-000068,COMP-0015,05-10-2024,05-11-2024,low,billing,Cannot download invoice PDF,4
+TKT-000069,COMP-0015,04-10-2025,04-14-2025,medium,onboarding,Training session request for team,4
+TKT-000070,COMP-0015,01-27-2025,02-09-2025,high,account,Remove former employee access,4
+TKT-000071,COMP-0015,05-19-2024,06-02-2024,medium,bug_report,,
+TKT-000072,COMP-0016,03-27-2024,04-02-2024,medium,onboarding,Best practices documentation request,4
+TKT-000073,COMP-0016,10-05-2024,10-09-2024,high,feature_request,Dark mode support requested,
+TKT-000074,COMP-0016,12-04-2024,12-14-2024,low,feature_request,,1
+TKT-000075,COMP-0016,05-01-2024,05-04-2024,critical,technical,Integration with Slack is not syncing,2
+TKT-000076,COMP-0017,11-21-2024,11-29-2024,medium,feature_request,Would like bulk import from Excel,2
+TKT-000077,COMP-0017,02-02-2025,02-14-2025,critical,technical,Webhook deliveries failing,2
+TKT-000078,COMP-0017,02-11-2025,02-24-2025,medium,bug_report,Notifications arriving late,4
+TKT-000079,COMP-0017,03-27-2025,03-28-2025,low,account,Need to merge duplicate accounts,1
+TKT-000080,COMP-0017,04-03-2025,04-17-2025,medium,feature_request,,2
+TKT-000081,COMP-0017,11-05-2024,11-18-2024,medium,bug_report,Calendar sync showing wrong timezone,1
+TKT-000082,COMP-0017,03-01-2025,03-11-2025,medium,onboarding,Need help setting up first project,2
+TKT-000083,COMP-0017,02-16-2025,,medium,technical,Application loading slowly for our team,1
+TKT-000084,COMP-0017,02-17-2025,02-21-2025,high,onboarding,Need help setting up first project,
+TKT-000085,COMP-0017,02-28-2025,03-02-2025,high,feature_request,Requesting custom field types,
+TKT-000086,COMP-0017,11-04-2024,11-13-2024,medium,account,Remove former employee access,
+TKT-000087,COMP-0018,06-15-2024,,low,bug_report,Calendar sync showing wrong timezone,
+TKT-000088,COMP-0019,05-09-2024,05-21-2024,low,feature_request,Would like bulk import from Excel,2
+TKT-000089,COMP-0019,05-02-2024,05-16-2024,critical,bug_report,,3
+TKT-000090,COMP-0019,10-09-2024,10-14-2024,critical,bug_report,Attachment upload fails over 10 MB,2
+TKT-000091,COMP-0019,09-08-2024,09-14-2024,high,bug_report,Calendar sync showing wrong timezone,1
+TKT-000092,COMP-0019,05-16-2024,05-20-2024,medium,billing,Requesting refund for unused period,
+TKT-000093,COMP-0020,01-07-2024,01-14-2024,high,technical,Integration with Slack is not syncing,4
+TKT-000094,COMP-0021,08-14-2024,,low,onboarding,Training session request for team,
+TKT-000095,COMP-0021,10-28-2024,11-08-2024,low,onboarding,Template setup assistance needed,2
+TKT-000096,COMP-0021,06-06-2025,06-08-2025,high,feature_request,Requesting custom field types,2
+TKT-000097,COMP-0021,06-14-2024,06-20-2024,medium,bug_report,Drag and drop not working in Chrome,2
+TKT-000098,COMP-0022,09-25-2024,09-28-2024,low,technical,Mobile app crashing on iOS 17,4
+TKT-000099,COMP-0022,10-27-2024,10-28-2024,medium,billing,Cannot download invoice PDF,2
+TKT-000100,COMP-0022,02-11-2025,02-19-2025,high,technical,,
+TKT-000101,COMP-0022,12-08-2024,12-18-2024,medium,feature_request,Need better reporting filters,1
+TKT-000102,COMP-0022,03-05-2025,03-13-2025,low,technical,Webhook deliveries failing,5
+TKT-000103,COMP-0022,09-25-2024,,medium,account,Account permissions not working correctly,4
+TKT-000104,COMP-0022,05-02-2025,05-12-2025,medium,account,Remove former employee access,4
+TKT-000105,COMP-0023,03-20-2024,03-27-2024,low,onboarding,Best practices documentation request,3
+TKT-000106,COMP-0023,06-14-2025,06-17-2025,medium,feature_request,Custom workflow automation rules,
+TKT-000107,COMP-0024,06-21-2025,06-30-2025,medium,onboarding,Best practices documentation request,5
+TKT-000108,COMP-0024,07-17-2024,07-25-2024,high,feature_request,Requesting custom field types,4
+TKT-000109,COMP-0024,05-14-2025,05-22-2025,medium,bug_report,Formatting lost when pasting from Word,4
+TKT-000110,COMP-0025,01-06-2025,01-08-2025,low,feature_request,Would like bulk import from Excel,
+TKT-000111,COMP-0025,04-19-2024,04-26-2024,MEDIUM,technical,Webhook deliveries failing,4
+TKT-000112,COMP-0026,03-20-2024,04-02-2024,LOW,account,Add new team member to account,1
+TKT-000113,COMP-0026,01-23-2024,01-31-2024,critical,onboarding,Need help setting up first project,5
+TKT-000114,COMP-0026,05-13-2024,05-22-2024,critical,billing,Tax exemption certificate submission,3
+TKT-000115,COMP-0026,03-08-2024,03-22-2024,high,onboarding,Template setup assistance needed,3
+TKT-000116,COMP-0027,11-21-2024,11-26-2024,medium,billing,,4
+TKT-000117,COMP-0027,03-06-2025,03-11-2025,critical,billing,Cannot download invoice PDF,
+TKT-000118,COMP-0027,05-08-2024,05-11-2024,medium,feature_request,Need better reporting filters,4
+TKT-000119,COMP-0027,05-09-2025,05-22-2025,low,feature_request,Would like bulk import from Excel,3
+TKT-000120,COMP-0027,11-26-2024,11-29-2024,low,bug_report,Formatting lost when pasting from Word,3
+TKT-000121,COMP-0027,04-13-2025,04-22-2025,high,onboarding,Migration assistance from competitor tool,2
+TKT-000122,COMP-0027,08-07-2024,08-19-2024,critical,billing,Invoice discrepancy for last month,
+TKT-000123,COMP-0028,02-19-2025,02-26-2025,low,feature_request,Need better reporting filters,4
+TKT-000124,COMP-0028,11-22-2024,12-01-2024,medium,bug_report,Search returning incorrect results,3
+TKT-000125,COMP-0028,05-23-2025,06-02-2025,medium,technical,Application loading slowly for our team,
+TKT-000126,COMP-0028,03-04-2025,03-08-2025,low,bug_report,Formatting lost when pasting from Word,1
+TKT-000127,COMP-0028,10-18-2024,10-30-2024,critical,onboarding,Template setup assistance needed,5
+TKT-000128,COMP-0028,06-21-2025,06-30-2025,medium,billing,Tax exemption certificate submission,2
+TKT-000129,COMP-0029,03-05-2025,03-17-2025,low,technical,Integration with Slack is not syncing,3
+TKT-000130,COMP-0029,11-01-2024,11-12-2024,low,technical,Mobile app crashing on iOS 17,1
+TKT-000131,COMP-0029,02-20-2024,03-03-2024,medium,account,Need to merge duplicate accounts,4
+TKT-000132,COMP-0029,03-06-2024,03-15-2024,medium,bug_report,Drag and drop not working in Chrome,
+TKT-000133,COMP-0029,02-16-2024,02-21-2024,critical,onboarding,Need help setting up first project,2
+TKT-000134,COMP-0030,06-03-2024,06-13-2024,medium,billing,,5
+TKT-000135,COMP-0030,02-15-2024,02-29-2024,medium,billing,Cannot download invoice PDF,5
+TKT-000136,COMP-0030,06-06-2025,06-15-2025,high,onboarding,Template setup assistance needed,4
+TKT-000137,COMP-0031,03-01-2025,,MEDIUM,bug_report,Drag and drop not working in Chrome,2
+TKT-000138,COMP-0032,01-30-2025,02-03-2025,medium,feature_request,Would like bulk import from Excel,5
+TKT-000139,COMP-0032,09-27-2024,,high,account,Change primary admin contact,4
+TKT-000140,COMP-0033,02-16-2025,02-17-2025,low,bug_report,Formatting lost when pasting from Word,
+TKT-000141,COMP-0033,05-24-2024,06-02-2024,medium,technical,Webhook deliveries failing,5
+TKT-000142,COMP-0033,06-08-2025,06-21-2025,medium,technical,Application loading slowly for our team,4
+TKT-000143,COMP-0033,02-15-2025,02-22-2025,low,onboarding,Template setup assistance needed,4
+TKT-000144,COMP-0033,02-29-2024,03-14-2024,low,billing,Cannot download invoice PDF,5
+TKT-000145,COMP-0034,02-15-2025,02-17-2025,critical,billing,Tax exemption certificate submission,
+TKT-000146,COMP-0034,01-15-2025,01-25-2025,high,onboarding,Training session request for team,4
+TKT-000147,COMP-0034,03-03-2025,03-15-2025,high,technical,Mobile app crashing on iOS 17,2
+TKT-000148,COMP-0035,08-12-2024,08-19-2024,high,bug_report,Search returning incorrect results,
+TKT-000149,COMP-0035,05-13-2024,,high,billing,,5
+TKT-000150,COMP-0035,09-22-2024,09-29-2024,low,onboarding,Migration assistance from competitor tool,
+TKT-000151,COMP-0035,02-16-2024,,high,technical,Application loading slowly for our team,4
+TKT-000152,COMP-0035,07-26-2024,07-27-2024,high,billing,Tax exemption certificate submission,5
+TKT-000153,COMP-0036,01-15-2025,01-22-2025,medium,bug_report,,3
+TKT-000154,COMP-0037,12-16-2024,12-22-2024,high,feature_request,Need Gantt chart view for projects,3
+TKT-000155,COMP-0037,03-16-2025,03-23-2025,critical,billing,Charges not matching the quoted price,4
+TKT-000156,COMP-0037,05-05-2025,05-17-2025,medium,feature_request,Dark mode support requested,4
+TKT-000157,COMP-0037,12-13-2024,12-20-2024,low,feature_request,Would like bulk import from Excel,3
+TKT-000158,COMP-0037,12-24-2024,01-04-2025,high,account,Need to merge duplicate accounts,2
+TKT-000159,COMP-0037,11-30-2024,12-05-2024,medium,billing,Charges not matching the quoted price,2
+TKT-000160,COMP-0037,12-04-2024,,medium,onboarding,Training session request for team,5
+TKT-000161,COMP-0037,04-12-2025,04-16-2025,medium,technical,SSO login failing intermittently,4
+TKT-000162,COMP-0037,02-04-2025,02-14-2025,low,onboarding,Need help setting up first project,4
+TKT-000163,COMP-0038,11-14-2024,11-28-2024,high,onboarding,Template setup assistance needed,5
+TKT-000164,COMP-0038,05-26-2024,05-27-2024,low,bug_report,,
+TKT-000165,COMP-0038,06-21-2024,,medium,billing,Requesting refund for unused period,
+TKT-000166,COMP-0038,09-10-2024,09-15-2024,low,billing,,5
+TKT-000167,COMP-0038,05-25-2024,05-31-2024,high,technical,Webhook deliveries failing,5
+TKT-000168,COMP-0038,06-16-2024,06-29-2024,high,billing,Cannot download invoice PDF,3
+TKT-000169,COMP-0038,12-15-2024,12-24-2024,high,billing,Invoice discrepancy for last month,
+TKT-000170,COMP-0039,05-27-2024,06-04-2024,high,feature_request,Requesting custom field types,4
+TKT-000171,COMP-0039,03-08-2024,03-18-2024,critical,onboarding,Need help setting up first project,
+TKT-000172,COMP-0039,05-20-2024,05-31-2024,low,account,Account permissions not working correctly,5
+TKT-000173,COMP-0039,08-23-2024,08-30-2024,high,bug_report,Formatting lost when pasting from Word,
+TKT-000174,COMP-0040,07-08-2024,07-17-2024,medium,bug_report,Calendar sync showing wrong timezone,5
+TKT-000175,COMP-0040,09-10-2024,09-13-2024,medium,feature_request,Dark mode support requested,
+TKT-000176,COMP-0040,01-07-2024,01-10-2024,high,billing,Billing cycle change request,4
+TKT-000177,COMP-0040,06-26-2025,06-29-2025,low,technical,Webhook deliveries failing,2
+TKT-000178,COMP-0040,02-03-2024,02-16-2024,low,account,Change primary admin contact,3
+TKT-000179,COMP-0040,02-17-2024,02-24-2024,medium,billing,Billing cycle change request,2
+TKT-000180,COMP-0041,01-23-2025,02-04-2025,medium,billing,Cannot download invoice PDF,3
+TKT-000181,COMP-0042,10-19-2024,10-31-2024,low,feature_request,Need Gantt chart view for projects,4
+TKT-000182,COMP-0042,07-31-2024,08-07-2024,high,onboarding,Best practices documentation request,4
+TKT-000183,COMP-0042,09-03-2024,09-05-2024,medium,account,Add new team member to account,5
+TKT-000184,COMP-0043,01-06-2024,01-12-2024,critical,technical,Mobile app crashing on iOS 17,4
+TKT-000185,COMP-0044,05-02-2025,,low,billing,Tax exemption certificate submission,1
+TKT-000186,COMP-0044,01-08-2024,01-14-2024,low,feature_request,,5
+TKT-000187,COMP-0044,06-20-2024,06-27-2024,low,bug_report,Drag and drop not working in Chrome,3
+TKT-000188,COMP-0044,07-05-2024,07-06-2024,medium,bug_report,,5
+TKT-000189,COMP-0045,12-22-2024,12-30-2024,low,billing,Requesting refund for unused period,
+TKT-000190,COMP-0045,01-11-2024,01-16-2024,medium,billing,Cannot download invoice PDF,4
+TKT-000191,COMP-0045,11-03-2024,11-15-2024,high,bug_report,,
+TKT-000192,COMP-0046,04-02-2025,04-08-2025,medium,onboarding,Migration assistance from competitor tool,4
+TKT-000193,COMP-0046,10-07-2024,10-15-2024,low,account,Account permissions not working correctly,5
+TKT-000194,COMP-0046,06-17-2025,06-27-2025,critical,technical,Webhook deliveries failing,3
+TKT-000195,COMP-0047,06-10-2025,06-13-2025,medium,feature_request,Need better reporting filters,4
+TKT-000196,COMP-0047,06-11-2025,06-17-2025,low,bug_report,Drag and drop not working in Chrome,
+TKT-000197,COMP-0047,05-10-2025,05-15-2025,high,technical,Integration with Slack is not syncing,2
+TKT-000198,COMP-0047,06-24-2025,,low,feature_request,Requesting custom field types,3
+TKT-000199,COMP-0047,06-22-2025,,low,onboarding,Best practices documentation request,4
+TKT-000200,COMP-0048,06-05-2024,06-07-2024,high,technical,Mobile app crashing on iOS 17,4
+TKT-000201,COMP-0048,08-06-2024,08-17-2024,high,billing,,4
+TKT-000202,COMP-0048,12-09-2024,12-11-2024,critical,technical,SSO login failing intermittently,
+TKT-000203,COMP-0048,08-05-2024,08-06-2024,medium,account,Need to merge duplicate accounts,
+TKT-000204,COMP-0048,04-03-2024,04-07-2024,medium,feature_request,Need Gantt chart view for projects,5
+TKT-000205,COMP-0048,02-14-2025,02-15-2025,medium,onboarding,Migration assistance from competitor tool,
+TKT-000206,COMP-0049,12-13-2024,12-22-2024,high,account,Need to merge duplicate accounts,5
+TKT-000207,COMP-0049,09-23-2024,10-06-2024,low,account,Account permissions not working correctly,4
+TKT-000208,COMP-0050,10-07-2024,10-08-2024,low,billing,Billing cycle change request,4
+TKT-000209,COMP-0050,06-30-2024,07-08-2024,low,feature_request,Need Gantt chart view for projects,4
+TKT-000210,COMP-0050,03-27-2024,04-06-2024,medium,account,Account permissions not working correctly,5
+TKT-000211,COMP-0050,05-23-2025,06-04-2025,critical,technical,Integration with Slack is not syncing,3
+TKT-000212,COMP-0050,09-01-2024,09-07-2024,low,technical,Mobile app crashing on iOS 17,5
+TKT-000213,COMP-0050,06-19-2025,06-30-2025,high,onboarding,Training session request for team,3
+TKT-000214,COMP-0050,05-27-2024,06-04-2024,high,account,Add new team member to account,5
+TKT-000215,COMP-0051,01-04-2024,01-12-2024,critical,billing,Tax exemption certificate submission,
+TKT-000216,COMP-0051,03-12-2025,03-23-2025,high,bug_report,Search returning incorrect results,4
+TKT-000217,COMP-0051,04-16-2025,04-20-2025,low,billing,Tax exemption certificate submission,4
+TKT-000218,COMP-0051,06-07-2024,06-11-2024,medium,technical,SSO login failing intermittently,4
+TKT-000219,COMP-0051,03-26-2025,04-07-2025,high,billing,Need to update payment method on file,5
+TKT-000220,COMP-0051,05-08-2025,05-15-2025,low,onboarding,Need help setting up first project,4
+TKT-000221,COMP-0052,03-14-2025,03-27-2025,low,account,Need to merge duplicate accounts,5
+TKT-000222,COMP-0052,03-19-2025,03-30-2025,low,bug_report,,
+TKT-000223,COMP-0052,04-21-2025,04-23-2025,low,bug_report,Drag and drop not working in Chrome,3
+TKT-000224,COMP-0052,09-08-2024,09-13-2024,high,feature_request,Requesting custom field types,
+TKT-000225,COMP-0052,04-26-2024,04-29-2024,critical,feature_request,Need better reporting filters,5
+TKT-000226,COMP-0052,02-15-2025,03-01-2025,medium,account,Remove former employee access,3
+TKT-000227,COMP-0052,01-29-2025,02-11-2025,critical,technical,Integration with Slack is not syncing,3
+TKT-000228,COMP-0053,05-23-2025,06-01-2025,medium,technical,Application loading slowly for our team,
+TKT-000229,COMP-0053,06-18-2025,,medium,technical,Error 500 when accessing the dashboard,5
+TKT-000230,COMP-0053,06-22-2025,06-30-2025,high,billing,Charges not matching the quoted price,
+TKT-000231,COMP-0053,05-03-2025,05-14-2025,low,billing,Charges not matching the quoted price,5
+TKT-000232,COMP-0053,05-26-2025,06-02-2025,medium,onboarding,Migration assistance from competitor tool,5
+TKT-000233,COMP-0054,01-24-2024,02-05-2024,medium,account,,5
+TKT-000234,COMP-0054,04-22-2025,05-06-2025,critical,technical,API rate limit being hit unexpectedly,
+TKT-000235,COMP-0054,09-24-2024,10-06-2024,high,technical,Application loading slowly for our team,3
+TKT-000236,COMP-0054,06-29-2025,06-30-2025,high,account,Remove former employee access,
+TKT-000237,COMP-0054,05-20-2024,05-31-2024,medium,feature_request,Custom workflow automation rules,3
+TKT-000238,COMP-0054,02-26-2024,03-04-2024,critical,technical,SSO login failing intermittently,5
+TKT-000239,COMP-0054,01-03-2025,01-07-2025,medium,onboarding,Need help setting up first project,5
+TKT-000240,COMP-0054,01-30-2025,01-31-2025,medium,technical,Application loading slowly for our team,2
+TKT-000241,COMP-0054,08-14-2024,08-17-2024,low,account,Change primary admin contact,2
+TKT-000242,COMP-0055,08-25-2024,09-07-2024,critical,feature_request,Custom workflow automation rules,3
+TKT-000243,COMP-0055,11-25-2024,12-05-2024,low,billing,Invoice discrepancy for last month,3
+TKT-000244,COMP-0055,10-20-2024,10-31-2024,medium,technical,Application loading slowly for our team,2
+TKT-000245,COMP-0056,08-05-2024,08-16-2024,high,account,Add new team member to account,3
+TKT-000246,COMP-0056,08-17-2024,08-27-2024,high,technical,SSO login failing intermittently,4
+TKT-000247,COMP-0056,07-23-2024,07-30-2024,high,feature_request,,1
+TKT-000248,COMP-0056,08-24-2024,08-29-2024,medium,bug_report,Drag and drop not working in Chrome,4
+TKT-000249,COMP-0056,09-18-2024,,medium,feature_request,Dark mode support requested,1
+TKT-000250,COMP-0056,06-04-2024,06-17-2024,low,onboarding,Template setup assistance needed,1
+TKT-000251,COMP-0056,06-07-2024,06-10-2024,medium,billing,Billing cycle change request,2
+TKT-000252,COMP-0056,07-22-2024,07-31-2024,medium,onboarding,Migration assistance from competitor tool,4
+TKT-000253,COMP-0056,09-03-2024,09-12-2024,critical,onboarding,Template setup assistance needed,1
+TKT-000254,COMP-0057,05-25-2025,05-31-2025,high,onboarding,Best practices documentation request,4
+TKT-000255,COMP-0057,02-01-2024,02-06-2024,medium,account,Account permissions not working correctly,
+TKT-000256,COMP-0057,07-14-2024,07-27-2024,medium,feature_request,Need better reporting filters,4
+TKT-000257,COMP-0058,09-04-2024,09-05-2024,medium,account,Add new team member to account,
+TKT-000258,COMP-0058,01-02-2025,01-14-2025,medium,technical,Webhook deliveries failing,3
+TKT-000259,COMP-0058,04-26-2024,05-10-2024,low,feature_request,Need better reporting filters,1
+TKT-000260,COMP-0058,01-02-2024,01-10-2024,low,onboarding,Template setup assistance needed,3
+TKT-000261,COMP-0058,05-22-2025,05-23-2025,critical,onboarding,Need help setting up first project,4
+TKT-000262,COMP-0059,02-12-2025,02-13-2025,low,bug_report,Formatting lost when pasting from Word,1
+TKT-000263,COMP-0060,10-21-2024,11-03-2024,medium,feature_request,Need better reporting filters,
+TKT-000264,COMP-0060,11-24-2024,12-02-2024,low,account,Remove former employee access,3
+TKT-000265,COMP-0060,03-09-2025,03-22-2025,high,bug_report,Calendar sync showing wrong timezone,2
+TKT-000266,COMP-0060,09-16-2024,09-25-2024,medium,technical,Data export timing out for large datasets,
+TKT-000267,COMP-0060,08-22-2024,08-26-2024,medium,technical,Webhook deliveries failing,3
+TKT-000268,COMP-0060,01-15-2025,01-26-2025,medium,technical,Data export timing out for large datasets,2
+TKT-000269,COMP-0060,11-14-2024,11-16-2024,high,account,Remove former employee access,4
+TKT-000270,COMP-0061,01-18-2024,01-30-2024,critical,feature_request,Need Gantt chart view for projects,2
+TKT-000271,COMP-0061,04-22-2025,04-27-2025,low,onboarding,Template setup assistance needed,5
+TKT-000272,COMP-0061,10-04-2024,10-09-2024,low,technical,,5
+TKT-000273,COMP-0061,04-09-2025,04-17-2025,high,bug_report,Calendar sync showing wrong timezone,5
+TKT-000274,COMP-0061,11-18-2024,11-26-2024,medium,account,Remove former employee access,3
+TKT-000275,COMP-0061,12-13-2024,12-23-2024,low,feature_request,Dark mode support requested,5
+TKT-000276,COMP-0062,05-16-2024,05-30-2024,high,billing,,3
+TKT-000277,COMP-0063,01-14-2025,01-18-2025,low,account,,3
+TKT-000278,COMP-0063,02-01-2025,02-04-2025,medium,account,Change primary admin contact,
+TKT-000279,COMP-0064,05-31-2025,06-08-2025,low,feature_request,,5
+TKT-000280,COMP-0064,07-06-2024,07-13-2024,medium,account,Remove former employee access,2
+TKT-000281,COMP-0064,05-27-2024,05-31-2024,low,billing,,4
+TKT-000282,COMP-0064,04-20-2024,05-04-2024,low,billing,,
+TKT-000283,COMP-0064,08-25-2024,08-30-2024,MEDIUM,account,Account permissions not working correctly,
+TKT-000284,COMP-0064,08-12-2024,08-17-2024,critical,technical,Integration with Slack is not syncing,5
+TKT-000285,COMP-0064,01-23-2024,01-24-2024,medium,feature_request,Custom workflow automation rules,5
+TKT-000286,COMP-0065,01-02-2024,01-10-2024,medium,technical,Data export timing out for large datasets,2
+TKT-000287,COMP-0065,12-21-2024,12-29-2024,high,feature_request,Custom workflow automation rules,5
+TKT-000288,COMP-0065,06-21-2024,06-26-2024,medium,technical,Webhook deliveries failing,3
+TKT-000289,COMP-0065,03-15-2025,03-24-2025,medium,technical,Application loading slowly for our team,4
+TKT-000290,COMP-0065,04-16-2025,,high,onboarding,Migration assistance from competitor tool,2
+TKT-000291,COMP-0065,03-27-2025,04-08-2025,medium,feature_request,Custom workflow automation rules,3
+TKT-000292,COMP-0065,10-28-2024,11-03-2024,high,billing,Tax exemption certificate submission,3
+TKT-000293,COMP-0066,01-21-2025,01-25-2025,medium,account,Add new team member to account,
+TKT-000294,COMP-0066,04-06-2025,04-15-2025,medium,technical,Integration with Slack is not syncing,4
+TKT-000295,COMP-0066,11-22-2024,11-28-2024,low,billing,Tax exemption certificate submission,3
+TKT-000296,COMP-0067,10-12-2024,10-18-2024,low,onboarding,Migration assistance from competitor tool,5
+TKT-000297,COMP-0067,05-23-2025,05-31-2025,critical,billing,Requesting refund for unused period,
+TKT-000298,COMP-0067,10-07-2024,10-19-2024,medium,onboarding,Template setup assistance needed,2
+TKT-000299,COMP-0067,06-02-2024,06-11-2024,low,onboarding,Need help setting up first project,3
+TKT-000300,COMP-0067,01-19-2024,01-31-2024,low,bug_report,Search returning incorrect results,
+TKT-000301,COMP-0067,06-28-2024,07-11-2024,medium,feature_request,Would like bulk import from Excel,5
+TKT-000302,COMP-0068,05-27-2025,06-03-2025,low,billing,Invoice discrepancy for last month,
+TKT-000303,COMP-0068,01-20-2025,01-22-2025,medium,billing,Charges not matching the quoted price,4
+TKT-000304,COMP-0068,12-04-2024,,low,technical,Error 500 when accessing the dashboard,3
+TKT-000305,COMP-0068,12-01-2024,,high,billing,Charges not matching the quoted price,4
+TKT-000306,COMP-0069,07-14-2024,07-26-2024,low,technical,Error 500 when accessing the dashboard,3
+TKT-000307,COMP-0069,07-08-2024,07-12-2024,medium,account,Need to merge duplicate accounts,
+TKT-000308,COMP-0069,04-30-2024,05-08-2024,high,account,Account permissions not working correctly,
+TKT-000309,COMP-0069,01-27-2025,02-06-2025,high,bug_report,Search returning incorrect results,2
+TKT-000310,COMP-0069,11-20-2024,,high,account,Need to merge duplicate accounts,4
+TKT-000311,COMP-0069,06-13-2024,06-18-2024,critical,onboarding,Migration assistance from competitor tool,1
+TKT-000312,COMP-0069,10-02-2024,10-05-2024,critical,feature_request,Custom workflow automation rules,2
+TKT-000313,COMP-0069,05-19-2024,06-01-2024,high,billing,,3
+TKT-000314,COMP-0069,10-18-2024,10-29-2024,medium,bug_report,Attachment upload fails over 10 MB,2
+TKT-000315,COMP-0069,03-19-2024,03-21-2024,high,onboarding,Need help setting up first project,
+TKT-000316,COMP-0069,01-25-2025,02-06-2025,high,billing,Invoice discrepancy for last month,4
+TKT-000317,COMP-0070,10-24-2024,10-28-2024,medium,technical,Data export timing out for large datasets,
+TKT-000318,COMP-0071,10-05-2024,10-16-2024,low,technical,Mobile app crashing on iOS 17,5
+TKT-000319,COMP-0072,11-11-2024,11-16-2024,medium,billing,Billing cycle change request,4
+TKT-000320,COMP-0072,05-06-2024,,high,feature_request,,5
+TKT-000321,COMP-0072,04-07-2024,04-17-2024,medium,onboarding,Template setup assistance needed,4
+TKT-000322,COMP-0072,02-28-2024,03-04-2024,medium,bug_report,Formatting lost when pasting from Word,4
+TKT-000323,COMP-0072,02-20-2024,03-04-2024,low,feature_request,Custom workflow automation rules,3
+TKT-000324,COMP-0073,08-09-2024,08-23-2024,medium,feature_request,Dark mode support requested,5
+TKT-000325,COMP-0073,01-07-2025,01-13-2025,critical,bug_report,Search returning incorrect results,3
+TKT-000326,COMP-0073,06-11-2024,06-24-2024,low,account,Change primary admin contact,3
+TKT-000327,COMP-0073,04-24-2024,04-28-2024,critical,account,,
+TKT-000328,COMP-0073,03-26-2025,04-02-2025,medium,billing,Requesting refund for unused period,
+TKT-000329,COMP-0073,09-12-2024,09-17-2024,low,onboarding,Need help setting up first project,4
+TKT-000330,COMP-0074,05-26-2025,06-09-2025,high,bug_report,Search returning incorrect results,1
+TKT-000331,COMP-0074,08-15-2024,08-20-2024,critical,technical,SSO login failing intermittently,3
+TKT-000332,COMP-0074,01-29-2024,02-07-2024,low,onboarding,Need help setting up first project,
+TKT-000333,COMP-0074,03-28-2024,04-08-2024,low,bug_report,Drag and drop not working in Chrome,4
+TKT-000334,COMP-0074,08-28-2024,09-01-2024,low,billing,Cannot download invoice PDF,4
+TKT-000335,COMP-0074,01-27-2025,02-02-2025,high,technical,Data export timing out for large datasets,4
+TKT-000336,COMP-0074,02-01-2024,02-11-2024,low,technical,Mobile app crashing on iOS 17,3
+TKT-000337,COMP-0075,08-13-2024,08-25-2024,low,technical,Error 500 when accessing the dashboard,3
+TKT-000338,COMP-0075,02-08-2024,02-21-2024,critical,bug_report,Search returning incorrect results,4
+TKT-000339,COMP-0075,01-27-2025,02-10-2025,high,feature_request,Need better reporting filters,2
+TKT-000340,COMP-0075,07-11-2024,07-19-2024,low,onboarding,Template setup assistance needed,3
+TKT-000341,COMP-0076,10-07-2024,10-16-2024,low,billing,Tax exemption certificate submission,5
+TKT-000342,COMP-0076,12-16-2024,12-20-2024,medium,onboarding,Template setup assistance needed,3
+TKT-000343,COMP-0076,02-11-2024,02-13-2024,critical,billing,Need to update payment method on file,5
+TKT-000344,COMP-0076,05-27-2024,06-04-2024,medium,technical,Data export timing out for large datasets,3
+TKT-000345,COMP-0076,12-19-2024,12-22-2024,medium,feature_request,Requesting custom field types,5
+TKT-000346,COMP-0076,03-21-2024,04-03-2024,low,feature_request,Need Gantt chart view for projects,
+TKT-000347,COMP-0077,06-15-2025,06-21-2025,medium,feature_request,Need Gantt chart view for projects,4
+TKT-000348,COMP-0077,05-30-2025,05-31-2025,medium,account,Change primary admin contact,3
+TKT-000349,COMP-0077,02-10-2025,02-20-2025,high,billing,Charges not matching the quoted price,
+TKT-000350,COMP-0077,02-03-2025,02-14-2025,low,bug_report,Formatting lost when pasting from Word,4
+TKT-000351,COMP-0077,03-29-2025,04-12-2025,low,bug_report,Formatting lost when pasting from Word,4
+TKT-000352,COMP-0078,07-06-2024,07-20-2024,medium,technical,Webhook deliveries failing,4
+TKT-000353,COMP-0078,08-27-2024,09-02-2024,low,billing,Need to update payment method on file,2
+TKT-000354,COMP-0078,02-11-2025,02-21-2025,critical,feature_request,Custom workflow automation rules,4
+TKT-000355,COMP-0078,06-28-2025,06-29-2025,medium,onboarding,Template setup assistance needed,3
+TKT-000356,COMP-0078,11-09-2024,11-21-2024,medium,onboarding,Training session request for team,2
+TKT-000357,COMP-0078,11-18-2024,11-20-2024,medium,billing,Cannot download invoice PDF,2
+TKT-000358,COMP-0078,07-30-2024,08-02-2024,low,account,Add new team member to account,
+TKT-000359,COMP-0079,06-12-2025,06-13-2025,medium,onboarding,Template setup assistance needed,2
+TKT-000360,COMP-0079,05-28-2025,06-01-2025,low,feature_request,,4
+TKT-000361,COMP-0079,01-01-2025,,medium,account,,3
+TKT-000362,COMP-0080,08-12-2024,08-18-2024,low,feature_request,Dark mode support requested,4
+TKT-000363,COMP-0081,08-27-2024,09-02-2024,medium,feature_request,Requesting custom field types,3
+TKT-000364,COMP-0082,06-29-2025,06-30-2025,medium,technical,API rate limit being hit unexpectedly,2
+TKT-000365,COMP-0082,12-25-2024,01-02-2025,medium,billing,Billing cycle change request,4
+TKT-000366,COMP-0083,06-20-2024,07-02-2024,low,bug_report,Attachment upload fails over 10 MB,2
+TKT-000367,COMP-0083,02-28-2025,03-11-2025,low,bug_report,Search returning incorrect results,4
+TKT-000368,COMP-0083,09-29-2024,10-11-2024,critical,feature_request,Requesting custom field types,5
+TKT-000369,COMP-0083,06-05-2024,06-06-2024,high,account,Account permissions not working correctly,5
+TKT-000370,COMP-0083,07-19-2024,07-22-2024,low,billing,Need to update payment method on file,3
+TKT-000371,COMP-0083,11-15-2024,,low,account,Need to merge duplicate accounts,3
+TKT-000372,COMP-0083,03-14-2025,03-16-2025,medium,account,Change primary admin contact,3
+TKT-000373,COMP-0084,02-06-2024,02-11-2024,medium,bug_report,Search returning incorrect results,1
+TKT-000374,COMP-0084,03-31-2024,04-02-2024,medium,billing,Tax exemption certificate submission,4
+TKT-000375,COMP-0084,08-07-2024,08-15-2024,high,billing,Cannot download invoice PDF,4
+TKT-000376,COMP-0084,02-15-2024,02-26-2024,HIGH,technical,Mobile app crashing on iOS 17,3
+TKT-000377,COMP-0084,10-23-2024,10-27-2024,low,billing,,1
+TKT-000378,COMP-0084,12-24-2024,12-27-2024,medium,feature_request,Requesting custom field types,3
+TKT-000379,COMP-0084,01-06-2025,01-16-2025,high,feature_request,Custom workflow automation rules,3
+TKT-000380,COMP-0085,05-24-2024,06-04-2024,low,technical,Data export timing out for large datasets,
+TKT-000381,COMP-0085,06-05-2024,06-19-2024,medium,billing,Invoice discrepancy for last month,4
+TKT-000382,COMP-0085,06-28-2024,06-30-2024,low,bug_report,Attachment upload fails over 10 MB,5
+TKT-000383,COMP-0085,03-03-2025,03-06-2025,low,billing,Invoice discrepancy for last month,5
+TKT-000384,COMP-0085,01-21-2025,01-29-2025,high,technical,Data export timing out for large datasets,3
+TKT-000385,COMP-0085,03-14-2025,03-20-2025,high,billing,Charges not matching the quoted price,5
+TKT-000386,COMP-0085,05-16-2024,05-20-2024,high,account,Add new team member to account,
+TKT-000387,COMP-0085,10-29-2024,11-07-2024,medium,onboarding,Migration assistance from competitor tool,
+TKT-000388,COMP-0085,02-06-2025,02-13-2025,medium,account,Change primary admin contact,1
+TKT-000389,COMP-0085,06-21-2025,06-30-2025,medium,billing,Invoice discrepancy for last month,5
+TKT-000390,COMP-0086,06-21-2024,07-01-2024,low,account,Remove former employee access,3
+TKT-000391,COMP-0086,10-24-2024,11-01-2024,critical,account,Change primary admin contact,3
+TKT-000392,COMP-0087,06-13-2024,,medium,billing,Need to update payment method on file,
+TKT-000393,COMP-0087,10-15-2024,10-19-2024,high,feature_request,,5
+TKT-000394,COMP-0087,05-17-2024,05-29-2024,HIGH,onboarding,Need help setting up first project,2
+TKT-000395,COMP-0087,02-08-2025,02-10-2025,medium,account,Remove former employee access,3
+TKT-000396,COMP-0087,05-25-2024,06-04-2024,low,technical,Mobile app crashing on iOS 17,
+TKT-000397,COMP-0087,04-24-2025,04-28-2025,low,bug_report,Attachment upload fails over 10 MB,
+TKT-000398,COMP-0087,12-25-2024,01-01-2025,medium,technical,Error 500 when accessing the dashboard,4
+TKT-000399,COMP-0088,09-28-2024,10-10-2024,medium,account,Need to merge duplicate accounts,4
+TKT-000400,COMP-0088,12-31-2024,01-09-2025,low,account,Change primary admin contact,4
+TKT-000401,COMP-0088,04-03-2024,04-06-2024,low,bug_report,,
+TKT-000402,COMP-0089,09-19-2024,09-30-2024,critical,onboarding,Training session request for team,1
+TKT-000403,COMP-0089,09-06-2024,09-16-2024,medium,billing,,2
+TKT-000404,COMP-0089,08-28-2024,09-07-2024,high,bug_report,Drag and drop not working in Chrome,2
+TKT-000405,COMP-0089,08-18-2024,08-27-2024,CRITICAL,feature_request,Requesting custom field types,1
+TKT-000406,COMP-0089,08-31-2024,09-08-2024,low,account,,2
+TKT-000407,COMP-0089,08-15-2024,08-29-2024,low,bug_report,Drag and drop not working in Chrome,
+TKT-000408,COMP-0089,09-02-2024,09-03-2024,medium,bug_report,Drag and drop not working in Chrome,3
+TKT-000409,COMP-0089,08-24-2024,08-28-2024,high,bug_report,Search returning incorrect results,3
+TKT-000410,COMP-0089,08-18-2024,09-01-2024,critical,bug_report,Drag and drop not working in Chrome,
+TKT-000411,COMP-0089,09-22-2024,10-05-2024,medium,onboarding,Best practices documentation request,4
+TKT-000412,COMP-0090,04-07-2024,04-08-2024,critical,billing,Cannot download invoice PDF,4
+TKT-000413,COMP-0090,03-07-2025,03-18-2025,medium,account,Add new team member to account,4
+TKT-000414,COMP-0090,05-11-2024,05-17-2024,low,billing,Cannot download invoice PDF,5
+TKT-000415,COMP-0090,01-09-2024,01-13-2024,medium,bug_report,Drag and drop not working in Chrome,3
+TKT-000416,COMP-0090,05-11-2025,,critical,billing,Billing cycle change request,5
+TKT-000417,COMP-0090,09-30-2024,10-05-2024,medium,technical,SSO login failing intermittently,2
+TKT-000418,COMP-0090,10-01-2024,10-15-2024,low,bug_report,Formatting lost when pasting from Word,
+TKT-000419,COMP-0091,09-09-2024,09-23-2024,medium,technical,Webhook deliveries failing,5
+TKT-000420,COMP-0091,03-27-2025,03-28-2025,medium,billing,Requesting refund for unused period,4
+TKT-000421,COMP-0091,07-10-2024,07-20-2024,medium,feature_request,Would like bulk import from Excel,2
+TKT-000422,COMP-0091,06-18-2024,07-01-2024,medium,billing,,3
+TKT-000423,COMP-0092,02-21-2025,03-03-2025,low,onboarding,Need help setting up first project,1
+TKT-000424,COMP-0092,03-12-2024,03-21-2024,high,onboarding,Training session request for team,
+TKT-000425,COMP-0092,02-15-2024,02-17-2024,medium,onboarding,Training session request for team,5
+TKT-000426,COMP-0092,11-15-2024,11-25-2024,low,account,Account permissions not working correctly,4
+TKT-000427,COMP-0093,01-17-2025,01-18-2025,high,technical,SSO login failing intermittently,1
+TKT-000428,COMP-0093,11-22-2024,,medium,bug_report,Notifications arriving late,4
+TKT-000429,COMP-0093,05-20-2025,,low,technical,Mobile app crashing on iOS 17,
+TKT-000430,COMP-0093,08-23-2024,09-04-2024,medium,technical,Error 500 when accessing the dashboard,2
+TKT-000431,COMP-0093,06-08-2025,06-20-2025,medium,account,Add new team member to account,5
+TKT-000432,COMP-0093,04-24-2025,04-26-2025,critical,onboarding,Template setup assistance needed,3
+TKT-000433,COMP-0093,11-05-2024,11-16-2024,medium,bug_report,Calendar sync showing wrong timezone,3
+TKT-000434,COMP-0093,04-18-2025,04-20-2025,low,onboarding,Template setup assistance needed,5
+TKT-000435,COMP-0094,06-12-2025,06-16-2025,low,feature_request,Need Gantt chart view for projects,5
+TKT-000436,COMP-0094,02-28-2025,03-07-2025,low,technical,,4
+TKT-000437,COMP-0094,11-26-2024,12-07-2024,low,feature_request,Need better reporting filters,
+TKT-000438,COMP-0095,04-06-2025,04-11-2025,critical,billing,Charges not matching the quoted price,1
+TKT-000439,COMP-0095,03-11-2025,03-21-2025,critical,account,Add new team member to account,3
+TKT-000440,COMP-0095,04-04-2025,04-08-2025,low,account,Account permissions not working correctly,3
+TKT-000441,COMP-0095,06-14-2025,06-25-2025,medium,feature_request,,4
+TKT-000442,COMP-0095,08-12-2024,08-20-2024,medium,technical,Application loading slowly for our team,5
+TKT-000443,COMP-0095,05-18-2025,05-25-2025,critical,onboarding,Need help setting up first project,3
+TKT-000444,COMP-0096,05-18-2024,05-21-2024,low,onboarding,Need help setting up first project,3
+TKT-000445,COMP-0097,03-26-2024,04-02-2024,high,bug_report,Attachment upload fails over 10 MB,4
+TKT-000446,COMP-0097,04-17-2025,04-23-2025,medium,billing,Cannot download invoice PDF,2
+TKT-000447,COMP-0097,05-30-2025,06-03-2025,high,account,,3
+TKT-000448,COMP-0097,06-14-2024,06-17-2024,high,bug_report,Drag and drop not working in Chrome,5
+TKT-000449,COMP-0097,04-24-2024,04-30-2024,low,feature_request,Custom workflow automation rules,3
+TKT-000450,COMP-0097,05-08-2024,05-19-2024,medium,technical,,2
+TKT-000451,COMP-0097,03-20-2025,03-31-2025,high,technical,Error 500 when accessing the dashboard,4
+TKT-000452,COMP-0097,05-15-2025,05-25-2025,critical,onboarding,Template setup assistance needed,5
+TKT-000453,COMP-0098,06-02-2024,,medium,onboarding,Migration assistance from competitor tool,1
+TKT-000454,COMP-0098,06-21-2024,06-23-2024,high,technical,Data export timing out for large datasets,3
+TKT-000455,COMP-0098,05-19-2024,05-30-2024,high,account,Change primary admin contact,4
+TKT-000456,COMP-0098,04-11-2024,,low,account,Need to merge duplicate accounts,
+TKT-000457,COMP-0098,02-12-2024,02-23-2024,high,billing,Billing cycle change request,
+TKT-000458,COMP-0098,02-17-2024,02-18-2024,high,technical,Webhook deliveries failing,4
+TKT-000459,COMP-0098,04-08-2024,04-19-2024,high,onboarding,Migration assistance from competitor tool,
+TKT-000460,COMP-0098,06-15-2024,06-16-2024,high,onboarding,Training session request for team,2
+TKT-000461,COMP-0098,06-05-2024,06-07-2024,low,account,Remove former employee access,
+TKT-000462,COMP-0098,02-12-2024,02-24-2024,critical,bug_report,Attachment upload fails over 10 MB,2
+TKT-000463,COMP-0098,06-13-2024,06-27-2024,critical,feature_request,Dark mode support requested,1
+TKT-000464,COMP-0098,04-20-2024,,CRITICAL,technical,Error 500 when accessing the dashboard,1
+TKT-000465,COMP-0099,12-09-2024,,critical,feature_request,Dark mode support requested,3
+TKT-000466,COMP-0099,04-10-2025,04-21-2025,low,onboarding,Training session request for team,1
+TKT-000467,COMP-0099,02-05-2025,02-12-2025,high,technical,,4
+TKT-000468,COMP-0099,03-11-2024,03-20-2024,medium,account,Need to merge duplicate accounts,2
+TKT-000469,COMP-0100,08-02-2024,08-12-2024,medium,bug_report,Drag and drop not working in Chrome,
+TKT-000470,COMP-0100,06-13-2024,06-23-2024,low,technical,Application loading slowly for our team,4
+TKT-000471,COMP-0100,07-26-2024,07-31-2024,low,billing,Billing cycle change request,5
+TKT-000472,COMP-0100,06-10-2025,06-24-2025,high,bug_report,Attachment upload fails over 10 MB,4
+TKT-000473,COMP-0100,11-18-2024,12-02-2024,medium,feature_request,,4
+TKT-000474,COMP-0101,01-27-2024,02-04-2024,medium,onboarding,Migration assistance from competitor tool,5
+TKT-000475,COMP-0102,05-15-2025,05-21-2025,medium,bug_report,Notifications arriving late,2
+TKT-000476,COMP-0102,01-12-2025,01-19-2025,medium,bug_report,Attachment upload fails over 10 MB,2
+TKT-000477,COMP-0102,10-03-2024,10-05-2024,medium,billing,,4
+TKT-000478,COMP-0102,05-01-2024,05-06-2024,medium,onboarding,Template setup assistance needed,
+TKT-000479,COMP-0103,06-09-2024,06-11-2024,critical,technical,Webhook deliveries failing,3
+TKT-000480,COMP-0103,06-19-2025,06-26-2025,low,bug_report,Attachment upload fails over 10 MB,4
+TKT-000481,COMP-0103,03-05-2024,03-13-2024,medium,account,Add new team member to account,3
+TKT-000482,COMP-0103,04-20-2025,04-22-2025,critical,feature_request,Need better reporting filters,5
+TKT-000483,COMP-0103,06-03-2025,06-04-2025,low,technical,,3
+TKT-000484,COMP-0103,09-07-2024,09-08-2024,medium,onboarding,Best practices documentation request,4
+TKT-000485,COMP-0103,06-19-2025,06-30-2025,medium,bug_report,Drag and drop not working in Chrome,5
+TKT-000486,COMP-0103,02-25-2024,02-28-2024,medium,feature_request,,3
+TKT-000487,COMP-0104,02-17-2024,02-28-2024,high,bug_report,Calendar sync showing wrong timezone,4
+TKT-000488,COMP-0104,07-17-2024,07-29-2024,high,feature_request,Requesting custom field types,3
+TKT-000489,COMP-0104,03-17-2024,03-21-2024,critical,feature_request,Would like bulk import from Excel,3
+TKT-000490,COMP-0104,07-28-2024,07-31-2024,critical,billing,Tax exemption certificate submission,2
+TKT-000491,COMP-0104,06-14-2024,06-25-2024,low,technical,Error 500 when accessing the dashboard,3
+TKT-000492,COMP-0104,01-07-2024,01-09-2024,critical,onboarding,Template setup assistance needed,
+TKT-000493,COMP-0104,08-19-2024,08-29-2024,critical,account,Account permissions not working correctly,
+TKT-000494,COMP-0104,03-04-2024,03-08-2024,high,billing,Cannot download invoice PDF,5
+TKT-000495,COMP-0105,08-11-2024,08-12-2024,low,technical,API rate limit being hit unexpectedly,4
+TKT-000496,COMP-0106,03-04-2024,,medium,billing,Requesting refund for unused period,5
+TKT-000497,COMP-0106,11-17-2024,11-30-2024,low,onboarding,Training session request for team,
+TKT-000498,COMP-0106,12-26-2024,01-06-2025,critical,bug_report,,4
+TKT-000499,COMP-0107,12-01-2024,12-14-2024,medium,bug_report,Search returning incorrect results,5
+TKT-000500,COMP-0107,05-15-2025,05-23-2025,medium,technical,,5
+TKT-000501,COMP-0107,04-03-2025,,high,feature_request,Custom workflow automation rules,
+TKT-000502,COMP-0107,08-30-2024,09-09-2024,medium,account,,
+TKT-000503,COMP-0107,05-22-2025,05-29-2025,low,billing,Invoice discrepancy for last month,5
+TKT-000504,COMP-0108,10-13-2024,10-23-2024,high,bug_report,Calendar sync showing wrong timezone,
+TKT-000505,COMP-0108,02-10-2025,02-21-2025,medium,technical,Application loading slowly for our team,
+TKT-000506,COMP-0108,08-09-2024,08-13-2024,high,feature_request,Custom workflow automation rules,
+TKT-000507,COMP-0108,02-04-2025,02-08-2025,critical,feature_request,Need better reporting filters,1
+TKT-000508,COMP-0108,01-15-2025,01-24-2025,high,feature_request,Requesting custom field types,3
+TKT-000509,COMP-0108,06-19-2024,06-28-2024,high,technical,Data export timing out for large datasets,3
+TKT-000510,COMP-0108,08-12-2024,08-15-2024,high,billing,Billing cycle change request,
+TKT-000511,COMP-0108,08-28-2024,09-02-2024,CRITICAL,billing,Requesting refund for unused period,
+TKT-000512,COMP-0108,07-22-2024,08-01-2024,medium,billing,Requesting refund for unused period,
+TKT-000513,COMP-0108,07-24-2024,08-05-2024,high,feature_request,Need better reporting filters,
+TKT-000514,COMP-0108,12-02-2024,12-04-2024,high,account,,
+TKT-000515,COMP-0109,02-03-2025,02-10-2025,medium,feature_request,Would like bulk import from Excel,4
+TKT-000516,COMP-0109,05-31-2025,06-06-2025,low,billing,Cannot download invoice PDF,5
+TKT-000517,COMP-0109,04-15-2025,,medium,feature_request,Would like bulk import from Excel,5
+TKT-000518,COMP-0110,11-21-2024,12-01-2024,high,bug_report,Calendar sync showing wrong timezone,5
+TKT-000519,COMP-0110,10-16-2024,10-20-2024,high,technical,Webhook deliveries failing,4
+TKT-000520,COMP-0110,06-26-2025,06-30-2025,low,billing,Requesting refund for unused period,3
+TKT-000521,COMP-0110,04-15-2025,04-19-2025,low,account,,
+TKT-000522,COMP-0111,07-26-2024,07-29-2024,medium,billing,Invoice discrepancy for last month,5
+TKT-000523,COMP-0111,02-10-2024,02-11-2024,medium,onboarding,Training session request for team,3
+TKT-000524,COMP-0111,06-14-2025,06-21-2025,high,billing,Cannot download invoice PDF,4
+TKT-000525,COMP-0111,06-21-2025,06-28-2025,medium,billing,Billing cycle change request,4
+TKT-000526,COMP-0112,03-15-2024,03-24-2024,medium,feature_request,Requesting custom field types,3
+TKT-000527,COMP-0113,05-13-2025,05-21-2025,medium,feature_request,Need better reporting filters,5
+TKT-000528,COMP-0113,12-31-2024,01-01-2025,critical,bug_report,Drag and drop not working in Chrome,4
+TKT-000529,COMP-0113,03-17-2025,03-29-2025,high,billing,Cannot download invoice PDF,4
+TKT-000530,COMP-0114,08-03-2024,08-15-2024,medium,feature_request,Requesting custom field types,4
+TKT-000531,COMP-0114,05-04-2024,05-06-2024,medium,technical,SSO login failing intermittently,3
+TKT-000532,COMP-0114,01-03-2024,01-07-2024,LOW,feature_request,Custom workflow automation rules,3
+TKT-000533,COMP-0114,01-08-2024,01-15-2024,low,feature_request,Need Gantt chart view for projects,4
+TKT-000534,COMP-0114,01-23-2024,02-01-2024,low,billing,Cannot download invoice PDF,1
+TKT-000535,COMP-0115,06-30-2025,06-30-2025,medium,account,Remove former employee access,4
+TKT-000536,COMP-0115,07-03-2024,07-12-2024,medium,feature_request,,5
+TKT-000537,COMP-0115,10-07-2024,10-18-2024,high,bug_report,,
+TKT-000538,COMP-0115,06-26-2024,07-10-2024,low,account,,5
+TKT-000539,COMP-0116,07-26-2024,,medium,technical,Error 500 when accessing the dashboard,5
+TKT-000540,COMP-0116,11-07-2024,11-13-2024,medium,technical,Webhook deliveries failing,3
+TKT-000541,COMP-0116,04-22-2024,05-02-2024,critical,onboarding,Migration assistance from competitor tool,5
+TKT-000542,COMP-0117,08-17-2024,08-23-2024,high,onboarding,Best practices documentation request,4
+TKT-000543,COMP-0117,04-14-2024,,low,technical,API rate limit being hit unexpectedly,2
+TKT-000544,COMP-0117,04-04-2024,04-15-2024,low,bug_report,Formatting lost when pasting from Word,3
+TKT-000545,COMP-0117,01-13-2025,01-26-2025,critical,billing,,
+TKT-000546,COMP-0117,02-24-2025,03-05-2025,medium,technical,Application loading slowly for our team,3
+TKT-000547,COMP-0117,02-25-2024,03-06-2024,CRITICAL,feature_request,Dark mode support requested,
+TKT-000548,COMP-0117,03-02-2024,03-09-2024,CRITICAL,technical,Error 500 when accessing the dashboard,4
+TKT-000549,COMP-0118,02-04-2024,02-08-2024,medium,feature_request,,5
+TKT-000550,COMP-0118,05-20-2025,05-22-2025,high,billing,Charges not matching the quoted price,3
+TKT-000551,COMP-0118,04-16-2024,04-22-2024,MEDIUM,bug_report,Notifications arriving late,
+TKT-000552,COMP-0118,01-09-2025,01-19-2025,critical,account,Add new team member to account,3
+TKT-000553,COMP-0118,08-14-2024,08-26-2024,low,account,Change primary admin contact,
+TKT-000554,COMP-0119,06-14-2025,06-24-2025,medium,bug_report,Drag and drop not working in Chrome,2
+TKT-000555,COMP-0119,10-01-2024,10-12-2024,critical,account,Remove former employee access,3
+TKT-000556,COMP-0119,05-25-2025,06-06-2025,critical,technical,Data export timing out for large datasets,5
+TKT-000557,COMP-0119,05-14-2025,05-15-2025,critical,onboarding,Need help setting up first project,3
+TKT-000558,COMP-0119,03-02-2025,03-07-2025,medium,technical,Mobile app crashing on iOS 17,1
+TKT-000559,COMP-0120,02-14-2025,02-15-2025,critical,technical,SSO login failing intermittently,3
+TKT-000560,COMP-0120,05-21-2025,05-24-2025,high,account,Add new team member to account,3
+TKT-000561,COMP-0120,09-04-2024,09-10-2024,high,bug_report,Formatting lost when pasting from Word,4
+TKT-000562,COMP-0120,11-01-2024,,low,account,Change primary admin contact,4
+TKT-000563,COMP-0120,10-18-2024,11-01-2024,medium,account,Remove former employee access,5
+TKT-000564,COMP-0120,12-02-2024,12-06-2024,low,feature_request,,3
+TKT-000565,COMP-0120,01-11-2025,01-20-2025,low,billing,Invoice discrepancy for last month,
+TKT-000566,COMP-0121,06-17-2025,06-30-2025,medium,bug_report,Attachment upload fails over 10 MB,
+TKT-000567,COMP-0121,12-30-2024,01-03-2025,medium,technical,API rate limit being hit unexpectedly,5
+TKT-000568,COMP-0121,10-13-2024,10-21-2024,low,billing,Tax exemption certificate submission,
+TKT-000569,COMP-0121,01-21-2025,01-26-2025,high,billing,Requesting refund for unused period,4
+TKT-000570,COMP-0121,03-30-2025,04-03-2025,low,billing,Charges not matching the quoted price,
+TKT-000571,COMP-0122,10-15-2024,,high,account,Need to merge duplicate accounts,3
+TKT-000572,COMP-0122,04-19-2025,04-21-2025,high,onboarding,Training session request for team,4
+TKT-000573,COMP-0122,05-22-2025,06-05-2025,low,bug_report,Notifications arriving late,
+TKT-000574,COMP-0122,07-27-2024,07-30-2024,low,bug_report,Drag and drop not working in Chrome,5
+TKT-000575,COMP-0122,09-17-2024,09-24-2024,medium,onboarding,Migration assistance from competitor tool,5
+TKT-000576,COMP-0122,11-28-2024,11-30-2024,low,account,Need to merge duplicate accounts,3
+TKT-000577,COMP-0123,01-09-2024,01-21-2024,medium,feature_request,Custom workflow automation rules,4
+TKT-000578,COMP-0123,01-28-2024,02-02-2024,medium,onboarding,Template setup assistance needed,1
+TKT-000579,COMP-0123,08-08-2024,08-19-2024,high,bug_report,Attachment upload fails over 10 MB,1
+TKT-000580,COMP-0123,11-17-2024,11-29-2024,high,account,Need to merge duplicate accounts,2
+TKT-000581,COMP-0123,10-28-2024,11-08-2024,medium,feature_request,Need Gantt chart view for projects,1
+TKT-000582,COMP-0124,04-25-2025,04-27-2025,low,account,Need to merge duplicate accounts,1
+TKT-000583,COMP-0124,03-25-2025,03-27-2025,medium,bug_report,Calendar sync showing wrong timezone,1
+TKT-000584,COMP-0124,09-10-2024,09-13-2024,medium,bug_report,,5
+TKT-000585,COMP-0124,10-18-2024,,critical,account,Remove former employee access,2
+TKT-000586,COMP-0124,08-21-2024,08-23-2024,high,onboarding,Best practices documentation request,2
+TKT-000587,COMP-0124,03-22-2024,03-25-2024,high,bug_report,Notifications arriving late,1
+TKT-000588,COMP-0124,03-23-2025,03-25-2025,high,feature_request,Custom workflow automation rules,1
+TKT-000589,COMP-0124,03-14-2024,03-23-2024,low,bug_report,Drag and drop not working in Chrome,4
+TKT-000590,COMP-0125,01-23-2024,02-05-2024,low,technical,Error 500 when accessing the dashboard,4
+TKT-000591,COMP-0125,04-04-2025,04-15-2025,LOW,account,,4
+TKT-000592,COMP-0125,05-20-2025,05-22-2025,medium,billing,Billing cycle change request,
+TKT-000593,COMP-0125,07-26-2024,07-27-2024,low,onboarding,Template setup assistance needed,4
+TKT-000594,COMP-0125,06-23-2024,07-03-2024,low,account,Add new team member to account,5
+TKT-000595,COMP-0125,10-22-2024,10-24-2024,low,account,Need to merge duplicate accounts,3
+TKT-000596,COMP-0126,02-13-2025,02-22-2025,high,billing,Requesting refund for unused period,4
+TKT-000597,COMP-0126,06-24-2025,,medium,technical,API rate limit being hit unexpectedly,
+TKT-000598,COMP-0126,01-30-2025,02-12-2025,medium,billing,Billing cycle change request,5
+TKT-000599,COMP-0126,02-14-2025,02-23-2025,high,onboarding,Migration assistance from competitor tool,
+TKT-000600,COMP-0126,04-22-2025,04-28-2025,low,technical,Application loading slowly for our team,4
+TKT-000601,COMP-0126,05-06-2025,05-10-2025,medium,billing,,2
+TKT-000602,COMP-0126,02-21-2024,03-02-2024,low,technical,Mobile app crashing on iOS 17,4
+TKT-000603,COMP-0126,04-27-2025,05-08-2025,low,onboarding,Training session request for team,3
+TKT-000604,COMP-0127,12-15-2024,12-19-2024,critical,onboarding,Need help setting up first project,5
+TKT-000605,COMP-0128,12-16-2024,12-29-2024,critical,billing,Invoice discrepancy for last month,4
+TKT-000606,COMP-0128,05-21-2025,,medium,feature_request,Would like bulk import from Excel,3
+TKT-000607,COMP-0128,10-18-2024,11-01-2024,critical,bug_report,Formatting lost when pasting from Word,5
+TKT-000608,COMP-0128,10-25-2024,11-08-2024,medium,feature_request,Dark mode support requested,4
+TKT-000609,COMP-0128,01-13-2024,01-16-2024,high,onboarding,Need help setting up first project,5
+TKT-000610,COMP-0128,07-23-2024,08-06-2024,medium,billing,,4
+TKT-000611,COMP-0129,12-30-2024,01-10-2025,medium,billing,Billing cycle change request,5
+TKT-000612,COMP-0129,03-20-2025,,high,billing,Charges not matching the quoted price,
+TKT-000613,COMP-0129,02-06-2025,02-10-2025,low,onboarding,Template setup assistance needed,5
+TKT-000614,COMP-0129,05-09-2025,05-20-2025,HIGH,account,Change primary admin contact,
+TKT-000615,COMP-0129,02-08-2025,02-09-2025,medium,bug_report,Calendar sync showing wrong timezone,4
+TKT-000616,COMP-0130,10-04-2024,10-13-2024,low,feature_request,Would like bulk import from Excel,4
+TKT-000617,COMP-0130,09-27-2024,10-03-2024,high,account,Add new team member to account,3
+TKT-000618,COMP-0130,03-20-2024,03-22-2024,low,billing,,4
+TKT-000619,COMP-0130,05-15-2024,05-28-2024,medium,onboarding,Best practices documentation request,4
+TKT-000620,COMP-0131,03-17-2025,03-19-2025,low,feature_request,Need better reporting filters,
+TKT-000621,COMP-0131,06-10-2024,06-20-2024,medium,billing,Charges not matching the quoted price,4
+TKT-000622,COMP-0132,03-15-2025,03-19-2025,medium,bug_report,Formatting lost when pasting from Word,5
+TKT-000623,COMP-0132,08-13-2024,08-18-2024,medium,feature_request,,5
+TKT-000624,COMP-0132,08-11-2024,08-20-2024,medium,feature_request,Dark mode support requested,
+TKT-000625,COMP-0132,11-19-2024,12-02-2024,medium,account,Need to merge duplicate accounts,
+TKT-000626,COMP-0132,11-20-2024,11-25-2024,medium,account,,4
+TKT-000627,COMP-0132,06-24-2025,06-30-2025,medium,account,Account permissions not working correctly,4
+TKT-000628,COMP-0133,05-20-2024,05-28-2024,medium,account,Account permissions not working correctly,4
+TKT-000629,COMP-0133,04-26-2025,05-01-2025,medium,technical,,3
+TKT-000630,COMP-0133,05-25-2025,05-31-2025,medium,account,Change primary admin contact,5
+TKT-000631,COMP-0134,07-10-2024,,medium,feature_request,,4
+TKT-000632,COMP-0134,01-19-2024,01-24-2024,medium,technical,,4
+TKT-000633,COMP-0135,11-03-2024,11-04-2024,low,onboarding,Need help setting up first project,1
+TKT-000634,COMP-0135,01-29-2025,02-02-2025,low,feature_request,Custom workflow automation rules,5
+TKT-000635,COMP-0136,02-22-2025,02-27-2025,low,account,Remove former employee access,4
+TKT-000636,COMP-0136,02-26-2025,03-07-2025,low,onboarding,Training session request for team,5
+TKT-000637,COMP-0136,06-12-2024,06-24-2024,medium,feature_request,,3
+TKT-000638,COMP-0136,02-04-2025,02-06-2025,medium,technical,Integration with Slack is not syncing,3
+TKT-000639,COMP-0136,03-31-2025,04-06-2025,high,onboarding,Migration assistance from competitor tool,1
+TKT-000640,COMP-0137,02-22-2024,03-04-2024,high,billing,,4
+TKT-000641,COMP-0137,05-14-2025,05-21-2025,high,technical,Application loading slowly for our team,3
+TKT-000642,COMP-0137,04-14-2024,04-21-2024,medium,feature_request,Need Gantt chart view for projects,2
+TKT-000643,COMP-0137,02-16-2024,,low,technical,API rate limit being hit unexpectedly,3
+TKT-000644,COMP-0137,02-06-2024,02-10-2024,high,bug_report,Calendar sync showing wrong timezone,2
+TKT-000645,COMP-0137,04-11-2025,04-21-2025,critical,technical,Webhook deliveries failing,
+TKT-000646,COMP-0137,05-16-2024,05-25-2024,critical,technical,Data export timing out for large datasets,
+TKT-000647,COMP-0137,05-01-2024,05-02-2024,low,account,,1
+TKT-000648,COMP-0137,12-07-2024,12-20-2024,medium,billing,,4
+TKT-000649,COMP-0137,02-10-2024,02-16-2024,low,bug_report,Formatting lost when pasting from Word,
+TKT-000650,COMP-0137,08-07-2024,08-17-2024,high,account,Remove former employee access,
+TKT-000651,COMP-0138,02-07-2025,,low,technical,API rate limit being hit unexpectedly,3
+TKT-000652,COMP-0138,05-10-2024,05-23-2024,low,account,Account permissions not working correctly,3
+TKT-000653,COMP-0138,01-13-2025,01-21-2025,medium,account,Account permissions not working correctly,
+TKT-000654,COMP-0138,12-05-2024,12-13-2024,medium,technical,Webhook deliveries failing,3
+TKT-000655,COMP-0138,11-06-2024,11-07-2024,low,billing,Tax exemption certificate submission,2
+TKT-000656,COMP-0138,04-23-2025,05-05-2025,low,feature_request,Would like bulk import from Excel,4
+TKT-000657,COMP-0139,01-12-2024,01-13-2024,high,billing,Invoice discrepancy for last month,2
+TKT-000658,COMP-0139,01-28-2024,02-07-2024,high,onboarding,Migration assistance from competitor tool,2
+TKT-000659,COMP-0139,02-18-2024,03-02-2024,critical,feature_request,Need better reporting filters,3
+TKT-000660,COMP-0139,01-31-2024,02-03-2024,high,billing,Need to update payment method on file,1
+TKT-000661,COMP-0139,01-05-2024,01-14-2024,low,billing,Cannot download invoice PDF,
+TKT-000662,COMP-0139,01-15-2024,01-21-2024,low,onboarding,Best practices documentation request,2
+TKT-000663,COMP-0139,01-01-2024,,medium,account,,
+TKT-000664,COMP-0139,01-06-2024,01-14-2024,medium,billing,Requesting refund for unused period,2
+TKT-000665,COMP-0139,01-13-2024,01-14-2024,high,bug_report,Formatting lost when pasting from Word,1
+TKT-000666,COMP-0139,02-05-2024,02-18-2024,medium,feature_request,Need Gantt chart view for projects,2
+TKT-000667,COMP-0139,01-03-2024,01-16-2024,medium,technical,Webhook deliveries failing,2
+TKT-000668,COMP-0140,05-09-2024,05-15-2024,low,onboarding,Template setup assistance needed,4
+TKT-000669,COMP-0140,12-27-2024,12-31-2024,low,account,Add new team member to account,4
+TKT-000670,COMP-0140,01-27-2025,02-05-2025,medium,billing,Charges not matching the quoted price,
+TKT-000671,COMP-0140,09-20-2024,09-29-2024,low,billing,Invoice discrepancy for last month,
+TKT-000672,COMP-0140,05-17-2024,05-20-2024,low,feature_request,Dark mode support requested,3
+TKT-000673,COMP-0141,01-06-2025,01-08-2025,low,account,Change primary admin contact,2
+TKT-000674,COMP-0141,03-16-2025,03-20-2025,critical,feature_request,Need Gantt chart view for projects,4
+TKT-000675,COMP-0141,06-01-2024,06-03-2024,medium,feature_request,Need better reporting filters,
+TKT-000676,COMP-0142,06-02-2024,06-05-2024,low,feature_request,,4
+TKT-000677,COMP-0142,02-23-2025,02-25-2025,high,account,Account permissions not working correctly,3
+TKT-000678,COMP-0142,02-15-2024,02-26-2024,medium,billing,Tax exemption certificate submission,4
+TKT-000679,COMP-0142,04-13-2024,04-15-2024,medium,feature_request,Need better reporting filters,4
+TKT-000680,COMP-0142,04-14-2025,04-18-2025,high,bug_report,Search returning incorrect results,4
+TKT-000681,COMP-0142,04-05-2025,04-12-2025,medium,account,Need to merge duplicate accounts,4
+TKT-000682,COMP-0142,09-19-2024,09-25-2024,low,feature_request,Dark mode support requested,4
+TKT-000683,COMP-0142,04-01-2024,04-13-2024,medium,account,Remove former employee access,4
+TKT-000684,COMP-0142,08-11-2024,08-20-2024,medium,technical,,4
+TKT-000685,COMP-0143,01-02-2025,01-12-2025,low,feature_request,,5
+TKT-000686,COMP-0143,04-05-2025,04-07-2025,low,bug_report,Attachment upload fails over 10 MB,2
+TKT-000687,COMP-0143,03-04-2024,03-10-2024,medium,onboarding,Need help setting up first project,5
+TKT-000688,COMP-0143,09-03-2024,09-15-2024,high,technical,Error 500 when accessing the dashboard,3
+TKT-000689,COMP-0144,08-18-2024,08-24-2024,low,onboarding,Need help setting up first project,3
+TKT-000690,COMP-0144,05-08-2024,05-20-2024,high,billing,Billing cycle change request,5
+TKT-000691,COMP-0144,12-18-2024,12-30-2024,low,billing,Charges not matching the quoted price,5
+TKT-000692,COMP-0145,04-01-2024,04-04-2024,medium,feature_request,Dark mode support requested,2
+TKT-000693,COMP-0145,03-15-2025,03-16-2025,medium,account,Add new team member to account,3
+TKT-000694,COMP-0145,10-20-2024,10-22-2024,critical,feature_request,,
+TKT-000695,COMP-0145,06-11-2024,06-14-2024,high,bug_report,Calendar sync showing wrong timezone,4
+TKT-000696,COMP-0145,07-16-2024,07-30-2024,high,billing,Charges not matching the quoted price,
+TKT-000697,COMP-0146,05-14-2024,05-23-2024,medium,billing,,
+TKT-000698,COMP-0147,11-20-2024,11-27-2024,medium,onboarding,Training session request for team,3
+TKT-000699,COMP-0147,08-12-2024,08-16-2024,low,bug_report,Notifications arriving late,4
+TKT-000700,COMP-0148,07-03-2024,07-09-2024,medium,onboarding,Training session request for team,5
+TKT-000701,COMP-0148,01-02-2025,01-06-2025,medium,billing,Invoice discrepancy for last month,3
+TKT-000702,COMP-0148,01-21-2025,01-23-2025,medium,bug_report,Drag and drop not working in Chrome,4
+TKT-000703,COMP-0148,11-17-2024,11-18-2024,high,account,Change primary admin contact,3
+TKT-000704,COMP-0148,10-10-2024,10-24-2024,critical,bug_report,Search returning incorrect results,4
+TKT-000705,COMP-0148,02-06-2024,02-16-2024,low,account,Need to merge duplicate accounts,4
+TKT-000706,COMP-0149,01-20-2024,01-30-2024,medium,technical,Mobile app crashing on iOS 17,1
+TKT-000707,COMP-0149,01-15-2025,01-25-2025,medium,feature_request,Custom workflow automation rules,3
+TKT-000708,COMP-0149,04-21-2025,05-04-2025,low,account,Need to merge duplicate accounts,
+TKT-000709,COMP-0149,02-06-2025,02-19-2025,high,feature_request,Need better reporting filters,5
+TKT-000710,COMP-0149,08-27-2024,09-01-2024,medium,feature_request,Would like bulk import from Excel,5
+TKT-000711,COMP-0149,02-10-2024,02-22-2024,low,technical,API rate limit being hit unexpectedly,3
+TKT-000712,COMP-0149,07-20-2024,07-21-2024,low,account,Add new team member to account,
+TKT-000713,COMP-0150,03-30-2025,,low,onboarding,Training session request for team,4
+TKT-000714,COMP-0150,05-26-2025,06-09-2025,high,billing,Tax exemption certificate submission,3
+TKT-000715,COMP-0150,01-29-2025,02-10-2025,medium,billing,Invoice discrepancy for last month,3
+TKT-000716,COMP-0150,06-23-2025,06-30-2025,low,account,Add new team member to account,2
+TKT-000717,COMP-0150,02-25-2024,02-28-2024,medium,billing,Cannot download invoice PDF,
+TKT-000718,COMP-0150,04-23-2025,04-27-2025,low,billing,,4
+TKT-000719,COMP-0151,12-28-2024,01-07-2025,low,billing,Charges not matching the quoted price,4
+TKT-000720,COMP-0151,06-22-2024,06-26-2024,low,onboarding,Training session request for team,3
+TKT-000721,COMP-0151,05-24-2025,06-05-2025,critical,feature_request,Custom workflow automation rules,3
+TKT-000722,COMP-0151,05-10-2025,05-18-2025,CRITICAL,billing,Requesting refund for unused period,2
+TKT-000723,COMP-0151,10-13-2024,10-17-2024,HIGH,onboarding,Best practices documentation request,4
+TKT-000724,COMP-0152,02-06-2024,,medium,bug_report,Notifications arriving late,
+TKT-000725,COMP-0152,05-06-2025,,high,account,,5
+TKT-000726,COMP-0152,06-12-2025,06-16-2025,high,feature_request,Need better reporting filters,4
+TKT-000727,COMP-0152,12-27-2024,01-04-2025,medium,technical,,4
+TKT-000728,COMP-0152,06-10-2024,06-24-2024,low,onboarding,Template setup assistance needed,5
+TKT-000729,COMP-0152,06-02-2025,06-16-2025,medium,billing,Charges not matching the quoted price,4
+TKT-000730,COMP-0152,02-02-2024,,medium,technical,Error 500 when accessing the dashboard,2
+TKT-000731,COMP-0153,02-23-2024,02-29-2024,low,bug_report,Drag and drop not working in Chrome,
+TKT-000732,COMP-0153,04-15-2024,04-20-2024,critical,account,Add new team member to account,4
+TKT-000733,COMP-0153,03-20-2025,04-03-2025,high,billing,Billing cycle change request,
+TKT-000734,COMP-0153,04-16-2024,04-20-2024,low,billing,Billing cycle change request,3
+TKT-000735,COMP-0153,06-28-2024,07-09-2024,medium,feature_request,Would like bulk import from Excel,2
+TKT-000736,COMP-0154,06-26-2024,06-28-2024,critical,account,Add new team member to account,3
+TKT-000737,COMP-0154,06-17-2024,06-20-2024,critical,billing,Requesting refund for unused period,
+TKT-000738,COMP-0154,01-28-2025,02-08-2025,low,feature_request,,3
+TKT-000739,COMP-0154,03-19-2024,03-28-2024,medium,account,Change primary admin contact,4
+TKT-000740,COMP-0154,01-20-2025,01-23-2025,critical,feature_request,Requesting custom field types,3
+TKT-000741,COMP-0154,08-06-2024,08-12-2024,MEDIUM,account,Account permissions not working correctly,
+TKT-000742,COMP-0155,01-17-2025,01-25-2025,medium,account,,4
+TKT-000743,COMP-0156,02-17-2024,02-18-2024,critical,onboarding,Best practices documentation request,5
+TKT-000744,COMP-0157,05-15-2025,05-25-2025,high,bug_report,Calendar sync showing wrong timezone,4
+TKT-000745,COMP-0157,03-23-2025,,medium,onboarding,Need help setting up first project,4
+TKT-000746,COMP-0157,06-29-2024,07-12-2024,medium,bug_report,Notifications arriving late,1
+TKT-000747,COMP-0157,10-25-2024,10-31-2024,medium,technical,Application loading slowly for our team,4
+TKT-000748,COMP-0158,02-05-2025,02-10-2025,medium,onboarding,Template setup assistance needed,4
+TKT-000749,COMP-0158,01-10-2025,,low,feature_request,Would like bulk import from Excel,
+TKT-000750,COMP-0158,01-29-2025,02-11-2025,low,onboarding,Migration assistance from competitor tool,4
+TKT-000751,COMP-0158,03-22-2025,04-04-2025,medium,account,Account permissions not working correctly,5
+TKT-000752,COMP-0158,04-10-2025,04-24-2025,CRITICAL,bug_report,,3
+TKT-000753,COMP-0158,06-22-2025,06-30-2025,medium,feature_request,Requesting custom field types,3
+TKT-000754,COMP-0158,12-23-2024,01-03-2025,high,account,Account permissions not working correctly,2
+TKT-000755,COMP-0159,04-21-2024,04-24-2024,medium,feature_request,Would like bulk import from Excel,3
+TKT-000756,COMP-0159,04-10-2024,04-14-2024,critical,bug_report,Notifications arriving late,1
+TKT-000757,COMP-0159,04-27-2024,04-29-2024,high,account,Change primary admin contact,1
+TKT-000758,COMP-0159,05-07-2024,05-13-2024,critical,technical,SSO login failing intermittently,1
+TKT-000759,COMP-0159,04-10-2024,04-21-2024,medium,feature_request,Custom workflow automation rules,2
+TKT-000760,COMP-0159,04-14-2024,04-17-2024,medium,account,Add new team member to account,3
+TKT-000761,COMP-0159,01-29-2024,02-02-2024,medium,bug_report,Drag and drop not working in Chrome,
+TKT-000762,COMP-0159,05-15-2024,05-17-2024,medium,bug_report,Search returning incorrect results,3
+TKT-000763,COMP-0159,03-29-2024,04-05-2024,high,account,Add new team member to account,1
+TKT-000764,COMP-0159,07-03-2024,07-09-2024,medium,feature_request,Need better reporting filters,3
+TKT-000765,COMP-0160,02-28-2024,03-08-2024,medium,feature_request,Need better reporting filters,3
+TKT-000766,COMP-0160,01-08-2024,01-15-2024,medium,billing,,
+TKT-000767,COMP-0160,03-18-2024,03-29-2024,medium,technical,Webhook deliveries failing,2
+TKT-000768,COMP-0160,02-21-2024,02-22-2024,medium,feature_request,,4
+TKT-000769,COMP-0160,04-20-2024,04-22-2024,high,bug_report,,
+TKT-000770,COMP-0161,03-10-2025,03-19-2025,medium,bug_report,Attachment upload fails over 10 MB,4
+TKT-000771,COMP-0161,10-07-2024,10-13-2024,medium,account,Change primary admin contact,
+TKT-000772,COMP-0161,12-07-2024,,low,onboarding,Migration assistance from competitor tool,5
+TKT-000773,COMP-0161,08-06-2024,08-14-2024,medium,billing,Charges not matching the quoted price,2
+TKT-000774,COMP-0162,08-07-2024,08-08-2024,critical,account,,4
+TKT-000775,COMP-0162,02-03-2024,02-10-2024,medium,technical,API rate limit being hit unexpectedly,
+TKT-000776,COMP-0162,12-11-2024,12-14-2024,medium,onboarding,Migration assistance from competitor tool,
+TKT-000777,COMP-0162,09-07-2024,09-10-2024,high,bug_report,,4
+TKT-000778,COMP-0162,04-26-2024,05-08-2024,critical,onboarding,Migration assistance from competitor tool,
+TKT-000779,COMP-0162,01-27-2025,,medium,bug_report,,5
+TKT-000780,COMP-0163,02-04-2025,02-11-2025,high,onboarding,Need help setting up first project,
+TKT-000781,COMP-0163,03-23-2025,04-01-2025,medium,billing,Requesting refund for unused period,
+TKT-000782,COMP-0163,03-05-2024,03-06-2024,low,feature_request,Need better reporting filters,
+TKT-000783,COMP-0163,01-21-2025,02-01-2025,high,feature_request,Requesting custom field types,5
+TKT-000784,COMP-0163,01-23-2025,01-24-2025,low,technical,API rate limit being hit unexpectedly,
+TKT-000785,COMP-0163,08-22-2024,08-27-2024,medium,bug_report,Attachment upload fails over 10 MB,2
+TKT-000786,COMP-0163,06-04-2024,06-17-2024,critical,technical,Data export timing out for large datasets,2
+TKT-000787,COMP-0164,02-09-2024,02-17-2024,medium,onboarding,Training session request for team,4
+TKT-000788,COMP-0164,10-12-2024,10-23-2024,low,bug_report,Attachment upload fails over 10 MB,
+TKT-000789,COMP-0164,04-15-2024,04-27-2024,medium,feature_request,Custom workflow automation rules,3
+TKT-000790,COMP-0164,07-14-2024,,critical,onboarding,Best practices documentation request,1
+TKT-000791,COMP-0164,09-25-2024,09-27-2024,medium,account,,3
+TKT-000792,COMP-0165,11-24-2024,12-08-2024,LOW,technical,Data export timing out for large datasets,4
+TKT-000793,COMP-0166,03-03-2025,03-05-2025,medium,account,Account permissions not working correctly,4
+TKT-000794,COMP-0166,07-24-2024,08-07-2024,high,billing,Cannot download invoice PDF,
+TKT-000795,COMP-0167,08-14-2024,08-20-2024,medium,bug_report,Notifications arriving late,3
+TKT-000796,COMP-0167,06-11-2025,06-15-2025,medium,feature_request,Need better reporting filters,
+TKT-000797,COMP-0167,03-23-2025,04-03-2025,low,billing,,4
+TKT-000798,COMP-0167,02-26-2024,,HIGH,technical,Data export timing out for large datasets,
+TKT-000799,COMP-0167,06-26-2024,07-03-2024,medium,billing,Charges not matching the quoted price,3
+TKT-000800,COMP-0167,03-31-2024,04-12-2024,medium,bug_report,Calendar sync showing wrong timezone,4
+TKT-000801,COMP-0168,11-22-2024,,low,account,Account permissions not working correctly,
+TKT-000802,COMP-0168,12-04-2024,12-13-2024,medium,bug_report,Calendar sync showing wrong timezone,3
+TKT-000803,COMP-0168,06-17-2024,06-29-2024,high,billing,Billing cycle change request,4
+TKT-000804,COMP-0168,08-05-2024,08-15-2024,high,onboarding,Best practices documentation request,5
+TKT-000805,COMP-0169,01-13-2025,01-17-2025,high,onboarding,Best practices documentation request,5
+TKT-000806,COMP-0169,05-27-2025,06-05-2025,medium,onboarding,Template setup assistance needed,2
+TKT-000807,COMP-0169,11-03-2024,11-07-2024,high,feature_request,Requesting custom field types,4
+TKT-000808,COMP-0169,03-21-2025,03-25-2025,medium,bug_report,Calendar sync showing wrong timezone,5
+TKT-000809,COMP-0169,03-29-2024,04-04-2024,medium,technical,Mobile app crashing on iOS 17,
+TKT-000810,COMP-0170,09-01-2024,09-07-2024,critical,account,Remove former employee access,3
+TKT-000811,COMP-0171,01-08-2024,01-17-2024,low,feature_request,,
+TKT-000812,COMP-0171,11-22-2024,12-04-2024,low,billing,Charges not matching the quoted price,5
+TKT-000813,COMP-0171,03-07-2024,,low,billing,Cannot download invoice PDF,4
+TKT-000814,COMP-0171,02-06-2025,02-11-2025,medium,billing,Invoice discrepancy for last month,
+TKT-000815,COMP-0172,08-05-2024,08-07-2024,high,billing,Requesting refund for unused period,4
+TKT-000816,COMP-0172,07-20-2024,07-23-2024,medium,technical,Error 500 when accessing the dashboard,5
+TKT-000817,COMP-0173,07-02-2024,07-09-2024,medium,technical,Webhook deliveries failing,
+TKT-000818,COMP-0174,02-17-2024,02-25-2024,high,technical,API rate limit being hit unexpectedly,
+TKT-000819,COMP-0174,05-18-2025,05-23-2025,medium,account,Remove former employee access,3
+TKT-000820,COMP-0174,06-07-2024,06-20-2024,low,onboarding,Training session request for team,4
+TKT-000821,COMP-0174,05-12-2025,05-13-2025,high,billing,Need to update payment method on file,5
+TKT-000822,COMP-0174,02-26-2024,02-29-2024,low,onboarding,Training session request for team,5
+TKT-000823,COMP-0175,11-27-2024,12-09-2024,low,onboarding,Need help setting up first project,3
+TKT-000824,COMP-0175,03-02-2025,03-16-2025,low,bug_report,Search returning incorrect results,1
+TKT-000825,COMP-0175,05-22-2024,,low,feature_request,,4
+TKT-000826,COMP-0175,09-20-2024,09-21-2024,high,technical,Webhook deliveries failing,3
+TKT-000827,COMP-0176,06-10-2025,06-22-2025,medium,account,Need to merge duplicate accounts,5
+TKT-000828,COMP-0176,06-07-2025,06-15-2025,low,billing,Requesting refund for unused period,
+TKT-000829,COMP-0176,05-12-2025,,medium,account,Account permissions not working correctly,4
+TKT-000830,COMP-0176,02-15-2024,02-23-2024,medium,technical,Application loading slowly for our team,3
+TKT-000831,COMP-0176,03-13-2024,03-22-2024,critical,bug_report,Drag and drop not working in Chrome,4
+TKT-000832,COMP-0176,01-07-2024,01-08-2024,low,feature_request,Need Gantt chart view for projects,
+TKT-000833,COMP-0177,12-15-2024,12-28-2024,medium,billing,Cannot download invoice PDF,4
+TKT-000834,COMP-0178,06-09-2025,06-12-2025,medium,bug_report,Attachment upload fails over 10 MB,5
+TKT-000835,COMP-0178,10-06-2024,10-12-2024,low,onboarding,Migration assistance from competitor tool,5
+TKT-000836,COMP-0178,09-22-2024,10-06-2024,low,onboarding,Training session request for team,
+TKT-000837,COMP-0178,02-12-2025,02-16-2025,low,account,Need to merge duplicate accounts,4
+TKT-000838,COMP-0178,03-25-2024,03-26-2024,high,feature_request,Would like bulk import from Excel,4
+TKT-000839,COMP-0178,06-25-2025,06-30-2025,low,bug_report,Formatting lost when pasting from Word,4
+TKT-000840,COMP-0178,06-26-2024,07-06-2024,high,feature_request,Requesting custom field types,2
+TKT-000841,COMP-0179,07-01-2024,07-12-2024,low,bug_report,Drag and drop not working in Chrome,
+TKT-000842,COMP-0180,01-08-2025,01-17-2025,medium,technical,Application loading slowly for our team,
+TKT-000843,COMP-0180,03-09-2025,03-16-2025,medium,account,Need to merge duplicate accounts,5
+TKT-000844,COMP-0180,11-26-2024,12-02-2024,critical,bug_report,Attachment upload fails over 10 MB,
+TKT-000845,COMP-0181,04-10-2024,04-21-2024,medium,billing,Billing cycle change request,
+TKT-000846,COMP-0181,02-05-2024,02-09-2024,critical,technical,Application loading slowly for our team,1
+TKT-000847,COMP-0181,01-24-2024,01-28-2024,medium,technical,Webhook deliveries failing,
+TKT-000848,COMP-0181,04-15-2024,04-26-2024,medium,onboarding,Template setup assistance needed,2
+TKT-000849,COMP-0181,02-06-2024,02-09-2024,critical,billing,Billing cycle change request,4
+TKT-000850,COMP-0181,03-19-2024,03-20-2024,critical,technical,Data export timing out for large datasets,1
+TKT-000851,COMP-0181,03-05-2024,03-14-2024,low,billing,Need to update payment method on file,4
+TKT-000852,COMP-0181,03-31-2024,04-02-2024,critical,technical,Webhook deliveries failing,1
+TKT-000853,COMP-0181,01-02-2024,,low,feature_request,Custom workflow automation rules,3
+TKT-000854,COMP-0181,02-28-2024,03-12-2024,medium,onboarding,Migration assistance from competitor tool,2
+TKT-000855,COMP-0181,01-14-2024,01-23-2024,high,bug_report,Formatting lost when pasting from Word,2
+TKT-000856,COMP-0182,10-09-2024,10-19-2024,medium,onboarding,Best practices documentation request,5
+TKT-000857,COMP-0182,05-26-2025,05-28-2025,medium,feature_request,Dark mode support requested,5
+TKT-000858,COMP-0182,07-31-2024,08-02-2024,high,bug_report,Search returning incorrect results,1
+TKT-000859,COMP-0182,10-20-2024,10-30-2024,low,account,Account permissions not working correctly,2
+TKT-000860,COMP-0183,04-19-2024,04-20-2024,medium,technical,API rate limit being hit unexpectedly,4
+TKT-000861,COMP-0183,04-20-2024,04-24-2024,low,account,Need to merge duplicate accounts,5
+TKT-000862,COMP-0183,02-02-2025,02-16-2025,critical,account,Need to merge duplicate accounts,3
+TKT-000863,COMP-0183,02-06-2024,02-20-2024,low,feature_request,Custom workflow automation rules,5
+TKT-000864,COMP-0183,01-05-2025,01-18-2025,critical,bug_report,Calendar sync showing wrong timezone,5
+TKT-000865,COMP-0183,05-15-2025,05-28-2025,medium,feature_request,Would like bulk import from Excel,4
+TKT-000866,COMP-0184,06-29-2025,06-30-2025,low,account,,4
+TKT-000867,COMP-0184,02-15-2024,02-23-2024,critical,account,Account permissions not working correctly,3
+TKT-000868,COMP-0184,10-21-2024,11-03-2024,medium,account,Change primary admin contact,5
+TKT-000869,COMP-0184,06-13-2024,06-15-2024,medium,technical,Application loading slowly for our team,3
+TKT-000870,COMP-0184,02-25-2024,03-04-2024,high,bug_report,Formatting lost when pasting from Word,4
+TKT-000871,COMP-0184,11-05-2024,11-19-2024,medium,account,Change primary admin contact,3
+TKT-000872,COMP-0184,04-16-2025,04-21-2025,medium,technical,SSO login failing intermittently,
+TKT-000873,COMP-0185,06-05-2025,06-11-2025,medium,billing,Need to update payment method on file,3
+TKT-000874,COMP-0185,06-24-2025,06-26-2025,high,account,Add new team member to account,4
+TKT-000875,COMP-0186,08-20-2024,08-26-2024,high,bug_report,Calendar sync showing wrong timezone,
+TKT-000876,COMP-0186,05-10-2025,05-14-2025,medium,billing,Tax exemption certificate submission,5
+TKT-000877,COMP-0187,01-12-2024,01-20-2024,low,technical,,3
+TKT-000878,COMP-0187,06-02-2024,,medium,feature_request,Custom workflow automation rules,
+TKT-000879,COMP-0187,07-01-2024,07-12-2024,low,technical,SSO login failing intermittently,
+TKT-000880,COMP-0187,09-20-2024,09-26-2024,medium,bug_report,Search returning incorrect results,
+TKT-000881,COMP-0187,08-06-2024,08-12-2024,CRITICAL,feature_request,Would like bulk import from Excel,3
+TKT-000882,COMP-0188,04-20-2025,04-29-2025,high,feature_request,Requesting custom field types,4
+TKT-000883,COMP-0188,02-16-2024,,critical,technical,SSO login failing intermittently,4
+TKT-000884,COMP-0188,03-25-2024,04-01-2024,medium,bug_report,Drag and drop not working in Chrome,4
+TKT-000885,COMP-0188,08-30-2024,09-08-2024,medium,billing,Charges not matching the quoted price,4
+TKT-000886,COMP-0188,09-20-2024,09-23-2024,low,bug_report,Attachment upload fails over 10 MB,5
+TKT-000887,COMP-0188,04-10-2024,04-20-2024,medium,technical,Mobile app crashing on iOS 17,4
+TKT-000888,COMP-0188,11-28-2024,12-02-2024,low,technical,Application loading slowly for our team,
+TKT-000889,COMP-0189,02-09-2024,02-19-2024,medium,account,Change primary admin contact,
+TKT-000890,COMP-0189,09-29-2024,10-07-2024,critical,onboarding,Template setup assistance needed,
+TKT-000891,COMP-0190,04-17-2025,04-19-2025,high,feature_request,Requesting custom field types,4
+TKT-000892,COMP-0190,06-17-2024,06-23-2024,critical,billing,Billing cycle change request,2
+TKT-000893,COMP-0190,03-01-2025,03-09-2025,low,feature_request,Would like bulk import from Excel,5
+TKT-000894,COMP-0190,11-19-2024,12-02-2024,medium,onboarding,Best practices documentation request,5
+TKT-000895,COMP-0190,05-19-2025,05-29-2025,low,bug_report,Drag and drop not working in Chrome,
+TKT-000896,COMP-0191,04-20-2024,05-01-2024,high,feature_request,,
+TKT-000897,COMP-0191,01-25-2024,,medium,account,Change primary admin contact,1
+TKT-000898,COMP-0191,10-03-2024,10-10-2024,high,onboarding,Training session request for team,3
+TKT-000899,COMP-0191,10-17-2024,10-28-2024,low,feature_request,Dark mode support requested,
+TKT-000900,COMP-0191,02-28-2024,03-09-2024,high,technical,Webhook deliveries failing,3
+TKT-000901,COMP-0191,11-19-2024,12-02-2024,medium,feature_request,Custom workflow automation rules,3
+TKT-000902,COMP-0191,11-23-2024,11-26-2024,high,feature_request,,2
+TKT-000903,COMP-0191,09-08-2024,09-11-2024,CRITICAL,bug_report,Formatting lost when pasting from Word,1
+TKT-000904,COMP-0191,11-22-2024,12-02-2024,medium,billing,Charges not matching the quoted price,3
+TKT-000905,COMP-0191,03-23-2024,03-25-2024,medium,account,,5
+TKT-000906,COMP-0192,06-22-2025,06-30-2025,low,bug_report,Drag and drop not working in Chrome,4
+TKT-000907,COMP-0192,10-03-2024,10-10-2024,medium,billing,Invoice discrepancy for last month,4
+TKT-000908,COMP-0192,03-02-2025,03-05-2025,high,bug_report,Search returning incorrect results,4
+TKT-000909,COMP-0193,09-07-2024,09-21-2024,critical,feature_request,Would like bulk import from Excel,5
+TKT-000910,COMP-0193,02-05-2025,02-08-2025,medium,technical,Integration with Slack is not syncing,5
+TKT-000911,COMP-0193,02-05-2024,02-07-2024,MEDIUM,account,Need to merge duplicate accounts,5
+TKT-000912,COMP-0193,03-19-2024,04-02-2024,medium,billing,,5
+TKT-000913,COMP-0193,03-26-2025,04-02-2025,medium,onboarding,Training session request for team,
+TKT-000914,COMP-0193,06-11-2024,06-25-2024,high,billing,Cannot download invoice PDF,3
+TKT-000915,COMP-0194,08-26-2024,09-01-2024,high,onboarding,Template setup assistance needed,4
+TKT-000916,COMP-0194,03-13-2025,03-23-2025,high,onboarding,Best practices documentation request,
+TKT-000917,COMP-0194,09-02-2024,09-05-2024,medium,feature_request,Need better reporting filters,4
+TKT-000918,COMP-0194,11-25-2024,12-08-2024,low,billing,Billing cycle change request,
+TKT-000919,COMP-0194,12-24-2024,01-01-2025,high,billing,,2
+TKT-000920,COMP-0195,03-06-2024,,low,account,Change primary admin contact,4
+TKT-000921,COMP-0195,06-24-2025,06-28-2025,high,billing,Invoice discrepancy for last month,5
+TKT-000922,COMP-0195,01-25-2024,01-27-2024,medium,onboarding,Migration assistance from competitor tool,1
+TKT-000923,COMP-0195,07-28-2024,07-29-2024,medium,feature_request,Custom workflow automation rules,3
+TKT-000924,COMP-0195,03-22-2025,03-31-2025,medium,feature_request,Need better reporting filters,3
+TKT-000925,COMP-0195,04-15-2024,04-26-2024,low,feature_request,Need better reporting filters,
+TKT-000926,COMP-0196,04-17-2025,04-27-2025,high,account,Change primary admin contact,3
+TKT-000927,COMP-0196,05-07-2024,,medium,account,Account permissions not working correctly,
+TKT-000928,COMP-0196,02-02-2025,02-14-2025,medium,technical,Application loading slowly for our team,5
+TKT-000929,COMP-0196,10-31-2024,11-09-2024,medium,bug_report,Notifications arriving late,3
+TKT-000930,COMP-0196,05-31-2025,,critical,billing,Requesting refund for unused period,2
+TKT-000931,COMP-0196,06-24-2025,06-25-2025,medium,feature_request,Would like bulk import from Excel,3
+TKT-000932,COMP-0196,07-20-2024,07-28-2024,medium,onboarding,Migration assistance from competitor tool,
+TKT-000933,COMP-0197,05-08-2025,05-09-2025,high,billing,Need to update payment method on file,1
+TKT-000934,COMP-0197,04-07-2025,04-19-2025,high,bug_report,Drag and drop not working in Chrome,5
+TKT-000935,COMP-0197,11-25-2024,11-30-2024,medium,feature_request,Custom workflow automation rules,3
+TKT-000936,COMP-0197,03-03-2024,03-08-2024,LOW,bug_report,Notifications arriving late,4
+TKT-000937,COMP-0197,10-27-2024,,medium,technical,Webhook deliveries failing,3
+TKT-000938,COMP-0197,06-06-2024,06-19-2024,high,billing,Requesting refund for unused period,4
+TKT-000939,COMP-0197,02-01-2025,02-12-2025,high,technical,Integration with Slack is not syncing,
+TKT-000940,COMP-0198,12-09-2024,12-13-2024,medium,technical,API rate limit being hit unexpectedly,5
+TKT-000941,COMP-0198,09-25-2024,10-01-2024,medium,account,Need to merge duplicate accounts,2
+TKT-000942,COMP-0198,03-20-2024,04-01-2024,medium,onboarding,Training session request for team,3
+TKT-000943,COMP-0198,04-07-2024,04-17-2024,high,billing,Tax exemption certificate submission,3
+TKT-000944,COMP-0198,06-25-2025,06-30-2025,medium,feature_request,Requesting custom field types,2
+TKT-000945,COMP-0198,07-09-2024,07-12-2024,high,bug_report,Search returning incorrect results,1
+TKT-000946,COMP-0198,04-26-2025,05-05-2025,low,billing,Need to update payment method on file,
+TKT-000947,COMP-0199,03-01-2025,03-13-2025,high,billing,Invoice discrepancy for last month,4
+TKT-000948,COMP-0200,05-29-2025,05-30-2025,medium,bug_report,Attachment upload fails over 10 MB,4
+TKT-000949,COMP-0200,01-14-2024,01-17-2024,low,technical,Integration with Slack is not syncing,
+TKT-000950,COMP-0200,11-06-2024,11-14-2024,medium,billing,,4
+TKT-000951,COMP-0200,08-26-2024,09-01-2024,high,billing,Charges not matching the quoted price,4
+TKT-000952,COMP-0200,05-07-2024,05-21-2024,medium,technical,Error 500 when accessing the dashboard,4
+TKT-000953,COMP-0201,08-16-2024,08-27-2024,low,bug_report,Notifications arriving late,2
+TKT-000954,COMP-0201,07-10-2024,07-12-2024,high,bug_report,Attachment upload fails over 10 MB,3
+TKT-000955,COMP-0201,11-15-2024,11-19-2024,medium,bug_report,Formatting lost when pasting from Word,5
+TKT-000956,COMP-0201,09-12-2024,09-14-2024,low,technical,Data export timing out for large datasets,4
+TKT-000957,COMP-0202,07-05-2024,07-15-2024,critical,bug_report,Drag and drop not working in Chrome,5
+TKT-000958,COMP-0202,05-06-2025,,medium,billing,Billing cycle change request,
+TKT-000959,COMP-0202,11-05-2024,11-15-2024,low,bug_report,Calendar sync showing wrong timezone,2
+TKT-000960,COMP-0203,02-19-2024,02-23-2024,critical,onboarding,Migration assistance from competitor tool,4
+TKT-000961,COMP-0203,01-24-2025,02-02-2025,critical,technical,Application loading slowly for our team,
+TKT-000962,COMP-0203,08-21-2024,09-02-2024,critical,bug_report,Search returning incorrect results,4
+TKT-000963,COMP-0204,09-28-2024,10-10-2024,low,bug_report,,
+TKT-000964,COMP-0204,09-26-2024,10-02-2024,low,feature_request,Custom workflow automation rules,
+TKT-000965,COMP-0204,10-29-2024,10-31-2024,high,billing,,4
+TKT-000966,COMP-0204,01-19-2024,02-01-2024,low,technical,Application loading slowly for our team,4
+TKT-000967,COMP-0204,04-02-2024,04-09-2024,medium,bug_report,Notifications arriving late,3
+TKT-000968,COMP-0204,02-08-2024,02-11-2024,low,onboarding,Template setup assistance needed,
+TKT-000969,COMP-0205,12-03-2024,12-11-2024,medium,technical,Data export timing out for large datasets,4
+TKT-000970,COMP-0205,02-08-2025,02-18-2025,HIGH,bug_report,Search returning incorrect results,4
+TKT-000971,COMP-0205,03-18-2025,03-23-2025,high,account,Change primary admin contact,3
+TKT-000972,COMP-0205,04-25-2025,05-09-2025,low,feature_request,Need Gantt chart view for projects,1
+TKT-000973,COMP-0205,01-09-2025,01-23-2025,critical,onboarding,Migration assistance from competitor tool,3
+TKT-000974,COMP-0206,01-22-2025,01-29-2025,medium,onboarding,Migration assistance from competitor tool,5
+TKT-000975,COMP-0206,11-21-2024,12-02-2024,low,feature_request,Requesting custom field types,4
+TKT-000976,COMP-0206,09-03-2024,09-12-2024,medium,onboarding,Training session request for team,5
+TKT-000977,COMP-0206,07-14-2024,07-27-2024,medium,bug_report,Search returning incorrect results,
+TKT-000978,COMP-0207,05-01-2024,05-14-2024,medium,technical,Webhook deliveries failing,1
+TKT-000979,COMP-0207,05-26-2024,06-03-2024,low,onboarding,Migration assistance from competitor tool,2
+TKT-000980,COMP-0207,08-22-2024,09-01-2024,low,feature_request,Requesting custom field types,2
+TKT-000981,COMP-0207,01-24-2024,02-05-2024,critical,feature_request,Custom workflow automation rules,
+TKT-000982,COMP-0207,04-16-2024,04-25-2024,high,feature_request,,1
+TKT-000983,COMP-0207,04-26-2024,05-01-2024,low,technical,,1
+TKT-000984,COMP-0207,01-11-2024,01-25-2024,critical,account,Need to merge duplicate accounts,
+TKT-000985,COMP-0207,06-23-2024,06-30-2024,high,billing,Requesting refund for unused period,2
+TKT-000986,COMP-0207,08-13-2024,08-25-2024,critical,feature_request,Custom workflow automation rules,2
+TKT-000987,COMP-0207,03-23-2024,04-03-2024,critical,account,Account permissions not working correctly,4
+TKT-000988,COMP-0208,03-01-2025,03-14-2025,medium,onboarding,Template setup assistance needed,4
+TKT-000989,COMP-0209,02-23-2024,02-24-2024,high,feature_request,,
+TKT-000990,COMP-0209,03-24-2024,,medium,feature_request,Need Gantt chart view for projects,3
+TKT-000991,COMP-0209,05-01-2025,05-04-2025,LOW,feature_request,Need better reporting filters,4
+TKT-000992,COMP-0209,06-26-2024,07-08-2024,high,onboarding,Best practices documentation request,
+TKT-000993,COMP-0210,04-22-2025,05-05-2025,medium,feature_request,Custom workflow automation rules,4
+TKT-000994,COMP-0210,01-24-2025,02-07-2025,high,technical,API rate limit being hit unexpectedly,4
+TKT-000995,COMP-0210,11-07-2024,11-10-2024,low,feature_request,Need Gantt chart view for projects,1
+TKT-000996,COMP-0211,09-05-2024,09-08-2024,high,feature_request,Custom workflow automation rules,4
+TKT-000997,COMP-0212,11-04-2024,11-14-2024,high,technical,Webhook deliveries failing,
+TKT-000998,COMP-0212,01-19-2025,01-20-2025,CRITICAL,billing,Need to update payment method on file,1
+TKT-000999,COMP-0212,10-18-2024,10-20-2024,high,onboarding,Best practices documentation request,3
+TKT-001000,COMP-0212,10-16-2024,10-23-2024,medium,bug_report,Notifications arriving late,4
+TKT-001001,COMP-0212,02-09-2024,02-19-2024,critical,account,Need to merge duplicate accounts,3
+TKT-001002,COMP-0212,01-22-2025,01-27-2025,medium,feature_request,Need Gantt chart view for projects,3
+TKT-001003,COMP-0212,03-17-2024,03-23-2024,medium,account,Account permissions not working correctly,3
+TKT-001004,COMP-0213,06-20-2024,06-30-2024,medium,billing,Billing cycle change request,5
+TKT-001005,COMP-0213,12-28-2024,01-05-2025,medium,billing,Tax exemption certificate submission,1
+TKT-001006,COMP-0214,01-03-2025,,low,bug_report,Drag and drop not working in Chrome,4
+TKT-001007,COMP-0214,04-02-2024,04-10-2024,HIGH,feature_request,Would like bulk import from Excel,4
+TKT-001008,COMP-0214,06-09-2025,06-23-2025,medium,technical,SSO login failing intermittently,4
+TKT-001009,COMP-0214,05-25-2025,,medium,bug_report,Formatting lost when pasting from Word,5
+TKT-001010,COMP-0214,11-29-2024,,critical,technical,API rate limit being hit unexpectedly,
+TKT-001011,COMP-0214,01-21-2024,02-03-2024,low,bug_report,Attachment upload fails over 10 MB,2
+TKT-001012,COMP-0214,04-08-2024,04-12-2024,low,feature_request,Requesting custom field types,
+TKT-001013,COMP-0215,12-18-2024,12-27-2024,medium,bug_report,Notifications arriving late,4
+TKT-001014,COMP-0215,07-11-2024,07-21-2024,high,onboarding,Need help setting up first project,
+TKT-001015,COMP-0215,11-23-2024,11-30-2024,high,feature_request,,1
+TKT-001016,COMP-0215,05-15-2024,05-27-2024,medium,billing,Charges not matching the quoted price,2
+TKT-001017,COMP-0215,01-06-2025,,low,bug_report,Notifications arriving late,4
+TKT-001018,COMP-0215,04-28-2024,05-08-2024,low,feature_request,,3
+TKT-001019,COMP-0215,03-07-2024,03-09-2024,medium,technical,API rate limit being hit unexpectedly,3
+TKT-001020,COMP-0215,11-16-2024,11-30-2024,critical,technical,Mobile app crashing on iOS 17,
+TKT-001021,COMP-0215,07-31-2024,08-05-2024,medium,billing,Billing cycle change request,3
+TKT-001022,COMP-0215,10-14-2024,10-27-2024,critical,onboarding,Template setup assistance needed,2
+TKT-001023,COMP-0215,08-15-2024,08-28-2024,high,billing,Need to update payment method on file,2
+TKT-001024,COMP-0215,04-11-2024,04-19-2024,high,billing,Need to update payment method on file,2
+TKT-001025,COMP-0216,03-17-2025,03-31-2025,medium,onboarding,Need help setting up first project,5
+TKT-001026,COMP-0216,07-11-2024,07-15-2024,critical,bug_report,Formatting lost when pasting from Word,4
+TKT-001027,COMP-0216,04-05-2025,04-07-2025,medium,onboarding,Training session request for team,
+TKT-001028,COMP-0216,01-05-2024,01-17-2024,MEDIUM,billing,Need to update payment method on file,
+TKT-001029,COMP-0216,05-04-2024,05-18-2024,medium,account,,3
+TKT-001030,COMP-0216,10-31-2024,11-13-2024,low,onboarding,Training session request for team,4
+TKT-001031,COMP-0216,10-20-2024,10-23-2024,medium,account,Account permissions not working correctly,3
+TKT-001032,COMP-0217,12-17-2024,12-20-2024,medium,bug_report,Formatting lost when pasting from Word,
+TKT-001033,COMP-0217,05-18-2025,05-23-2025,medium,technical,Application loading slowly for our team,4
+TKT-001034,COMP-0217,01-10-2025,01-13-2025,medium,account,Remove former employee access,4
+TKT-001035,COMP-0218,04-12-2025,04-18-2025,low,technical,,4
+TKT-001036,COMP-0218,08-20-2024,08-29-2024,HIGH,feature_request,Need Gantt chart view for projects,4
+TKT-001037,COMP-0218,09-23-2024,09-25-2024,low,account,Remove former employee access,4
+TKT-001038,COMP-0219,06-27-2024,06-28-2024,high,account,Remove former employee access,5
+TKT-001039,COMP-0219,06-11-2024,06-19-2024,medium,feature_request,Would like bulk import from Excel,3
+TKT-001040,COMP-0219,11-04-2024,11-13-2024,medium,onboarding,Best practices documentation request,
+TKT-001041,COMP-0220,02-28-2024,03-02-2024,medium,billing,Charges not matching the quoted price,
+TKT-001042,COMP-0220,01-10-2024,01-11-2024,high,account,Need to merge duplicate accounts,1
+TKT-001043,COMP-0220,02-06-2024,02-09-2024,high,bug_report,,2
+TKT-001044,COMP-0220,02-21-2024,02-22-2024,critical,technical,Application loading slowly for our team,3
+TKT-001045,COMP-0220,02-15-2024,02-28-2024,high,billing,Tax exemption certificate submission,3
+TKT-001046,COMP-0220,02-19-2024,03-01-2024,critical,account,Remove former employee access,1
+TKT-001047,COMP-0220,02-14-2024,02-16-2024,medium,technical,Data export timing out for large datasets,2
+TKT-001048,COMP-0220,03-03-2024,03-16-2024,medium,onboarding,Best practices documentation request,4
+TKT-001049,COMP-0221,07-26-2024,07-30-2024,low,billing,Billing cycle change request,5
+TKT-001050,COMP-0221,05-14-2025,05-18-2025,low,billing,Requesting refund for unused period,4
+TKT-001051,COMP-0222,08-16-2024,08-24-2024,critical,account,Need to merge duplicate accounts,1
+TKT-001052,COMP-0222,10-28-2024,11-07-2024,low,bug_report,Attachment upload fails over 10 MB,5
+TKT-001053,COMP-0222,05-24-2024,06-05-2024,medium,onboarding,Migration assistance from competitor tool,4
+TKT-001054,COMP-0222,07-25-2024,07-27-2024,critical,account,Remove former employee access,3
+TKT-001055,COMP-0222,03-02-2024,03-05-2024,high,feature_request,Would like bulk import from Excel,3
+TKT-001056,COMP-0222,01-27-2024,01-31-2024,high,feature_request,,4
+TKT-001057,COMP-0223,09-20-2024,10-01-2024,medium,account,,4
+TKT-001058,COMP-0223,03-17-2025,03-30-2025,medium,bug_report,Attachment upload fails over 10 MB,4
+TKT-001059,COMP-0224,02-10-2024,02-14-2024,critical,feature_request,Need better reporting filters,3
+TKT-001060,COMP-0225,04-17-2024,04-26-2024,high,bug_report,Calendar sync showing wrong timezone,4
+TKT-001061,COMP-0225,12-30-2024,01-06-2025,critical,feature_request,Requesting custom field types,3
+TKT-001062,COMP-0225,10-10-2024,10-24-2024,critical,feature_request,,5
+TKT-001063,COMP-0225,05-21-2024,05-30-2024,critical,account,Account permissions not working correctly,4
+TKT-001064,COMP-0225,04-17-2024,04-23-2024,high,technical,API rate limit being hit unexpectedly,
+TKT-001065,COMP-0225,02-27-2024,02-29-2024,high,feature_request,Dark mode support requested,2
+TKT-001066,COMP-0225,01-09-2025,01-11-2025,high,onboarding,Need help setting up first project,
+TKT-001067,COMP-0225,01-29-2025,01-30-2025,high,onboarding,Best practices documentation request,1
+TKT-001068,COMP-0225,01-11-2025,01-25-2025,medium,billing,Invoice discrepancy for last month,4
+TKT-001069,COMP-0225,01-13-2025,01-26-2025,low,billing,Charges not matching the quoted price,1
+TKT-001070,COMP-0225,01-26-2025,02-08-2025,high,feature_request,,2
+TKT-001071,COMP-0226,02-09-2025,02-13-2025,low,billing,Billing cycle change request,
+TKT-001072,COMP-0226,08-31-2024,09-10-2024,medium,feature_request,,
+TKT-001073,COMP-0226,11-03-2024,11-04-2024,low,technical,Application loading slowly for our team,
+TKT-001074,COMP-0226,03-22-2025,03-27-2025,medium,billing,Tax exemption certificate submission,
+TKT-001075,COMP-0226,02-22-2025,03-03-2025,medium,bug_report,Formatting lost when pasting from Word,3
+TKT-001076,COMP-0226,08-11-2024,,high,bug_report,Attachment upload fails over 10 MB,2
+TKT-001077,COMP-0226,08-26-2024,08-27-2024,low,billing,Charges not matching the quoted price,5
+TKT-001078,COMP-0227,11-15-2024,11-28-2024,medium,bug_report,Drag and drop not working in Chrome,3
+TKT-001079,COMP-0228,03-24-2025,04-03-2025,low,onboarding,Template setup assistance needed,3
+TKT-001080,COMP-0228,01-19-2025,01-29-2025,medium,bug_report,Search returning incorrect results,2
+TKT-001081,COMP-0228,04-06-2025,04-09-2025,high,billing,Need to update payment method on file,1
+TKT-001082,COMP-0229,09-02-2024,09-03-2024,medium,bug_report,Formatting lost when pasting from Word,
+TKT-001083,COMP-0229,04-24-2024,,critical,technical,Data export timing out for large datasets,3
+TKT-001084,COMP-0229,11-18-2024,12-01-2024,medium,technical,Application loading slowly for our team,
+TKT-001085,COMP-0229,04-15-2025,04-21-2025,low,onboarding,Need help setting up first project,4
+TKT-001086,COMP-0229,08-13-2024,08-26-2024,high,account,Change primary admin contact,1
+TKT-001087,COMP-0230,11-15-2024,11-24-2024,critical,billing,Requesting refund for unused period,4
+TKT-001088,COMP-0230,08-22-2024,08-24-2024,medium,technical,Integration with Slack is not syncing,5
+TKT-001089,COMP-0231,01-05-2024,01-19-2024,medium,account,Remove former employee access,2
+TKT-001090,COMP-0231,04-22-2025,05-04-2025,medium,onboarding,Migration assistance from competitor tool,4
+TKT-001091,COMP-0231,05-13-2024,05-23-2024,medium,billing,Charges not matching the quoted price,4
+TKT-001092,COMP-0231,06-05-2024,06-11-2024,medium,billing,Charges not matching the quoted price,
+TKT-001093,COMP-0232,01-25-2025,02-03-2025,MEDIUM,billing,,2
+TKT-001094,COMP-0232,05-04-2025,05-09-2025,low,bug_report,Attachment upload fails over 10 MB,4
+TKT-001095,COMP-0232,05-02-2025,05-13-2025,low,technical,Data export timing out for large datasets,4
+TKT-001096,COMP-0232,10-12-2024,10-26-2024,critical,account,Add new team member to account,3
+TKT-001097,COMP-0233,06-23-2025,06-30-2025,medium,account,Remove former employee access,2
+TKT-001098,COMP-0233,01-20-2024,01-22-2024,low,technical,Webhook deliveries failing,3
+TKT-001099,COMP-0234,01-24-2025,01-29-2025,high,bug_report,Search returning incorrect results,3
+TKT-001100,COMP-0234,01-20-2025,01-23-2025,medium,feature_request,Custom workflow automation rules,
+TKT-001101,COMP-0234,01-12-2024,01-23-2024,high,technical,Application loading slowly for our team,2
+TKT-001102,COMP-0234,10-31-2024,11-03-2024,medium,feature_request,Dark mode support requested,2
+TKT-001103,COMP-0235,04-09-2025,04-16-2025,medium,onboarding,Need help setting up first project,3
+TKT-001104,COMP-0235,12-21-2024,01-02-2025,low,bug_report,Search returning incorrect results,4
+TKT-001105,COMP-0235,08-28-2024,09-01-2024,low,bug_report,Calendar sync showing wrong timezone,4
+TKT-001106,COMP-0235,06-03-2024,06-16-2024,low,bug_report,,
+TKT-001107,COMP-0235,11-05-2024,11-17-2024,critical,feature_request,Need Gantt chart view for projects,
+TKT-001108,COMP-0235,08-28-2024,,high,onboarding,Best practices documentation request,4
+TKT-001109,COMP-0235,11-21-2024,11-27-2024,low,onboarding,Template setup assistance needed,4
+TKT-001110,COMP-0235,03-30-2024,04-10-2024,low,feature_request,Need Gantt chart view for projects,4
+TKT-001111,COMP-0235,01-18-2025,01-25-2025,high,bug_report,Formatting lost when pasting from Word,4
+TKT-001112,COMP-0235,07-17-2024,07-29-2024,high,onboarding,Migration assistance from competitor tool,4
+TKT-001113,COMP-0236,04-09-2025,,medium,technical,Mobile app crashing on iOS 17,1
+TKT-001114,COMP-0236,08-07-2024,,medium,bug_report,Notifications arriving late,3
+TKT-001115,COMP-0236,02-17-2025,02-22-2025,low,account,Add new team member to account,5
+TKT-001116,COMP-0236,11-24-2024,11-26-2024,high,technical,Mobile app crashing on iOS 17,
+TKT-001117,COMP-0236,06-28-2024,07-08-2024,low,feature_request,Would like bulk import from Excel,4
+TKT-001118,COMP-0236,07-01-2024,07-09-2024,high,onboarding,Training session request for team,
+TKT-001119,COMP-0236,07-17-2024,07-23-2024,critical,feature_request,Need better reporting filters,4
+TKT-001120,COMP-0236,11-07-2024,11-17-2024,critical,billing,Charges not matching the quoted price,2
+TKT-001121,COMP-0236,05-17-2024,05-21-2024,critical,technical,Data export timing out for large datasets,
+TKT-001122,COMP-0237,04-20-2025,04-30-2025,low,feature_request,Need better reporting filters,
+TKT-001123,COMP-0238,07-05-2024,07-17-2024,medium,billing,Requesting refund for unused period,
+TKT-001124,COMP-0238,01-05-2024,,low,account,Remove former employee access,3
+TKT-001125,COMP-0238,04-03-2025,04-15-2025,medium,technical,Application loading slowly for our team,2
+TKT-001126,COMP-0239,11-22-2024,11-28-2024,high,onboarding,Migration assistance from competitor tool,1
+TKT-001127,COMP-0239,09-13-2024,09-22-2024,high,bug_report,Notifications arriving late,1
+TKT-001128,COMP-0239,10-27-2024,10-31-2024,critical,technical,Mobile app crashing on iOS 17,1
+TKT-001129,COMP-0239,09-21-2024,10-05-2024,medium,feature_request,Dark mode support requested,1
+TKT-001130,COMP-0239,09-29-2024,10-03-2024,critical,feature_request,Custom workflow automation rules,
+TKT-001131,COMP-0239,11-15-2024,11-24-2024,high,account,Change primary admin contact,1
+TKT-001132,COMP-0239,10-17-2024,10-25-2024,critical,account,Account permissions not working correctly,3
+TKT-001133,COMP-0239,10-27-2024,11-04-2024,low,bug_report,,1
+TKT-001134,COMP-0239,10-22-2024,10-31-2024,high,technical,SSO login failing intermittently,2
+TKT-001135,COMP-0239,09-23-2024,09-28-2024,low,onboarding,Template setup assistance needed,2
+TKT-001136,COMP-0239,11-15-2024,11-19-2024,low,onboarding,Best practices documentation request,2
+TKT-001137,COMP-0240,06-24-2025,06-30-2025,low,account,Account permissions not working correctly,3
+TKT-001138,COMP-0240,08-26-2024,09-04-2024,critical,technical,Error 500 when accessing the dashboard,5
+TKT-001139,COMP-0240,06-26-2024,07-02-2024,medium,account,Change primary admin contact,4
+TKT-001140,COMP-0240,05-16-2024,05-28-2024,medium,technical,Integration with Slack is not syncing,5
+TKT-001141,COMP-0240,05-10-2025,05-20-2025,low,account,Need to merge duplicate accounts,
+TKT-001142,COMP-0240,03-24-2025,04-04-2025,medium,feature_request,,
+TKT-001143,COMP-0241,04-05-2024,,critical,account,Account permissions not working correctly,4
+TKT-001144,COMP-0241,05-11-2025,05-21-2025,critical,account,Account permissions not working correctly,4
+TKT-001145,COMP-0241,02-20-2025,02-24-2025,low,feature_request,,3
+TKT-001146,COMP-0241,04-24-2025,04-28-2025,medium,onboarding,Need help setting up first project,3
+TKT-001147,COMP-0241,11-01-2024,11-05-2024,medium,account,,4
+TKT-001148,COMP-0241,08-28-2024,09-02-2024,medium,account,Change primary admin contact,
+TKT-001149,COMP-0242,08-29-2024,09-02-2024,high,bug_report,Notifications arriving late,
+TKT-001150,COMP-0242,09-04-2024,09-08-2024,low,account,Need to merge duplicate accounts,4
+TKT-001151,COMP-0242,06-02-2025,06-15-2025,low,account,Change primary admin contact,
+TKT-001152,COMP-0242,09-18-2024,09-22-2024,low,bug_report,Drag and drop not working in Chrome,5
+TKT-001153,COMP-0242,03-07-2024,03-21-2024,low,bug_report,Drag and drop not working in Chrome,
+TKT-001154,COMP-0242,03-14-2025,03-27-2025,medium,technical,Application loading slowly for our team,4
+TKT-001155,COMP-0242,06-17-2025,06-18-2025,medium,account,Remove former employee access,1
+TKT-001156,COMP-0242,02-25-2024,,low,feature_request,Need better reporting filters,3
+TKT-001157,COMP-0242,09-24-2024,09-30-2024,critical,billing,,3
+TKT-001158,COMP-0243,06-28-2025,06-30-2025,medium,account,Add new team member to account,4
+TKT-001159,COMP-0243,04-15-2025,04-18-2025,critical,bug_report,Notifications arriving late,4
+TKT-001160,COMP-0243,02-23-2025,,LOW,onboarding,Training session request for team,
+TKT-001161,COMP-0243,03-08-2025,03-22-2025,low,billing,Cannot download invoice PDF,4
+TKT-001162,COMP-0243,12-17-2024,12-20-2024,critical,account,Account permissions not working correctly,4
+TKT-001163,COMP-0243,09-20-2024,09-27-2024,low,feature_request,Need better reporting filters,5
+TKT-001164,COMP-0244,04-27-2025,,medium,feature_request,Need better reporting filters,4
+TKT-001165,COMP-0244,12-12-2024,12-17-2024,medium,feature_request,Would like bulk import from Excel,
+TKT-001166,COMP-0244,07-02-2024,07-12-2024,medium,billing,,4
+TKT-001167,COMP-0244,07-29-2024,08-11-2024,low,onboarding,Best practices documentation request,2
+TKT-001168,COMP-0244,05-26-2024,06-05-2024,medium,billing,Requesting refund for unused period,4
+TKT-001169,COMP-0244,07-02-2024,07-11-2024,medium,onboarding,Best practices documentation request,2
+TKT-001170,COMP-0244,05-24-2024,06-02-2024,medium,account,Need to merge duplicate accounts,1
+TKT-001171,COMP-0245,06-10-2025,06-22-2025,medium,onboarding,Template setup assistance needed,5
+TKT-001172,COMP-0245,01-06-2025,01-08-2025,critical,billing,Need to update payment method on file,
+TKT-001173,COMP-0245,02-09-2025,02-11-2025,low,bug_report,Attachment upload fails over 10 MB,4
+TKT-001174,COMP-0245,04-16-2025,04-25-2025,medium,technical,API rate limit being hit unexpectedly,4
+TKT-001175,COMP-0245,03-21-2025,04-01-2025,medium,billing,Need to update payment method on file,
+TKT-001176,COMP-0245,01-17-2025,01-22-2025,high,feature_request,Would like bulk import from Excel,3
+TKT-001177,COMP-0245,04-12-2025,04-19-2025,low,technical,Data export timing out for large datasets,4
+TKT-001178,COMP-0245,02-06-2025,02-18-2025,high,technical,SSO login failing intermittently,4
+TKT-001179,COMP-0246,06-21-2025,06-30-2025,critical,bug_report,,4
+TKT-001180,COMP-0246,11-18-2024,11-24-2024,high,billing,,4
+TKT-001181,COMP-0246,03-22-2024,03-27-2024,medium,feature_request,Requesting custom field types,3
+TKT-001182,COMP-0246,04-25-2025,05-08-2025,high,billing,Invoice discrepancy for last month,3
+TKT-001183,COMP-0246,10-15-2024,10-23-2024,critical,account,Add new team member to account,5
+TKT-001184,COMP-0246,06-21-2024,06-22-2024,medium,technical,Webhook deliveries failing,
+TKT-001185,COMP-0247,05-05-2025,05-14-2025,critical,bug_report,Formatting lost when pasting from Word,
+TKT-001186,COMP-0247,05-18-2025,06-01-2025,high,feature_request,Requesting custom field types,4
+TKT-001187,COMP-0247,02-05-2025,02-06-2025,high,onboarding,Training session request for team,
+TKT-001188,COMP-0247,05-31-2025,06-08-2025,critical,technical,SSO login failing intermittently,3
+TKT-001189,COMP-0247,05-16-2025,05-25-2025,medium,technical,Webhook deliveries failing,
+TKT-001190,COMP-0248,03-01-2025,03-12-2025,high,bug_report,Notifications arriving late,4
+TKT-001191,COMP-0248,01-02-2025,01-03-2025,low,feature_request,Need Gantt chart view for projects,5
+TKT-001192,COMP-0248,04-08-2025,,low,billing,Tax exemption certificate submission,3
+TKT-001193,COMP-0248,02-23-2024,03-05-2024,low,bug_report,Formatting lost when pasting from Word,3
+TKT-001194,COMP-0248,11-24-2024,,low,bug_report,Notifications arriving late,4
+TKT-001195,COMP-0248,12-20-2024,12-25-2024,high,onboarding,Training session request for team,3
+TKT-001196,COMP-0248,12-01-2024,12-03-2024,low,technical,API rate limit being hit unexpectedly,4
+TKT-001197,COMP-0248,01-04-2025,01-17-2025,medium,technical,Application loading slowly for our team,4
+TKT-001198,COMP-0248,06-17-2025,,medium,billing,Billing cycle change request,5
+TKT-001199,COMP-0249,02-02-2025,02-12-2025,high,billing,Cannot download invoice PDF,1
+TKT-001200,COMP-0249,01-13-2025,01-20-2025,high,billing,Need to update payment method on file,4
+TKT-001201,COMP-0249,02-21-2025,02-28-2025,high,bug_report,Drag and drop not working in Chrome,2
+TKT-001202,COMP-0249,01-12-2025,01-19-2025,critical,technical,Application loading slowly for our team,1
+TKT-001203,COMP-0249,01-17-2025,01-25-2025,medium,technical,Data export timing out for large datasets,2
+TKT-001204,COMP-0249,01-16-2025,01-21-2025,high,account,Add new team member to account,3
+TKT-001205,COMP-0249,03-01-2025,,critical,bug_report,Drag and drop not working in Chrome,
+TKT-001206,COMP-0250,07-12-2024,07-25-2024,critical,technical,Data export timing out for large datasets,4
+TKT-001207,COMP-0250,11-14-2024,11-21-2024,low,bug_report,Attachment upload fails over 10 MB,1
+TKT-001208,COMP-0250,01-11-2024,01-19-2024,high,account,Remove former employee access,1
+TKT-001209,COMP-0250,10-11-2024,10-20-2024,high,onboarding,Training session request for team,2
+TKT-001210,COMP-0250,01-04-2025,,critical,feature_request,Custom workflow automation rules,2
+TKT-001211,COMP-0250,02-17-2025,02-19-2025,high,technical,Error 500 when accessing the dashboard,3
+TKT-001212,COMP-0250,02-16-2025,02-17-2025,high,account,Remove former employee access,4
+TKT-001213,COMP-0250,03-07-2024,03-09-2024,medium,feature_request,Custom workflow automation rules,
+TKT-001214,COMP-0250,06-23-2024,07-03-2024,medium,account,Remove former employee access,5
+TKT-001215,COMP-0251,04-09-2025,04-16-2025,MEDIUM,billing,Need to update payment method on file,5
+TKT-001216,COMP-0251,12-10-2024,12-18-2024,low,technical,Mobile app crashing on iOS 17,1
+TKT-001217,COMP-0251,03-27-2025,04-09-2025,medium,feature_request,Custom workflow automation rules,
+TKT-001218,COMP-0251,12-13-2024,12-20-2024,medium,feature_request,,3
+TKT-001219,COMP-0251,10-23-2024,10-29-2024,low,bug_report,Drag and drop not working in Chrome,3
+TKT-001220,COMP-0251,05-01-2024,05-02-2024,high,billing,Need to update payment method on file,4
+TKT-001221,COMP-0252,08-18-2024,08-19-2024,medium,onboarding,Migration assistance from competitor tool,2
+TKT-001222,COMP-0252,02-03-2024,02-09-2024,medium,onboarding,Migration assistance from competitor tool,
+TKT-001223,COMP-0252,06-02-2025,06-11-2025,high,onboarding,Training session request for team,4
+TKT-001224,COMP-0252,05-17-2025,05-23-2025,high,feature_request,,3
+TKT-001225,COMP-0252,05-31-2024,,high,technical,Webhook deliveries failing,
+TKT-001226,COMP-0253,01-05-2024,01-13-2024,high,feature_request,Would like bulk import from Excel,5
+TKT-001227,COMP-0253,01-02-2024,01-14-2024,high,bug_report,Search returning incorrect results,3
+TKT-001228,COMP-0253,01-24-2024,,high,feature_request,Need better reporting filters,5
+TKT-001229,COMP-0253,01-08-2024,01-12-2024,high,technical,,1
+TKT-001230,COMP-0254,03-16-2025,03-25-2025,medium,billing,Tax exemption certificate submission,4
+TKT-001231,COMP-0254,10-30-2024,11-12-2024,high,feature_request,Custom workflow automation rules,2
+TKT-001232,COMP-0254,05-13-2024,05-24-2024,high,account,Remove former employee access,2
+TKT-001233,COMP-0254,04-20-2024,04-23-2024,high,account,Remove former employee access,1
+TKT-001234,COMP-0254,01-20-2025,,medium,account,Remove former employee access,3
+TKT-001235,COMP-0254,12-12-2024,12-25-2024,medium,technical,Data export timing out for large datasets,
+TKT-001236,COMP-0254,11-13-2024,11-17-2024,high,bug_report,Attachment upload fails over 10 MB,1
+TKT-001237,COMP-0254,01-29-2025,02-04-2025,low,feature_request,,5
+TKT-001238,COMP-0254,07-12-2024,07-21-2024,high,bug_report,Search returning incorrect results,
+TKT-001239,COMP-0254,05-28-2024,06-09-2024,high,account,Add new team member to account,1
+TKT-001240,COMP-0254,09-02-2024,09-04-2024,high,feature_request,Would like bulk import from Excel,3
+TKT-001241,COMP-0254,04-21-2025,04-24-2025,high,account,Add new team member to account,5
+TKT-001242,COMP-0255,04-04-2025,04-07-2025,medium,billing,,
+TKT-001243,COMP-0255,11-10-2024,11-18-2024,critical,bug_report,Attachment upload fails over 10 MB,5
+TKT-001244,COMP-0255,06-18-2025,06-24-2025,high,billing,Cannot download invoice PDF,5
+TKT-001245,COMP-0255,07-13-2024,,critical,onboarding,Template setup assistance needed,5
+TKT-001246,COMP-0255,08-02-2024,08-03-2024,medium,feature_request,Would like bulk import from Excel,2
+TKT-001247,COMP-0256,03-13-2024,03-17-2024,medium,technical,API rate limit being hit unexpectedly,4
+TKT-001248,COMP-0256,02-10-2024,02-24-2024,low,billing,Requesting refund for unused period,3
+TKT-001249,COMP-0256,05-31-2024,06-04-2024,low,onboarding,Need help setting up first project,3
+TKT-001250,COMP-0256,06-06-2025,06-10-2025,low,bug_report,Attachment upload fails over 10 MB,4
+TKT-001251,COMP-0257,12-14-2024,12-19-2024,medium,feature_request,Custom workflow automation rules,
+TKT-001252,COMP-0257,12-31-2024,01-05-2025,low,onboarding,Migration assistance from competitor tool,4
+TKT-001253,COMP-0257,11-18-2024,11-21-2024,high,billing,Charges not matching the quoted price,5
+TKT-001254,COMP-0258,08-06-2024,,low,feature_request,Requesting custom field types,2
+TKT-001255,COMP-0258,03-09-2025,03-20-2025,medium,account,Remove former employee access,4
+TKT-001256,COMP-0258,03-12-2025,03-19-2025,high,feature_request,Would like bulk import from Excel,
+TKT-001257,COMP-0258,05-29-2025,06-12-2025,low,bug_report,Formatting lost when pasting from Word,4
+TKT-001258,COMP-0258,08-07-2024,08-17-2024,low,technical,SSO login failing intermittently,5
+TKT-001259,COMP-0259,06-08-2025,06-14-2025,low,onboarding,Need help setting up first project,5
+TKT-001260,COMP-0259,04-09-2025,04-14-2025,low,bug_report,,3
+TKT-001261,COMP-0260,04-13-2024,04-26-2024,medium,onboarding,Best practices documentation request,3
+TKT-001262,COMP-0260,06-14-2024,06-26-2024,medium,account,,4
+TKT-001263,COMP-0260,12-07-2024,12-17-2024,high,bug_report,Notifications arriving late,5
+TKT-001264,COMP-0260,01-26-2025,02-07-2025,medium,feature_request,Would like bulk import from Excel,4
+TKT-001265,COMP-0260,06-11-2024,06-17-2024,low,technical,Mobile app crashing on iOS 17,5
+TKT-001266,COMP-0260,06-11-2025,06-13-2025,medium,bug_report,Attachment upload fails over 10 MB,4
+TKT-001267,COMP-0260,01-21-2025,01-25-2025,medium,feature_request,Requesting custom field types,4
+TKT-001268,COMP-0261,02-03-2024,02-04-2024,medium,bug_report,Formatting lost when pasting from Word,2
+TKT-001269,COMP-0261,12-22-2024,12-30-2024,high,technical,Integration with Slack is not syncing,1
+TKT-001270,COMP-0261,07-19-2024,07-23-2024,medium,feature_request,Dark mode support requested,3
+TKT-001271,COMP-0261,07-21-2024,08-02-2024,high,onboarding,Need help setting up first project,3
+TKT-001272,COMP-0261,10-15-2024,10-22-2024,critical,account,Account permissions not working correctly,
+TKT-001273,COMP-0261,01-09-2024,01-23-2024,medium,account,Account permissions not working correctly,
+TKT-001274,COMP-0261,01-07-2025,01-19-2025,LOW,bug_report,Formatting lost when pasting from Word,
+TKT-001275,COMP-0262,02-22-2025,,LOW,billing,Charges not matching the quoted price,5
+TKT-001276,COMP-0262,03-16-2025,03-20-2025,low,billing,Need to update payment method on file,
+TKT-001277,COMP-0262,12-24-2024,12-30-2024,low,onboarding,Best practices documentation request,3
+TKT-001278,COMP-0262,06-02-2025,06-08-2025,low,bug_report,Notifications arriving late,3
+TKT-001279,COMP-0262,02-26-2025,02-27-2025,high,technical,Mobile app crashing on iOS 17,3
+TKT-001280,COMP-0262,02-17-2025,02-27-2025,low,onboarding,Training session request for team,
+TKT-001281,COMP-0262,02-28-2025,,low,feature_request,,4
+TKT-001282,COMP-0262,03-31-2025,04-03-2025,medium,account,Account permissions not working correctly,3
+TKT-001283,COMP-0262,01-21-2025,01-26-2025,medium,billing,Need to update payment method on file,2
+TKT-001284,COMP-0263,09-24-2024,10-07-2024,high,onboarding,Training session request for team,3
+TKT-001285,COMP-0263,03-18-2025,03-20-2025,high,technical,Error 500 when accessing the dashboard,5
+TKT-001286,COMP-0263,05-20-2024,05-27-2024,high,technical,Mobile app crashing on iOS 17,3
+TKT-001287,COMP-0263,03-17-2024,03-23-2024,low,feature_request,Need better reporting filters,5
+TKT-001288,COMP-0263,02-22-2024,02-26-2024,low,account,,5
+TKT-001289,COMP-0263,08-28-2024,09-08-2024,medium,onboarding,Need help setting up first project,3
+TKT-001290,COMP-0263,11-25-2024,12-07-2024,medium,onboarding,Training session request for team,
+TKT-001291,COMP-0263,06-05-2024,06-13-2024,medium,bug_report,Calendar sync showing wrong timezone,5
+TKT-001292,COMP-0263,06-09-2025,06-12-2025,medium,billing,Need to update payment method on file,5
+TKT-001293,COMP-0264,11-08-2024,,MEDIUM,bug_report,Formatting lost when pasting from Word,3
+TKT-001294,COMP-0264,04-30-2025,05-09-2025,high,technical,,3
+TKT-001295,COMP-0265,01-11-2024,01-12-2024,medium,feature_request,Need better reporting filters,
+TKT-001296,COMP-0265,05-16-2025,05-28-2025,low,feature_request,Need Gantt chart view for projects,2
+TKT-001297,COMP-0265,04-30-2024,05-13-2024,medium,account,Add new team member to account,5
+TKT-001298,COMP-0265,08-02-2024,08-15-2024,low,billing,Billing cycle change request,
+TKT-001299,COMP-0265,07-07-2024,07-16-2024,medium,onboarding,Template setup assistance needed,
+TKT-001300,COMP-0265,11-30-2024,12-01-2024,medium,technical,Data export timing out for large datasets,2
+TKT-001301,COMP-0266,05-20-2024,05-26-2024,high,bug_report,Drag and drop not working in Chrome,3
+TKT-001302,COMP-0266,02-27-2025,03-06-2025,medium,technical,Webhook deliveries failing,4
+TKT-001303,COMP-0266,06-03-2024,06-15-2024,low,onboarding,Need help setting up first project,4
+TKT-001304,COMP-0267,10-19-2024,11-02-2024,medium,feature_request,Dark mode support requested,4
+TKT-001305,COMP-0267,05-29-2024,06-02-2024,low,feature_request,Custom workflow automation rules,3
+TKT-001306,COMP-0267,02-14-2025,,medium,billing,Tax exemption certificate submission,3
+TKT-001307,COMP-0267,06-27-2024,07-03-2024,low,billing,Billing cycle change request,5
+TKT-001308,COMP-0267,10-04-2024,10-06-2024,low,technical,SSO login failing intermittently,3
+TKT-001309,COMP-0268,02-05-2024,02-16-2024,low,billing,Need to update payment method on file,4
+TKT-001310,COMP-0268,06-21-2025,06-30-2025,medium,feature_request,,5
+TKT-001311,COMP-0268,03-08-2025,03-20-2025,low,feature_request,Custom workflow automation rules,3
+TKT-001312,COMP-0269,04-18-2024,04-24-2024,high,account,Remove former employee access,3
+TKT-001313,COMP-0269,09-05-2024,09-07-2024,high,bug_report,Notifications arriving late,
+TKT-001314,COMP-0269,08-02-2024,08-08-2024,low,billing,Billing cycle change request,3
+TKT-001315,COMP-0269,11-02-2024,11-07-2024,high,billing,Invoice discrepancy for last month,1
+TKT-001316,COMP-0269,04-04-2024,04-05-2024,critical,onboarding,Training session request for team,3
+TKT-001317,COMP-0270,06-18-2025,06-20-2025,low,billing,Invoice discrepancy for last month,2
+TKT-001318,COMP-0270,09-02-2024,09-11-2024,medium,feature_request,Requesting custom field types,
+TKT-001319,COMP-0270,11-04-2024,11-14-2024,low,feature_request,Dark mode support requested,
+TKT-001320,COMP-0270,03-18-2025,03-27-2025,low,account,Need to merge duplicate accounts,5
+TKT-001321,COMP-0270,04-05-2025,,medium,onboarding,Migration assistance from competitor tool,3
+TKT-001322,COMP-0271,06-04-2025,06-13-2025,medium,account,,3
+TKT-001323,COMP-0271,09-27-2024,09-28-2024,medium,technical,Application loading slowly for our team,4
+TKT-001324,COMP-0272,05-26-2025,05-29-2025,medium,billing,Tax exemption certificate submission,5
+TKT-001325,COMP-0272,06-05-2024,06-09-2024,high,account,Add new team member to account,4
+TKT-001326,COMP-0272,10-29-2024,11-03-2024,LOW,technical,SSO login failing intermittently,5
+TKT-001327,COMP-0272,08-19-2024,08-28-2024,medium,onboarding,Best practices documentation request,
+TKT-001328,COMP-0272,02-13-2024,02-16-2024,medium,account,Change primary admin contact,
+TKT-001329,COMP-0272,03-30-2024,04-06-2024,low,onboarding,Template setup assistance needed,4
+TKT-001330,COMP-0273,12-15-2024,12-29-2024,medium,technical,Application loading slowly for our team,4
+TKT-001331,COMP-0273,03-29-2025,03-30-2025,high,feature_request,Would like bulk import from Excel,
+TKT-001332,COMP-0273,04-20-2025,04-30-2025,high,technical,Application loading slowly for our team,3
+TKT-001333,COMP-0273,03-10-2025,03-24-2025,medium,account,Need to merge duplicate accounts,5
+TKT-001334,COMP-0273,11-13-2024,11-26-2024,high,account,Add new team member to account,4
+TKT-001335,COMP-0273,12-21-2024,01-02-2025,medium,feature_request,Dark mode support requested,3
+TKT-001336,COMP-0273,06-04-2025,06-12-2025,critical,technical,Data export timing out for large datasets,2
+TKT-001337,COMP-0274,10-24-2024,11-03-2024,high,account,,2
+TKT-001338,COMP-0274,10-24-2024,11-05-2024,low,onboarding,Template setup assistance needed,
+TKT-001339,COMP-0274,09-05-2024,09-11-2024,critical,feature_request,Custom workflow automation rules,3
+TKT-001340,COMP-0274,02-02-2025,02-15-2025,critical,onboarding,Best practices documentation request,3
+TKT-001341,COMP-0274,01-17-2025,01-31-2025,low,billing,Tax exemption certificate submission,
+TKT-001342,COMP-0274,09-09-2024,09-14-2024,low,onboarding,Template setup assistance needed,4
+TKT-001343,COMP-0274,01-16-2025,01-26-2025,critical,technical,,3
+TKT-001344,COMP-0274,01-18-2025,01-25-2025,medium,billing,Charges not matching the quoted price,1
+TKT-001345,COMP-0274,03-24-2025,,high,billing,Invoice discrepancy for last month,2
+TKT-001346,COMP-0275,01-02-2025,01-05-2025,medium,feature_request,Need Gantt chart view for projects,5
+TKT-001347,COMP-0275,09-18-2024,09-20-2024,medium,technical,Error 500 when accessing the dashboard,
+TKT-001348,COMP-0275,05-23-2025,05-29-2025,medium,billing,Invoice discrepancy for last month,4
+TKT-001349,COMP-0275,05-15-2025,05-23-2025,high,bug_report,Formatting lost when pasting from Word,5
+TKT-001350,COMP-0275,05-18-2024,06-01-2024,medium,onboarding,Need help setting up first project,
+TKT-001351,COMP-0275,07-24-2024,07-28-2024,low,technical,SSO login failing intermittently,3
+TKT-001352,COMP-0275,06-23-2025,06-30-2025,low,feature_request,Need Gantt chart view for projects,5
+TKT-001353,COMP-0275,05-15-2024,05-21-2024,medium,feature_request,Would like bulk import from Excel,
+TKT-001354,COMP-0275,03-01-2025,03-11-2025,critical,onboarding,Template setup assistance needed,1
+TKT-001355,COMP-0275,06-25-2024,06-28-2024,medium,account,,4
+TKT-001356,COMP-0275,09-04-2024,09-12-2024,medium,onboarding,Need help setting up first project,4
+TKT-001357,COMP-0276,04-07-2024,04-13-2024,medium,account,,4
+TKT-001358,COMP-0276,05-07-2025,05-19-2025,critical,account,Remove former employee access,1
+TKT-001359,COMP-0276,05-19-2025,,low,billing,Charges not matching the quoted price,5
+TKT-001360,COMP-0276,06-26-2024,06-29-2024,low,bug_report,Calendar sync showing wrong timezone,1
+TKT-001361,COMP-0276,09-18-2024,09-27-2024,low,account,Need to merge duplicate accounts,4
+TKT-001362,COMP-0276,05-26-2025,06-07-2025,low,account,Change primary admin contact,2
+TKT-001363,COMP-0276,04-08-2024,,low,account,Need to merge duplicate accounts,
+TKT-001364,COMP-0277,05-02-2025,,medium,technical,Integration with Slack is not syncing,3
+TKT-001365,COMP-0277,10-09-2024,10-12-2024,critical,billing,Tax exemption certificate submission,4
+TKT-001366,COMP-0277,12-31-2024,01-11-2025,low,billing,Tax exemption certificate submission,4
+TKT-001367,COMP-0277,03-20-2024,03-22-2024,MEDIUM,bug_report,Calendar sync showing wrong timezone,5
+TKT-001368,COMP-0277,04-13-2025,04-17-2025,low,account,Change primary admin contact,
+TKT-001369,COMP-0278,11-28-2024,,CRITICAL,feature_request,Need Gantt chart view for projects,5
+TKT-001370,COMP-0278,04-16-2025,,high,bug_report,Drag and drop not working in Chrome,2
+TKT-001371,COMP-0279,07-17-2024,07-18-2024,low,onboarding,Training session request for team,4
+TKT-001372,COMP-0279,02-06-2025,,low,account,Remove former employee access,4
+TKT-001373,COMP-0279,11-14-2024,,medium,billing,Cannot download invoice PDF,
+TKT-001374,COMP-0279,03-25-2025,03-31-2025,high,feature_request,Custom workflow automation rules,5
+TKT-001375,COMP-0280,03-15-2025,03-18-2025,high,onboarding,Migration assistance from competitor tool,4
+TKT-001376,COMP-0280,06-15-2024,06-23-2024,high,technical,Error 500 when accessing the dashboard,4
+TKT-001377,COMP-0280,09-23-2024,09-26-2024,low,billing,Charges not matching the quoted price,3
+TKT-001378,COMP-0281,02-15-2024,02-23-2024,medium,technical,Error 500 when accessing the dashboard,2
+TKT-001379,COMP-0281,04-15-2025,04-27-2025,high,bug_report,Calendar sync showing wrong timezone,
+TKT-001380,COMP-0281,09-13-2024,09-19-2024,high,feature_request,Custom workflow automation rules,5
+TKT-001381,COMP-0281,01-20-2025,01-25-2025,medium,onboarding,Best practices documentation request,5
+TKT-001382,COMP-0282,07-06-2024,07-11-2024,high,technical,,2
+TKT-001383,COMP-0282,12-09-2024,12-21-2024,medium,billing,Cannot download invoice PDF,1
+TKT-001384,COMP-0282,07-07-2024,07-10-2024,medium,billing,Requesting refund for unused period,4
+TKT-001385,COMP-0283,12-17-2024,12-24-2024,low,billing,Need to update payment method on file,3
+TKT-001386,COMP-0283,06-22-2024,06-25-2024,high,billing,Tax exemption certificate submission,3
+TKT-001387,COMP-0283,04-18-2024,04-20-2024,low,feature_request,Would like bulk import from Excel,2
+TKT-001388,COMP-0283,01-24-2025,02-06-2025,medium,feature_request,Need Gantt chart view for projects,3
+TKT-001389,COMP-0283,03-11-2024,03-21-2024,high,feature_request,,
+TKT-001390,COMP-0283,06-14-2025,,low,onboarding,Template setup assistance needed,3
+TKT-001391,COMP-0284,02-26-2024,02-29-2024,low,onboarding,Template setup assistance needed,5
+TKT-001392,COMP-0284,11-20-2024,12-03-2024,medium,bug_report,Calendar sync showing wrong timezone,4
+TKT-001393,COMP-0284,05-12-2024,05-25-2024,medium,bug_report,Formatting lost when pasting from Word,4
+TKT-001394,COMP-0284,03-23-2025,04-04-2025,high,onboarding,Migration assistance from competitor tool,4
+TKT-001395,COMP-0284,04-08-2024,04-14-2024,high,feature_request,,
+TKT-001396,COMP-0284,04-11-2024,04-17-2024,medium,bug_report,Formatting lost when pasting from Word,
+TKT-001397,COMP-0284,06-03-2024,06-12-2024,medium,technical,Application loading slowly for our team,
+TKT-001398,COMP-0285,03-13-2025,03-16-2025,medium,billing,Tax exemption certificate submission,
+TKT-001399,COMP-0285,06-03-2025,06-04-2025,medium,account,Add new team member to account,
+TKT-001400,COMP-0285,02-20-2025,03-03-2025,high,billing,Cannot download invoice PDF,3
+TKT-001401,COMP-0285,02-26-2025,02-27-2025,low,billing,Need to update payment method on file,4
+TKT-001402,COMP-0285,02-01-2025,02-03-2025,medium,account,Change primary admin contact,1
+TKT-001403,COMP-0286,08-28-2024,09-07-2024,medium,technical,Data export timing out for large datasets,
+TKT-001404,COMP-0286,03-09-2025,03-11-2025,low,feature_request,Need Gantt chart view for projects,2
+TKT-001405,COMP-0286,06-05-2025,06-17-2025,low,bug_report,Attachment upload fails over 10 MB,3
+TKT-001406,COMP-0286,09-22-2024,10-05-2024,low,feature_request,Dark mode support requested,3
+TKT-001407,COMP-0286,04-07-2025,04-21-2025,medium,feature_request,Need better reporting filters,4
+TKT-001408,COMP-0286,10-20-2024,10-22-2024,low,bug_report,,4
+TKT-001409,COMP-0286,11-20-2024,11-22-2024,medium,account,Add new team member to account,4
+TKT-001410,COMP-0286,07-22-2024,07-26-2024,medium,bug_report,Search returning incorrect results,2
+TKT-001411,COMP-0286,04-07-2025,04-09-2025,medium,feature_request,Custom workflow automation rules,5
+TKT-001412,COMP-0286,12-03-2024,12-09-2024,high,billing,Invoice discrepancy for last month,
+TKT-001413,COMP-0286,09-30-2024,,high,feature_request,Dark mode support requested,3
+TKT-001414,COMP-0286,01-22-2025,01-24-2025,medium,bug_report,Search returning incorrect results,5
+TKT-001415,COMP-0287,03-09-2025,03-10-2025,MEDIUM,onboarding,Training session request for team,3
+TKT-001416,COMP-0287,06-15-2025,06-28-2025,medium,onboarding,Template setup assistance needed,3
+TKT-001417,COMP-0287,04-06-2025,04-10-2025,low,bug_report,Attachment upload fails over 10 MB,
+TKT-001418,COMP-0287,03-31-2024,,medium,onboarding,Need help setting up first project,5
+TKT-001419,COMP-0288,06-07-2024,06-12-2024,high,bug_report,Calendar sync showing wrong timezone,3
+TKT-001420,COMP-0288,04-08-2025,04-14-2025,high,bug_report,,1
+TKT-001421,COMP-0288,01-17-2024,01-22-2024,LOW,bug_report,Drag and drop not working in Chrome,5
+TKT-001422,COMP-0288,06-10-2025,06-20-2025,medium,bug_report,Notifications arriving late,4
+TKT-001423,COMP-0289,12-25-2024,12-28-2024,medium,technical,Mobile app crashing on iOS 17,3
+TKT-001424,COMP-0289,12-14-2024,12-16-2024,medium,onboarding,Need help setting up first project,1
+TKT-001425,COMP-0290,01-25-2024,01-27-2024,high,onboarding,Best practices documentation request,
+TKT-001426,COMP-0290,07-29-2024,08-02-2024,high,technical,API rate limit being hit unexpectedly,3
+TKT-001427,COMP-0290,05-12-2024,05-24-2024,medium,billing,Need to update payment method on file,3
+TKT-001428,COMP-0290,03-11-2025,03-24-2025,low,bug_report,Calendar sync showing wrong timezone,2
+TKT-001429,COMP-0290,08-07-2024,08-19-2024,critical,technical,Application loading slowly for our team,3
+TKT-001430,COMP-0290,06-26-2024,,medium,onboarding,Need help setting up first project,
+TKT-001431,COMP-0290,01-23-2025,,high,onboarding,Best practices documentation request,1
+TKT-001432,COMP-0290,10-30-2024,11-11-2024,low,feature_request,Need Gantt chart view for projects,2
+TKT-001433,COMP-0291,04-28-2025,05-05-2025,critical,billing,Need to update payment method on file,5
+TKT-001434,COMP-0291,08-10-2024,08-14-2024,low,feature_request,Dark mode support requested,
+TKT-001435,COMP-0291,07-05-2024,07-10-2024,low,billing,Tax exemption certificate submission,4
+TKT-001436,COMP-0291,01-04-2024,01-07-2024,low,feature_request,Custom workflow automation rules,4
+TKT-001437,COMP-0291,07-23-2024,07-30-2024,high,billing,,2
+TKT-001438,COMP-0291,06-23-2025,06-29-2025,medium,onboarding,Best practices documentation request,3
+TKT-001439,COMP-0291,06-14-2024,06-20-2024,high,technical,API rate limit being hit unexpectedly,3
+TKT-001440,COMP-0292,05-18-2024,05-24-2024,medium,bug_report,,5
+TKT-001441,COMP-0292,11-20-2024,12-01-2024,low,billing,Charges not matching the quoted price,4
+TKT-001442,COMP-0292,02-19-2024,03-04-2024,high,feature_request,Dark mode support requested,4
+TKT-001443,COMP-0292,03-25-2025,04-04-2025,critical,technical,Integration with Slack is not syncing,4
+TKT-001444,COMP-0292,09-06-2024,09-15-2024,high,onboarding,Template setup assistance needed,3
+TKT-001445,COMP-0292,10-31-2024,11-11-2024,medium,onboarding,Training session request for team,2
+TKT-001446,COMP-0293,10-27-2024,11-04-2024,low,account,Need to merge duplicate accounts,2
+TKT-001447,COMP-0293,09-03-2024,09-09-2024,high,technical,,4
+TKT-001448,COMP-0293,11-22-2024,11-24-2024,low,bug_report,Attachment upload fails over 10 MB,
+TKT-001449,COMP-0293,11-03-2024,11-11-2024,high,technical,Error 500 when accessing the dashboard,
+TKT-001450,COMP-0293,09-08-2024,09-16-2024,medium,bug_report,Attachment upload fails over 10 MB,3
+TKT-001451,COMP-0293,10-10-2024,10-19-2024,low,account,,3
+TKT-001452,COMP-0294,03-27-2024,04-03-2024,low,feature_request,Requesting custom field types,5
+TKT-001453,COMP-0294,05-06-2025,05-14-2025,medium,technical,Application loading slowly for our team,3
+TKT-001454,COMP-0294,09-07-2024,09-08-2024,medium,billing,,1
+TKT-001455,COMP-0294,07-05-2024,07-14-2024,high,onboarding,Template setup assistance needed,4
+TKT-001456,COMP-0295,09-09-2024,09-22-2024,medium,onboarding,Need help setting up first project,3
+TKT-001457,COMP-0295,07-29-2024,08-01-2024,medium,account,Add new team member to account,3
+TKT-001458,COMP-0295,12-03-2024,12-06-2024,low,billing,Need to update payment method on file,4
+TKT-001459,COMP-0296,06-09-2024,06-12-2024,medium,technical,API rate limit being hit unexpectedly,
+TKT-001460,COMP-0296,05-13-2024,05-20-2024,high,onboarding,Best practices documentation request,
+TKT-001461,COMP-0296,12-31-2024,01-06-2025,medium,technical,Data export timing out for large datasets,
+TKT-001462,COMP-0296,05-15-2025,05-27-2025,medium,bug_report,Attachment upload fails over 10 MB,
+TKT-001463,COMP-0296,09-20-2024,09-22-2024,low,technical,,4
+TKT-001464,COMP-0296,01-17-2025,01-21-2025,medium,onboarding,Need help setting up first project,3
+TKT-001465,COMP-0296,03-27-2024,03-29-2024,high,technical,Mobile app crashing on iOS 17,3
+TKT-001466,COMP-0296,10-21-2024,10-28-2024,high,bug_report,Attachment upload fails over 10 MB,4
+TKT-001467,COMP-0296,05-04-2024,05-06-2024,critical,account,,
+TKT-001468,COMP-0297,06-09-2024,06-16-2024,medium,feature_request,Need Gantt chart view for projects,1
+TKT-001469,COMP-0297,05-09-2024,05-23-2024,low,technical,Error 500 when accessing the dashboard,
+TKT-001470,COMP-0297,01-09-2024,01-22-2024,medium,technical,SSO login failing intermittently,4
+TKT-001471,COMP-0297,04-08-2024,04-19-2024,high,billing,Invoice discrepancy for last month,5
+TKT-001472,COMP-0297,05-15-2024,05-16-2024,high,account,,1
+TKT-001473,COMP-0297,01-09-2024,01-19-2024,medium,onboarding,Best practices documentation request,3
+TKT-001474,COMP-0297,08-16-2024,08-30-2024,low,account,Need to merge duplicate accounts,2
+TKT-001475,COMP-0297,05-17-2024,05-23-2024,critical,bug_report,Notifications arriving late,1
+TKT-001476,COMP-0297,08-18-2024,08-31-2024,high,feature_request,Custom workflow automation rules,5
+TKT-001477,COMP-0297,01-09-2024,01-12-2024,high,billing,Requesting refund for unused period,1
+TKT-001478,COMP-0297,06-15-2024,06-21-2024,high,feature_request,Need Gantt chart view for projects,
+TKT-001479,COMP-0298,09-17-2024,09-26-2024,high,feature_request,Custom workflow automation rules,5
+TKT-001480,COMP-0298,04-29-2025,,low,onboarding,Need help setting up first project,2
+TKT-001481,COMP-0298,06-23-2024,06-29-2024,high,technical,SSO login failing intermittently,3
+TKT-001482,COMP-0298,07-12-2024,07-22-2024,medium,feature_request,,2
+TKT-001483,COMP-0298,05-12-2025,05-13-2025,high,feature_request,Would like bulk import from Excel,3
+TKT-001484,COMP-0298,03-07-2025,03-08-2025,medium,technical,SSO login failing intermittently,2
+TKT-001485,COMP-0298,02-06-2024,02-17-2024,MEDIUM,feature_request,Requesting custom field types,4
+TKT-001486,COMP-0299,05-08-2025,05-22-2025,low,feature_request,Requesting custom field types,5
+TKT-001487,COMP-0299,04-25-2024,05-09-2024,MEDIUM,technical,Integration with Slack is not syncing,5
+TKT-001488,COMP-0299,10-27-2024,10-30-2024,critical,feature_request,Requesting custom field types,5
+TKT-001489,COMP-0299,07-01-2024,07-13-2024,low,feature_request,Dark mode support requested,2
+TKT-001490,COMP-0300,06-22-2025,06-25-2025,low,feature_request,Would like bulk import from Excel,3
+TKT-001491,COMP-0300,02-17-2025,02-23-2025,medium,account,Remove former employee access,
+TKT-001492,COMP-0300,01-21-2025,01-24-2025,low,onboarding,Need help setting up first project,2
+TKT-001493,COMP-0300,02-03-2025,02-13-2025,low,onboarding,Training session request for team,4
+TKT-001494,COMP-0300,05-09-2025,05-14-2025,low,account,Account permissions not working correctly,1
+TKT-001495,COMP-0300,11-24-2024,12-05-2024,medium,billing,Requesting refund for unused period,5
+TKT-001496,COMP-0300,11-05-2024,11-14-2024,medium,account,Add new team member to account,5
+TKT-001497,COMP-0300,01-03-2025,01-12-2025,high,account,Remove former employee access,1
+TKT-001498,COMP-0301,05-25-2024,06-01-2024,low,billing,Requesting refund for unused period,4
+TKT-001499,COMP-0301,03-22-2025,04-04-2025,medium,feature_request,Would like bulk import from Excel,3
+TKT-001500,COMP-0301,06-03-2025,06-09-2025,medium,billing,Need to update payment method on file,
+TKT-001501,COMP-0301,02-07-2025,02-17-2025,medium,billing,Charges not matching the quoted price,4
+TKT-001502,COMP-0302,11-04-2024,,low,account,Remove former employee access,5
+TKT-001503,COMP-0302,02-08-2025,02-12-2025,medium,technical,Mobile app crashing on iOS 17,
+TKT-001504,COMP-0303,01-05-2025,,high,billing,Need to update payment method on file,3
+TKT-001505,COMP-0304,03-21-2025,03-29-2025,high,feature_request,Would like bulk import from Excel,
+TKT-001506,COMP-0304,05-03-2025,,low,bug_report,Notifications arriving late,4
+TKT-001507,COMP-0304,04-17-2025,04-21-2025,medium,bug_report,Search returning incorrect results,
+TKT-001508,COMP-0304,05-12-2025,05-18-2025,high,billing,Charges not matching the quoted price,5
+TKT-001509,COMP-0304,04-10-2025,04-18-2025,low,account,,
+TKT-001510,COMP-0304,04-08-2025,04-22-2025,medium,billing,Tax exemption certificate submission,4
+TKT-001511,COMP-0305,05-01-2024,05-14-2024,low,bug_report,Formatting lost when pasting from Word,2
+TKT-001512,COMP-0305,06-14-2024,06-18-2024,low,billing,Requesting refund for unused period,
+TKT-001513,COMP-0305,04-12-2024,04-25-2024,medium,bug_report,Notifications arriving late,1
+TKT-001514,COMP-0305,02-27-2024,02-28-2024,critical,billing,Invoice discrepancy for last month,1
+TKT-001515,COMP-0305,03-18-2024,03-27-2024,high,account,Change primary admin contact,4
+TKT-001516,COMP-0305,02-03-2024,02-11-2024,high,billing,Invoice discrepancy for last month,1
+TKT-001517,COMP-0305,06-20-2024,06-22-2024,medium,feature_request,Requesting custom field types,4
+TKT-001518,COMP-0305,05-24-2024,,medium,bug_report,Notifications arriving late,2
+TKT-001519,COMP-0305,05-25-2024,05-28-2024,critical,technical,Mobile app crashing on iOS 17,
+TKT-001520,COMP-0305,06-20-2024,,low,feature_request,Requesting custom field types,2
+TKT-001521,COMP-0305,03-29-2024,04-03-2024,high,account,Add new team member to account,3
+TKT-001522,COMP-0305,05-25-2024,05-28-2024,low,feature_request,,2
+TKT-001523,COMP-0306,11-16-2024,11-19-2024,high,technical,Application loading slowly for our team,
+TKT-001524,COMP-0306,09-15-2024,09-28-2024,medium,account,Account permissions not working correctly,1
+TKT-001525,COMP-0306,02-17-2024,02-21-2024,medium,bug_report,Notifications arriving late,
+TKT-001526,COMP-0306,02-13-2025,02-24-2025,medium,account,Change primary admin contact,5
+TKT-001527,COMP-0306,04-25-2024,04-27-2024,medium,account,Add new team member to account,5
+TKT-001528,COMP-0306,12-28-2024,12-29-2024,critical,billing,Billing cycle change request,5
+TKT-001529,COMP-0306,07-09-2024,07-22-2024,low,technical,Mobile app crashing on iOS 17,
+TKT-001530,COMP-0306,08-15-2024,08-28-2024,high,onboarding,Best practices documentation request,
+TKT-001531,COMP-0307,10-23-2024,10-31-2024,medium,technical,Data export timing out for large datasets,3
+TKT-001532,COMP-0307,09-07-2024,09-10-2024,low,bug_report,Formatting lost when pasting from Word,2
+TKT-001533,COMP-0308,03-06-2024,03-07-2024,low,technical,Application loading slowly for our team,3
+TKT-001534,COMP-0308,11-02-2024,11-15-2024,medium,bug_report,Calendar sync showing wrong timezone,4
+TKT-001535,COMP-0308,06-01-2025,06-15-2025,medium,bug_report,Attachment upload fails over 10 MB,4
+TKT-001536,COMP-0309,12-11-2024,12-23-2024,high,billing,Invoice discrepancy for last month,3
+TKT-001537,COMP-0309,10-15-2024,10-28-2024,medium,onboarding,Need help setting up first project,5
+TKT-001538,COMP-0309,06-19-2024,06-27-2024,low,onboarding,Migration assistance from competitor tool,4
+TKT-001539,COMP-0310,02-01-2024,02-11-2024,low,bug_report,Calendar sync showing wrong timezone,4
+TKT-001540,COMP-0310,12-22-2024,12-31-2024,medium,onboarding,Template setup assistance needed,3
+TKT-001541,COMP-0310,06-11-2024,06-19-2024,medium,feature_request,,1
+TKT-001542,COMP-0310,03-26-2024,04-03-2024,high,account,,4
+TKT-001543,COMP-0310,02-15-2025,02-16-2025,low,feature_request,Dark mode support requested,1
+TKT-001544,COMP-0310,08-26-2024,,high,bug_report,Attachment upload fails over 10 MB,3
+TKT-001545,COMP-0310,03-02-2025,03-16-2025,critical,feature_request,Dark mode support requested,
+TKT-001546,COMP-0310,02-15-2024,02-24-2024,medium,billing,Invoice discrepancy for last month,4
+TKT-001547,COMP-0311,09-21-2024,,high,feature_request,,3
+TKT-001548,COMP-0311,06-15-2025,06-22-2025,CRITICAL,billing,,5
+TKT-001549,COMP-0311,04-10-2025,04-21-2025,low,technical,Application loading slowly for our team,
+TKT-001550,COMP-0311,03-18-2024,03-21-2024,low,bug_report,Search returning incorrect results,4
+TKT-001551,COMP-0311,06-15-2025,06-28-2025,low,feature_request,Custom workflow automation rules,
+TKT-001552,COMP-0311,04-27-2024,05-07-2024,medium,technical,SSO login failing intermittently,5
+TKT-001553,COMP-0311,01-18-2024,,LOW,feature_request,Requesting custom field types,
+TKT-001554,COMP-0311,11-17-2024,11-23-2024,medium,billing,Cannot download invoice PDF,3
+TKT-001555,COMP-0312,07-13-2024,07-14-2024,low,technical,Error 500 when accessing the dashboard,
+TKT-001556,COMP-0312,06-13-2024,06-14-2024,low,feature_request,Custom workflow automation rules,4
+TKT-001557,COMP-0312,10-12-2024,10-26-2024,medium,technical,Application loading slowly for our team,4
+TKT-001558,COMP-0313,11-08-2024,11-20-2024,low,feature_request,,3
+TKT-001559,COMP-0313,08-05-2024,08-09-2024,medium,technical,API rate limit being hit unexpectedly,
+TKT-001560,COMP-0314,03-18-2025,03-31-2025,high,bug_report,Notifications arriving late,4
+TKT-001561,COMP-0314,12-01-2024,,critical,feature_request,Need better reporting filters,3
+TKT-001562,COMP-0314,04-16-2025,04-23-2025,high,account,Change primary admin contact,3
+TKT-001563,COMP-0314,12-23-2024,01-02-2025,critical,feature_request,Dark mode support requested,1
+TKT-001564,COMP-0314,11-14-2024,11-18-2024,critical,account,,
+TKT-001565,COMP-0314,04-30-2025,05-07-2025,high,account,Change primary admin contact,
+TKT-001566,COMP-0314,04-30-2025,05-11-2025,high,account,Change primary admin contact,5
+TKT-001567,COMP-0315,02-17-2025,02-23-2025,critical,account,Account permissions not working correctly,
+TKT-001568,COMP-0315,08-06-2024,08-10-2024,medium,technical,Integration with Slack is not syncing,
+TKT-001569,COMP-0315,10-01-2024,10-02-2024,LOW,onboarding,Best practices documentation request,4
+TKT-001570,COMP-0315,08-25-2024,,medium,bug_report,Attachment upload fails over 10 MB,4
+TKT-001571,COMP-0316,04-05-2024,04-18-2024,high,bug_report,Drag and drop not working in Chrome,3
+TKT-001572,COMP-0316,02-01-2024,02-14-2024,low,account,Remove former employee access,3
+TKT-001573,COMP-0316,03-09-2024,03-21-2024,medium,billing,Need to update payment method on file,1
+TKT-001574,COMP-0316,03-17-2024,03-21-2024,medium,technical,Application loading slowly for our team,1
+TKT-001575,COMP-0316,03-20-2024,03-26-2024,medium,onboarding,Need help setting up first project,
+TKT-001576,COMP-0316,03-09-2024,03-22-2024,critical,account,Change primary admin contact,3
+TKT-001577,COMP-0317,02-22-2024,03-07-2024,medium,account,,
+TKT-001578,COMP-0317,03-06-2025,03-13-2025,critical,bug_report,Drag and drop not working in Chrome,
+TKT-001579,COMP-0317,04-08-2025,04-14-2025,low,feature_request,Need better reporting filters,5
+TKT-001580,COMP-0318,12-13-2024,12-15-2024,low,technical,API rate limit being hit unexpectedly,4
+TKT-001581,COMP-0318,03-21-2025,04-02-2025,high,onboarding,Need help setting up first project,4
+TKT-001582,COMP-0318,09-21-2024,09-25-2024,low,technical,Error 500 when accessing the dashboard,5
+TKT-001583,COMP-0318,12-22-2024,01-05-2025,medium,bug_report,Drag and drop not working in Chrome,
+TKT-001584,COMP-0319,03-02-2025,03-08-2025,medium,bug_report,Attachment upload fails over 10 MB,3
+TKT-001585,COMP-0320,03-31-2024,04-05-2024,high,account,Account permissions not working correctly,1
+TKT-001586,COMP-0320,04-28-2024,05-06-2024,critical,technical,API rate limit being hit unexpectedly,5
+TKT-001587,COMP-0320,08-06-2024,08-09-2024,high,bug_report,Notifications arriving late,2
+TKT-001588,COMP-0320,01-17-2024,01-24-2024,medium,bug_report,Formatting lost when pasting from Word,3
+TKT-001589,COMP-0320,06-02-2024,06-11-2024,medium,onboarding,Need help setting up first project,2
+TKT-001590,COMP-0321,01-22-2024,01-26-2024,medium,billing,Cannot download invoice PDF,
+TKT-001591,COMP-0321,09-25-2024,09-30-2024,medium,technical,,
+TKT-001592,COMP-0321,02-21-2025,02-25-2025,high,account,Add new team member to account,4
+TKT-001593,COMP-0321,03-17-2024,03-27-2024,low,onboarding,Best practices documentation request,4
+TKT-001594,COMP-0322,05-31-2024,06-13-2024,low,account,Change primary admin contact,5
+TKT-001595,COMP-0322,03-26-2024,,high,account,Account permissions not working correctly,4
+TKT-001596,COMP-0322,06-16-2024,06-26-2024,low,onboarding,Migration assistance from competitor tool,4
+TKT-001597,COMP-0322,08-13-2024,08-17-2024,low,feature_request,Need better reporting filters,
+TKT-001598,COMP-0322,03-24-2024,,critical,onboarding,Migration assistance from competitor tool,5
+TKT-001599,COMP-0322,01-16-2024,,low,technical,,5
+TKT-001600,COMP-0322,04-11-2025,04-12-2025,critical,technical,SSO login failing intermittently,4
+TKT-001601,COMP-0322,09-08-2024,09-16-2024,low,bug_report,Calendar sync showing wrong timezone,5
+TKT-001602,COMP-0322,02-28-2024,03-07-2024,low,account,Add new team member to account,1
+TKT-001603,COMP-0323,10-22-2024,11-05-2024,medium,account,Add new team member to account,3
+TKT-001604,COMP-0323,06-10-2024,06-18-2024,medium,technical,,3
+TKT-001605,COMP-0323,09-23-2024,09-25-2024,medium,feature_request,Dark mode support requested,1
+TKT-001606,COMP-0323,03-16-2025,03-22-2025,medium,bug_report,Attachment upload fails over 10 MB,3
+TKT-001607,COMP-0323,03-24-2024,03-30-2024,low,bug_report,Drag and drop not working in Chrome,
+TKT-001608,COMP-0324,03-30-2025,04-08-2025,high,onboarding,Migration assistance from competitor tool,4
+TKT-001609,COMP-0324,01-01-2025,01-14-2025,high,bug_report,Calendar sync showing wrong timezone,1
+TKT-001610,COMP-0324,03-27-2025,03-29-2025,low,billing,Billing cycle change request,3
+TKT-001611,COMP-0324,01-07-2025,01-15-2025,medium,technical,Error 500 when accessing the dashboard,
+TKT-001612,COMP-0325,03-29-2025,04-10-2025,high,onboarding,Best practices documentation request,3
+TKT-001613,COMP-0326,06-18-2025,06-24-2025,high,feature_request,Need better reporting filters,3
+TKT-001614,COMP-0326,09-12-2024,09-19-2024,medium,technical,Data export timing out for large datasets,1
+TKT-001615,COMP-0326,05-31-2025,06-04-2025,low,bug_report,Calendar sync showing wrong timezone,3
+TKT-001616,COMP-0326,12-01-2024,12-11-2024,low,account,Remove former employee access,
+TKT-001617,COMP-0326,01-31-2025,02-09-2025,low,bug_report,Calendar sync showing wrong timezone,
+TKT-001618,COMP-0326,06-25-2024,06-29-2024,low,technical,API rate limit being hit unexpectedly,
+TKT-001619,COMP-0326,10-30-2024,11-03-2024,high,bug_report,Notifications arriving late,4
+TKT-001620,COMP-0327,05-10-2025,05-12-2025,low,technical,API rate limit being hit unexpectedly,5
+TKT-001621,COMP-0327,03-18-2025,03-20-2025,high,billing,Invoice discrepancy for last month,4
+TKT-001622,COMP-0327,10-20-2024,10-21-2024,medium,feature_request,Dark mode support requested,4
+TKT-001623,COMP-0327,06-17-2025,06-19-2025,medium,billing,Cannot download invoice PDF,2
+TKT-001624,COMP-0327,12-20-2024,12-26-2024,low,account,Account permissions not working correctly,3
+TKT-001625,COMP-0327,11-05-2024,11-19-2024,high,billing,Tax exemption certificate submission,4
+TKT-001626,COMP-0327,06-30-2025,06-30-2025,high,onboarding,Best practices documentation request,3
+TKT-001627,COMP-0327,03-16-2025,03-17-2025,high,bug_report,Notifications arriving late,4
+TKT-001628,COMP-0328,03-27-2024,04-02-2024,medium,feature_request,Need better reporting filters,
+TKT-001629,COMP-0328,02-27-2025,03-08-2025,high,bug_report,Search returning incorrect results,4
+TKT-001630,COMP-0329,10-19-2024,10-25-2024,CRITICAL,feature_request,Need Gantt chart view for projects,4
+TKT-001631,COMP-0329,05-15-2024,05-27-2024,critical,onboarding,Training session request for team,3
+TKT-001632,COMP-0329,02-26-2024,03-11-2024,high,feature_request,,3
+TKT-001633,COMP-0329,09-10-2024,09-11-2024,medium,technical,Integration with Slack is not syncing,4
+TKT-001634,COMP-0329,12-13-2024,12-27-2024,medium,bug_report,Drag and drop not working in Chrome,4
+TKT-001635,COMP-0330,02-20-2024,02-22-2024,medium,account,,3
+TKT-001636,COMP-0330,11-03-2024,11-06-2024,medium,technical,Application loading slowly for our team,2
+TKT-001637,COMP-0331,04-13-2024,,low,billing,Billing cycle change request,
+TKT-001638,COMP-0331,09-23-2024,10-01-2024,medium,bug_report,Search returning incorrect results,4
+TKT-001639,COMP-0331,05-07-2025,05-15-2025,high,bug_report,Search returning incorrect results,
+TKT-001640,COMP-0331,04-20-2025,05-04-2025,medium,billing,Need to update payment method on file,3
+TKT-001641,COMP-0331,04-16-2025,04-19-2025,medium,billing,Charges not matching the quoted price,5
+TKT-001642,COMP-0331,09-09-2024,09-18-2024,low,onboarding,Template setup assistance needed,5
+TKT-001643,COMP-0331,02-01-2025,02-04-2025,medium,feature_request,Dark mode support requested,5
+TKT-001644,COMP-0332,09-07-2024,09-08-2024,medium,feature_request,Requesting custom field types,5
+TKT-001645,COMP-0332,12-15-2024,12-27-2024,MEDIUM,onboarding,Template setup assistance needed,
+TKT-001646,COMP-0332,09-07-2024,09-17-2024,high,bug_report,Calendar sync showing wrong timezone,3
+TKT-001647,COMP-0332,02-03-2024,02-11-2024,low,billing,,1
+TKT-001648,COMP-0332,03-24-2025,04-03-2025,low,account,Account permissions not working correctly,
+TKT-001649,COMP-0332,08-20-2024,08-22-2024,high,technical,Data export timing out for large datasets,5
+TKT-001650,COMP-0332,08-09-2024,,MEDIUM,feature_request,Dark mode support requested,2
+TKT-001651,COMP-0332,03-11-2025,,low,onboarding,Template setup assistance needed,5
+TKT-001652,COMP-0332,01-17-2025,01-30-2025,high,billing,,1
+TKT-001653,COMP-0332,03-14-2024,03-21-2024,high,account,Change primary admin contact,1
+TKT-001654,COMP-0332,11-05-2024,11-18-2024,medium,bug_report,Calendar sync showing wrong timezone,3
+TKT-001655,COMP-0333,04-10-2024,04-17-2024,low,technical,Error 500 when accessing the dashboard,1
+TKT-001656,COMP-0333,04-13-2024,04-15-2024,high,billing,,
+TKT-001657,COMP-0333,03-18-2024,,medium,billing,Charges not matching the quoted price,3
+TKT-001658,COMP-0333,05-19-2024,06-01-2024,medium,billing,Invoice discrepancy for last month,1
+TKT-001659,COMP-0333,03-24-2024,04-07-2024,CRITICAL,account,Account permissions not working correctly,4
+TKT-001660,COMP-0333,06-19-2024,06-28-2024,medium,onboarding,Best practices documentation request,2
+TKT-001661,COMP-0334,06-21-2025,06-30-2025,medium,billing,Cannot download invoice PDF,
+TKT-001662,COMP-0334,01-05-2024,01-16-2024,low,bug_report,Drag and drop not working in Chrome,4
+TKT-001663,COMP-0334,05-22-2024,05-25-2024,medium,technical,API rate limit being hit unexpectedly,4
+TKT-001664,COMP-0334,05-09-2025,05-10-2025,medium,billing,Billing cycle change request,5
+TKT-001665,COMP-0334,12-23-2024,01-01-2025,critical,onboarding,Need help setting up first project,5
+TKT-001666,COMP-0334,09-10-2024,09-20-2024,low,feature_request,Requesting custom field types,3
+TKT-001667,COMP-0334,07-09-2024,07-20-2024,medium,onboarding,Migration assistance from competitor tool,1
+TKT-001668,COMP-0334,06-25-2025,06-30-2025,low,billing,Tax exemption certificate submission,4
+TKT-001669,COMP-0334,02-18-2025,03-02-2025,medium,account,Account permissions not working correctly,5
+TKT-001670,COMP-0334,04-03-2025,04-13-2025,medium,billing,Tax exemption certificate submission,
+TKT-001671,COMP-0335,03-09-2025,03-18-2025,low,feature_request,Custom workflow automation rules,
+TKT-001672,COMP-0335,06-01-2025,06-06-2025,medium,feature_request,Need Gantt chart view for projects,4
+TKT-001673,COMP-0335,05-11-2025,05-20-2025,medium,technical,Webhook deliveries failing,3
+TKT-001674,COMP-0335,04-02-2025,04-06-2025,low,billing,Need to update payment method on file,
+TKT-001675,COMP-0335,02-04-2025,02-12-2025,MEDIUM,feature_request,Custom workflow automation rules,3
+TKT-001676,COMP-0335,04-04-2025,04-08-2025,low,feature_request,Dark mode support requested,5
+TKT-001677,COMP-0335,04-02-2025,04-03-2025,critical,technical,SSO login failing intermittently,
+TKT-001678,COMP-0335,03-07-2025,03-19-2025,medium,account,Need to merge duplicate accounts,4
+TKT-001679,COMP-0335,12-27-2024,,medium,onboarding,Migration assistance from competitor tool,3
+TKT-001680,COMP-0336,09-16-2024,,medium,bug_report,Attachment upload fails over 10 MB,3
+TKT-001681,COMP-0336,03-10-2024,03-20-2024,low,account,,4
+TKT-001682,COMP-0336,05-12-2024,05-25-2024,medium,technical,API rate limit being hit unexpectedly,4
+TKT-001683,COMP-0336,11-01-2024,11-12-2024,low,bug_report,,3
+TKT-001684,COMP-0336,04-20-2024,04-23-2024,medium,account,,
+TKT-001685,COMP-0336,06-15-2024,06-17-2024,low,onboarding,Migration assistance from competitor tool,4
+TKT-001686,COMP-0337,06-09-2025,06-17-2025,critical,bug_report,Drag and drop not working in Chrome,4
+TKT-001687,COMP-0337,07-20-2024,08-03-2024,critical,account,Remove former employee access,4
+TKT-001688,COMP-0337,08-29-2024,,medium,onboarding,Need help setting up first project,4
+TKT-001689,COMP-0337,01-09-2024,01-14-2024,medium,technical,Integration with Slack is not syncing,
+TKT-001690,COMP-0337,01-25-2024,02-07-2024,medium,billing,Need to update payment method on file,1
+TKT-001691,COMP-0338,11-23-2024,12-06-2024,medium,billing,Need to update payment method on file,4
+TKT-001692,COMP-0338,12-24-2024,01-02-2025,high,onboarding,Best practices documentation request,5
+TKT-001693,COMP-0338,05-29-2025,06-08-2025,medium,account,Account permissions not working correctly,3
+TKT-001694,COMP-0338,03-20-2025,03-27-2025,critical,bug_report,Calendar sync showing wrong timezone,
+TKT-001695,COMP-0338,09-17-2024,09-20-2024,low,feature_request,Need Gantt chart view for projects,
+TKT-001696,COMP-0338,06-20-2025,06-21-2025,low,account,Add new team member to account,
+TKT-001697,COMP-0338,03-28-2025,04-10-2025,low,technical,Error 500 when accessing the dashboard,4
+TKT-001698,COMP-0339,02-22-2025,03-05-2025,medium,onboarding,Training session request for team,5
+TKT-001699,COMP-0339,11-15-2024,11-26-2024,critical,feature_request,Need better reporting filters,2
+TKT-001700,COMP-0339,06-25-2025,06-26-2025,low,bug_report,Search returning incorrect results,3
+TKT-001701,COMP-0339,05-03-2025,05-10-2025,medium,billing,Billing cycle change request,
+TKT-001702,COMP-0339,02-11-2025,02-20-2025,medium,billing,Tax exemption certificate submission,5
+TKT-001703,COMP-0340,05-24-2025,05-30-2025,low,onboarding,Template setup assistance needed,4
+TKT-001704,COMP-0340,05-21-2024,05-26-2024,medium,technical,Integration with Slack is not syncing,4
+TKT-001705,COMP-0340,08-22-2024,09-05-2024,medium,onboarding,Need help setting up first project,5
+TKT-001706,COMP-0341,10-11-2024,10-23-2024,critical,technical,SSO login failing intermittently,5
+TKT-001707,COMP-0341,05-12-2025,05-25-2025,medium,bug_report,Formatting lost when pasting from Word,3
+TKT-001708,COMP-0341,10-19-2024,11-01-2024,medium,account,,1
+TKT-001709,COMP-0342,12-02-2024,12-11-2024,high,technical,,2
+TKT-001710,COMP-0342,08-16-2024,08-20-2024,high,onboarding,Best practices documentation request,5
+TKT-001711,COMP-0342,02-05-2024,02-15-2024,high,onboarding,Training session request for team,1
+TKT-001712,COMP-0342,09-02-2024,09-15-2024,critical,onboarding,Need help setting up first project,4
+TKT-001713,COMP-0342,08-04-2024,08-12-2024,low,billing,Charges not matching the quoted price,3
+TKT-001714,COMP-0342,04-16-2024,04-29-2024,medium,feature_request,Custom workflow automation rules,
+TKT-001715,COMP-0342,11-30-2024,12-03-2024,high,feature_request,Need Gantt chart view for projects,4
+TKT-001716,COMP-0342,09-13-2024,09-18-2024,MEDIUM,feature_request,,1
+TKT-001717,COMP-0342,05-20-2024,,critical,technical,Webhook deliveries failing,2
+TKT-001718,COMP-0342,05-11-2024,05-18-2024,medium,technical,Integration with Slack is not syncing,1
+TKT-001719,COMP-0343,09-07-2024,09-17-2024,high,billing,Cannot download invoice PDF,4
+TKT-001720,COMP-0343,11-27-2024,12-05-2024,medium,feature_request,Dark mode support requested,5
+TKT-001721,COMP-0343,02-01-2025,02-11-2025,medium,technical,Application loading slowly for our team,
+TKT-001722,COMP-0343,05-16-2025,05-17-2025,low,feature_request,,4
+TKT-001723,COMP-0343,07-07-2024,07-14-2024,medium,bug_report,Notifications arriving late,5
+TKT-001724,COMP-0343,04-30-2025,05-02-2025,medium,onboarding,Migration assistance from competitor tool,4
+TKT-001725,COMP-0343,04-26-2025,05-03-2025,low,bug_report,Notifications arriving late,4
+TKT-001726,COMP-0344,02-28-2024,03-02-2024,critical,bug_report,Notifications arriving late,5
+TKT-001727,COMP-0344,11-25-2024,11-29-2024,medium,technical,,2
+TKT-001728,COMP-0345,09-21-2024,10-02-2024,critical,billing,Tax exemption certificate submission,
+TKT-001729,COMP-0345,12-13-2024,12-18-2024,medium,technical,Error 500 when accessing the dashboard,5
+TKT-001730,COMP-0345,05-27-2025,06-07-2025,medium,account,Account permissions not working correctly,4
+TKT-001731,COMP-0345,03-31-2025,,critical,account,Remove former employee access,5
+TKT-001732,COMP-0345,10-15-2024,10-16-2024,high,feature_request,Need better reporting filters,
+TKT-001733,COMP-0346,09-16-2024,09-20-2024,low,account,Account permissions not working correctly,
+TKT-001734,COMP-0346,06-07-2024,06-08-2024,critical,feature_request,Dark mode support requested,3
+TKT-001735,COMP-0346,06-17-2024,06-21-2024,high,account,Account permissions not working correctly,5
+TKT-001736,COMP-0346,04-20-2025,05-04-2025,medium,onboarding,Best practices documentation request,3
+TKT-001737,COMP-0347,09-20-2024,09-22-2024,low,billing,Need to update payment method on file,
+TKT-001738,COMP-0347,03-25-2025,04-01-2025,medium,onboarding,Migration assistance from competitor tool,3
+TKT-001739,COMP-0347,03-29-2024,04-02-2024,critical,technical,Error 500 when accessing the dashboard,
+TKT-001740,COMP-0347,06-26-2025,06-30-2025,critical,bug_report,Attachment upload fails over 10 MB,2
+TKT-001741,COMP-0348,03-23-2025,03-30-2025,medium,billing,Invoice discrepancy for last month,5
+TKT-001742,COMP-0349,02-10-2024,02-14-2024,high,account,Add new team member to account,2
+TKT-001743,COMP-0349,02-03-2024,02-17-2024,critical,account,Change primary admin contact,1
+TKT-001744,COMP-0349,02-08-2024,02-17-2024,medium,feature_request,Custom workflow automation rules,2
+TKT-001745,COMP-0350,03-27-2025,04-03-2025,medium,account,Add new team member to account,1
+TKT-001746,COMP-0350,10-01-2024,10-12-2024,LOW,technical,Error 500 when accessing the dashboard,
+TKT-001747,COMP-0350,05-10-2025,05-21-2025,low,technical,Error 500 when accessing the dashboard,
