@@ -960,13 +960,25 @@ hr {
 
 
 # ── 3. Load Model Artifacts ────────────────────────────────────────────────────
+import os
+import joblib
+import streamlit as st
+
+# ── 3. Load Model Artifacts ────────────────────────────────────────
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load('churn_rf_model.pkl')
-    columns = joblib.load('model_columns.pkl')
+    # Get the exact directory where this app.py file lives
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Build the exact paths to the pickle files
+    model_path = os.path.join(current_dir, 'churn_rf_model.pkl')
+    columns_path = os.path.join(current_dir, 'model_columns.pkl')
+    
+    # Load the files
+    model = joblib.load(model_path)
+    columns = joblib.load(columns_path)
+    
     return model, columns
-
-model, model_columns = load_artifacts()
 
 
 # ── 4. Hero Banner ─────────────────────────────────────────────────────────────
