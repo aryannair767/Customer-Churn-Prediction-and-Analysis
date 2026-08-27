@@ -1,8 +1,6 @@
 Lib/
 Scripts/
 .venv/
-*.csv
-*.xlsx
 .env
 __pycache__/
 .ipynb_checkpoints/
