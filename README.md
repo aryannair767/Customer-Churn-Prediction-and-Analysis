@@ -3,7 +3,8 @@
 
 Churn is not a sudden rage-quit. It is a slow, measurable fade. This project builds a full pipeline that spots that fade, explains why it happens, and flags active accounts before they cancel.
 
-**[Live Prediction App](ml_deployment/)** · **[Dashboard Screenshots](#dashboard)** · **[SQL Queries](data_prep/)** · **[ML Notebook](MachineLearning.ipynb)**
+**[Prediction App](https://saas-churn-prediction-system.streamlit.app/)** · **[Dashboard](#dashboard)** · **[SQL Queries](data_prep/)** · **[ML Notebook](ml_deployment/)
+)**
 
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue) ![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20scikit--learn-yellow) ![SHAP](https://img.shields.io/badge/Explainability-SHAP-orange) ![Streamlit](https://img.shields.io/badge/App-Streamlit-red) ![PowerBI](https://img.shields.io/badge/Dashboard-Power%20BI-black)
 
