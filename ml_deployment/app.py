@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
@@ -57,14 +58,40 @@ html, body, [data-testid="stAppViewContainer"] {
 
 /* Main block container */
 .block-container {
-    max-width: 1100px !important;
+    max-width: 100% !important;
+    width: 100% !important;
     padding: 2rem 2.5rem 3rem !important;
 }
 
+/* Allow main content wrappers to fill 100% width when sidebar is closed */
+[data-testid="stAppViewContainer"] > div:nth-child(2) {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+[data-testid="stMain"] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
 /* ─── Sidebar ──────────────────────────────────────────── */
-[data-testid="stSidebar"] {
+[data-testid="stSidebar"][aria-expanded="true"] {
     background-color: var(--white) !important;
     border-right: 1px solid var(--border) !important;
+    max-width: 33vw !important;
+}
+
+[data-testid="stSidebar"][aria-expanded="true"] > div {
+    max-width: 33vw !important;
+}
+
+[data-testid="stSidebar"][aria-expanded="false"] {
+    max-width: 0px !important;
+    min-width: 0px !important;
+    width: 0px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
 }
 
 /* Sidebar Collapse & Expand Toggle Button (<< / >>) */
@@ -216,6 +243,11 @@ html, body, [data-testid="stAppViewContainer"] {
     padding: 1.25rem 1.5rem;
     text-align: center;
     transition: all 0.2s cubic-bezier(.16,.84,.44,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .stat-card:hover {
@@ -238,9 +270,23 @@ html, body, [data-testid="stAppViewContainer"] {
     font-size: 1.5rem !important;
     font-weight: 600 !important;
     color: var(--text) !important;
+    white-space: nowrap !important;
 }
 
 .stat-value.accent { color: var(--accent) !important; }
+
+/* Force Streamlit columns holding stat cards to equal height */
+[data-testid="stHorizontalBlock"] {
+    align-items: stretch !important;
+}
+
+[data-testid="stHorizontalBlock"] [data-testid="stColumn"] > div {
+    height: 100% !important;
+}
+
+[data-testid="stHorizontalBlock"] [data-testid="stColumn"] > div > div {
+    height: 100% !important;
+}
 
 /* ─── Result Cards ─────────────────────────────────────── */
 .result-card {
@@ -497,7 +543,7 @@ html, body, [data-testid="stAppViewContainer"] {
     letter-spacing: 0.02em;
 }
 
-/* ─── Input Styling (blue borders) ─────────────────────── */
+/* ─── Input Styling (clean, minimal — matching selectbox look) ── */
 /* Global: kill ALL red/default outlines everywhere */
 *:focus-visible,
 *:focus {
@@ -510,20 +556,19 @@ button:focus,
 [role="combobox"]:focus,
 [data-baseweb] *:focus {
     outline-color: var(--accent) !important;
-    border-color: var(--accent) !important;
 }
 
-/* Number inputs */
+/* Number inputs — match selectbox style */
 [data-testid="stNumberInput"] input,
 [data-testid="stSidebar"] [data-testid="stNumberInput"] input {
-    border: 1.5px solid rgba(94,129,172,0.4) !important;
-    border-radius: 6px !important;
-    font-family: var(--mono) !important;
-    font-size: 0.95rem !important;
+    border: 1px solid transparent !important;
+    border-radius: 12px !important;
+    font-family: var(--sans) !important;
+    font-size: 0.92rem !important;
     font-weight: 500 !important;
-    color: #111111 !important;
-    background: var(--white) !important;
-    padding: 0.5rem 0.75rem !important;
+    color: var(--text) !important;
+    background: #f0f2f6 !important;
+    padding: 0.55rem 0.85rem !important;
     transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
     outline: none !important;
 }
@@ -532,47 +577,47 @@ button:focus,
 [data-testid="stNumberInput"] input:focus-visible,
 [data-testid="stNumberInput"] input:active {
     border-color: var(--accent) !important;
-    box-shadow: 0 0 0 3px rgba(94,129,172,0.15) !important;
+    box-shadow: 0 0 0 2px rgba(94,129,172,0.15) !important;
     outline: none !important;
     caret-color: var(--accent) !important;
 }
 
 [data-testid="stNumberInput"] input:hover {
-    border-color: rgba(94,129,172,0.6) !important;
+    border-color: rgba(0,0,0,0.08) !important;
 }
 
 /* Number input +/- step buttons */
 [data-testid="stNumberInput"] button,
 [data-testid="stSidebar"] [data-testid="stNumberInput"] button {
-    border-color: rgba(94,129,172,0.35) !important;
-    color: var(--accent) !important;
-    background: var(--white) !important;
+    border: 1px solid transparent !important;
+    color: var(--muted) !important;
+    background: #f0f2f6 !important;
+    border-radius: 10px !important;
     transition: all 0.15s ease !important;
 }
 
 [data-testid="stNumberInput"] button:hover {
-    background: var(--accent-light) !important;
-    border-color: var(--accent) !important;
-    color: var(--accent-dark) !important;
+    background: #e4e6ea !important;
+    color: var(--text) !important;
 }
 
 [data-testid="stNumberInput"] button:focus,
 [data-testid="stNumberInput"] button:active {
-    border-color: var(--accent) !important;
+    border-color: transparent !important;
     box-shadow: none !important;
     outline: none !important;
 }
 
-/* Selectboxes — target the baseweb control root */
+/* Selectboxes — same clean style */
 [data-testid="stSelectbox"] [data-baseweb="select"] > div,
 [data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] > div {
-    border: 1.5px solid rgba(94,129,172,0.4) !important;
-    border-radius: 6px !important;
+    border: 1px solid transparent !important;
+    border-radius: 12px !important;
     font-family: var(--sans) !important;
-    font-size: 0.9rem !important;
+    font-size: 0.92rem !important;
     font-weight: 500 !important;
-    color: #111111 !important;
-    background: var(--white) !important;
+    color: var(--text) !important;
+    background: #f0f2f6 !important;
     transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
 }
 
@@ -580,23 +625,23 @@ button:focus,
 [data-baseweb="select"] span,
 [data-baseweb="select"] div[class*="value"],
 [data-baseweb="select"] div[class*="single"] {
-    color: #111111 !important;
+    color: var(--text) !important;
 }
 
 [data-testid="stSelectbox"] [data-baseweb="select"] > div:hover {
-    border-color: rgba(94,129,172,0.6) !important;
+    border-color: rgba(0,0,0,0.08) !important;
 }
 
 [data-testid="stSelectbox"] [data-baseweb="select"]:focus-within > div {
     border-color: var(--accent) !important;
-    box-shadow: 0 0 0 3px rgba(94,129,172,0.15) !important;
+    box-shadow: 0 0 0 2px rgba(94,129,172,0.15) !important;
 }
 
 /* Selectbox dropdown list */
 [data-baseweb="popover"] ul,
 [data-baseweb="menu"] {
-    border: 1.5px solid rgba(94,129,172,0.25) !important;
-    border-radius: 6px !important;
+    border: 1px solid rgba(0,0,0,0.06) !important;
+    border-radius: 12px !important;
     box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
 }
 
@@ -621,16 +666,16 @@ button:focus,
     box-shadow: 0 1px 4px rgba(94,129,172,0.3) !important;
 }
 
-/* Unfilled track should be light blue, not gray */
+/* Unfilled track */
 [data-testid="stSlider"] [data-baseweb="slider"] div[data-testid="stTickBar"] {
-    background: rgba(94,129,172,0.18) !important;
-    background-color: rgba(94,129,172,0.18) !important;
+    background: #e4e6ea !important;
+    background-color: #e4e6ea !important;
 }
 
 /* The inner track bar container */
 [data-testid="stSlider"] [data-baseweb="slider"] > div > div:nth-child(3),
 [data-testid="stSlider"] [data-baseweb="slider"] > div > div:nth-child(3) > div {
-    background-color: rgba(94,129,172,0.18) !important;
+    background-color: #e4e6ea !important;
 }
 
 /* The filled part of the track (left of thumb) */
@@ -648,14 +693,18 @@ button:focus,
 
 /* Text input (if any) */
 [data-testid="stTextInput"] input {
-    border: 1.5px solid rgba(94,129,172,0.4) !important;
-    border-radius: 6px !important;
+    border: 1px solid transparent !important;
+    border-radius: 12px !important;
+    background: #f0f2f6 !important;
+    font-family: var(--sans) !important;
+    font-size: 0.92rem !important;
+    padding: 0.55rem 0.85rem !important;
     transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
 }
 
 [data-testid="stTextInput"] input:focus {
     border-color: var(--accent) !important;
-    box-shadow: 0 0 0 3px rgba(94,129,172,0.15) !important;
+    box-shadow: 0 0 0 2px rgba(94,129,172,0.15) !important;
     outline: none !important;
 }
 
@@ -710,9 +759,10 @@ button:focus,
 
 [data-theme="dark"] [data-testid="stNumberInput"] input,
 [data-theme="dark"] [data-testid="stSidebar"] [data-testid="stNumberInput"] input {
-    background: #111111 !important;
+    background: #222222 !important;
     color: #ffffff !important;
-    border: 1px solid #333 !important;
+    border: 1px solid transparent !important;
+    border-radius: 12px !important;
 }
 
 [data-theme="dark"] [data-testid="stNumberInput"] input:focus,
@@ -723,17 +773,19 @@ button:focus,
 
 [data-theme="dark"] [data-testid="stNumberInput"] button,
 [data-theme="dark"] [data-testid="stSidebar"] [data-testid="stNumberInput"] button {
-    background: #111111 !important;
-    border-color: #333 !important;
+    background: #222222 !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
     color: var(--accent) !important;
 }
 
 /* Selectboxes — catch ALL of them */
 [data-theme="dark"] [data-testid="stSelectbox"] [data-baseweb="select"] > div,
 [data-theme="dark"] [data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] > div {
-    background: #111111 !important;
+    background: #222222 !important;
     color: #ffffff !important;
-    border: 1px solid #333 !important;
+    border: 1px solid transparent !important;
+    border-radius: 12px !important;
 }
 
 /* Force white text on ALL select value containers and dropdown arrows */
@@ -843,7 +895,9 @@ button:focus,
     color: var(--faint) !important;
 }
 
-[data-theme="dark"] [data-testid="stSidebar"] .stButton > button {
+[data-theme="dark"] [data-testid="stSidebar"] .stButton > button,
+[data-theme="dark"] [data-testid="stSidebar"] .stButton > button * ,
+[data-theme="dark"] [data-testid="stSidebar"] .stButton > button p {
     background-color: #6a9fd4 !important;
     color: #ffffff !important;
 }
@@ -921,33 +975,20 @@ hr {
     margin: 1.5rem 0 !important;
 }
 
-/* Remove Streamlit branding but KEEP sidebar toggle control visible */
-#MainMenu, footer {
-    visibility: hidden;
+/* Remove Streamlit branding safely without breaking layout */
+#MainMenu, footer, .viewerBadge_container__r5tak {
+    display: none !important;
 }
 
-/* Ensure sidebar collapse/expand button controls are visible and styled */
+/* Force sidebar toggle buttons to always be visible, ignoring hover state */
+[data-testid="collapsedControl"],
 [data-testid="stSidebarCollapsedControl"],
-[data-testid="stSidebarCollapseButton"] {
+[data-testid="stSidebarCollapseButton"],
+[data-testid="stSidebarHeader"] [data-testid="stSidebarCollapseButton"] {
+    opacity: 1 !important;
     visibility: visible !important;
-    display: flex !important;
-    color: var(--accent) !important;
-}
-
-[data-testid="stSidebarCollapsedControl"] button,
-[data-testid="stSidebarCollapseButton"] button {
-    border: 1px solid var(--border) !important;
-    background: var(--white) !important;
-    color: var(--accent) !important;
-    border-radius: 6px !important;
-    transition: all 0.2s ease !important;
-}
-
-[data-testid="stSidebarCollapsedControl"] button:hover,
-[data-testid="stSidebarCollapseButton"] button:hover {
-    background: var(--accent-light) !important;
-    border-color: var(--accent) !important;
-    color: var(--accent-dark) !important;
+    transition: none !important;
+    z-index: 999999 !important;
 }
 
 /* Fix any stray default styles */
@@ -960,25 +1001,16 @@ hr {
 
 
 # ── 3. Load Model Artifacts ────────────────────────────────────────────────────
-import os
-import joblib
-import streamlit as st
-
-# ── 3. Load Model Artifacts ────────────────────────────────────────
 @st.cache_resource
 def load_artifacts():
-    # Get the exact directory where this app.py file lives
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Build the exact paths to the pickle files
     model_path = os.path.join(current_dir, 'churn_rf_model.pkl')
     columns_path = os.path.join(current_dir, 'model_columns.pkl')
-    
-    # Load the files
     model = joblib.load(model_path)
     columns = joblib.load(columns_path)
-    
     return model, columns
+
+model, model_columns = load_artifacts()
 
 
 # ── 4. Hero Banner ─────────────────────────────────────────────────────────────
@@ -1002,27 +1034,59 @@ components.html("""
         const style = parentDoc.createElement('style');
         style.id = 'dm-toggle-style';
         style.innerHTML = `
+            /* ── Portfolio-style theme toggle ── */
             .dm-toggle {
                 position: fixed;
                 top: 16px;
                 right: 20px;
-                width: 38px;
-                height: 38px;
-                border-radius: 8px;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
                 border: none;
-                background: transparent;
+                background: #ffffff;
                 cursor: pointer;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 z-index: 999999;
-                transition: all 0.3s cubic-bezier(.16,.84,.44,1);
-                color: #888;
+                transition: all 0.35s cubic-bezier(.16,.84,.44,1);
                 padding: 0;
                 outline: none;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
             }
-            .dm-toggle svg {
-                transition: transform 0.5s cubic-bezier(.16,.84,.44,1);
+            .dm-toggle:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 16px rgba(0,0,0,0.12), 0 0 0 1px rgba(0,0,0,0.06);
+            }
+            .dm-toggle .icon-sun,
+            .dm-toggle .icon-moon {
+                position: absolute;
+                transition: opacity 0.35s ease, transform 0.45s cubic-bezier(.16,.84,.44,1);
+            }
+            /* Light mode: show moon, hide sun */
+            .dm-toggle .icon-moon {
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+            .dm-toggle .icon-sun {
+                opacity: 0;
+                transform: scale(0.5) rotate(-90deg);
+            }
+            /* Dark mode: dark bg, show sun, hide moon */
+            [data-theme="dark"] .dm-toggle {
+                background: #1a1a1a;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.06);
+            }
+            [data-theme="dark"] .dm-toggle:hover {
+                box-shadow: 0 4px 16px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.1);
+            }
+            [data-theme="dark"] .dm-toggle .icon-sun {
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+            [data-theme="dark"] .dm-toggle .icon-moon {
+                opacity: 0;
+                transform: scale(0.5) rotate(90deg);
             }
             /* Sidebar Toggle Button (<< / >>) Global Override */
             [data-testid="collapsedControl"] button,
@@ -1068,20 +1132,6 @@ components.html("""
                 width: 1.3rem !important;
                 height: 1.3rem !important;
             }
-            .dm-toggle:hover {
-                color: #3d3d3d;
-                background: rgba(0,0,0,0.05);
-            }
-            [data-theme="dark"] .dm-toggle {
-                color: #8892a2;
-            }
-            [data-theme="dark"] .dm-toggle:hover {
-                color: #d8dee9;
-                background: rgba(255,255,255,0.08);
-            }
-            [data-theme="dark"] .dm-toggle svg {
-                transform: rotate(180deg);
-            }
             [data-theme="dark"] [data-baseweb="popover"],
             [data-theme="dark"] [data-baseweb="popover"] *,
             [data-theme="dark"] [data-baseweb="menu"],
@@ -1122,11 +1172,24 @@ components.html("""
         btn.className = 'dm-toggle';
         btn.title = 'Toggle dark mode';
         btn.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2L14.83 4.83L18.83 4L18 8L20.83 10.83L18 13.66L18.83 17.66L14.83 16.83L12 19.66L9.17 16.83L5.17 17.66L6 13.66L3.17 10.83L6 8L5.17 4L9.17 4.83L12 2Z" />
-                <path d="M12 16a4 4 0 0 0 0-8v8z" fill="currentColor"/>
-                <path d="M12 8a4 4 0 0 0 0 8" />
-            </svg>
+            <span class="icon-sun">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e8b730" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5" fill="#e8b730"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+            </span>
+            <span class="icon-moon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="#7b8fad" stroke="none">
+                    <path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.83-1.59A5.4 5.4 0 0 1 11.1 7.5c0-1.7.78-3.22 2-4.22A9.08 9.08 0 0 0 12 3z"/>
+                </svg>
+            </span>
         `;
         parentDoc.body.appendChild(btn);
 
@@ -1235,7 +1298,6 @@ components.html("""
     
     function fixSidebarToggleButton() {
         // Streamlit sidebar buttons use Material Icon glyphs as text content.
-        // This is the ONLY reliable way to find them across open/closed states.
         var allButtons = parentDoc.querySelectorAll('button');
         allButtons.forEach(function(b) {
             var text = b.textContent.trim();
@@ -1253,7 +1315,6 @@ components.html("""
                 b.style.setProperty('display', 'flex', 'important');
                 b.style.setProperty('align-items', 'center', 'important');
                 b.style.setProperty('justify-content', 'center', 'important');
-                // Force white on ALL children (spans with Material Icon font)
                 var children = b.querySelectorAll('*');
                 children.forEach(function(c) {
                     c.style.setProperty('color', '#ffffff', 'important');
