@@ -13,17 +13,17 @@ Churn is not a sudden rage-quit. It is a slow, measurable fade. This project bui
 
 > By modeling the historical "pre-churn signature," **241 active accounts** are flagged as high-risk today. Together they represent **$521,999 in Monthly Recurring Revenue** on the chopping block.
 
-| Historical Snapshot (Power BI) | Value |
-|---|---|
-| MRR Churn Rate | 7.74% |
-| Churned ARR (Total) | $641.88K |
-| Logo Churn Rate | 14.57% |
-| High-Risk Ticket Ratio | 34.75% |
-
-| Predictive Model Output | Value |
-|---|---|
-| Active accounts flagged high-risk | 241 |
-| MRR currently at risk | $521,999 |
+  | Historical Snapshot (Power BI) | Value |
+  |---|---|
+  | MRR Churn Rate | 7.74% |
+  | Churned ARR (Total) | $641.88K |
+  | Logo Churn Rate | 14.57% |
+  | High-Risk Ticket Ratio | 34.75% |
+  
+  | Predictive Model Output | Value |
+  |---|---|
+  | Active accounts flagged high-risk | 241 |
+  | MRR currently at risk | $521,999 |
 
 *The dashboard tells you what already happened. The model tells you what's about to.*
 
