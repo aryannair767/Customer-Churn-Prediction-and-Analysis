@@ -3,8 +3,7 @@
 
 Churn is not a sudden rage-quit. It is a slow, measurable fade. This project builds a full pipeline that spots that fade, explains why it happens, and flags active accounts before they cancel.
 
-**[Prediction App](https://saas-churn-prediction-system.streamlit.app/)** · **[Dashboard](#dashboard)** · **[SQL Queries](data_prep/)** · **[ML Notebook](ml_deployment/)
-)**
+**[Prediction App](https://saas-churn-prediction-system.streamlit.app/)** · **[Dashboard](#dashboard)** · **[SQL Queries](data_prep/)** · **[ML Notebook](ml_deployment/)**
 
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue) ![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20scikit--learn-yellow) ![SHAP](https://img.shields.io/badge/Explainability-SHAP-orange) ![Streamlit](https://img.shields.io/badge/App-Streamlit-red) ![PowerBI](https://img.shields.io/badge/Dashboard-Power%20BI-black)
 
@@ -118,6 +117,16 @@ Churn is not a sudden rage-quit. It is a slow, measurable fade. This project bui
 **Shap Summary Plot**
 <img width="758" height="405" alt="image" src="https://github.com/user-attachments/assets/b9da0d2b-7eb5-41b6-ab6d-a86243896c13" />
 
+---
+
+## Pipeline Architecture
+
+```mermaid
+flowchart LR
+    A[Raw Data<br>Synthetic CSV] --> B[(SQL<br>Cleaning & Analysis)]
+    B --> C[Python<br>Scikit-Learn Model]
+    C --> D[Power BI & Streamlit<br>Dashboards & App]
+```
 
 ---
 
