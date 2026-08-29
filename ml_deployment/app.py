@@ -6,7 +6,6 @@ import joblib
 import shap
 import matplotlib
 import matplotlib.pyplot as plt
-import numpy as np
 
 # ── 1. Page Config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -293,7 +292,7 @@ html, body, [data-testid="stAppViewContainer"] {
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: 6px;
-    padding: 1.75rem 2rem;
+    padding: 1.5rem 1.75rem;
     margin-bottom: 1rem;
 }
 
@@ -440,7 +439,8 @@ html, body, [data-testid="stAppViewContainer"] {
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: 6px;
-    padding: 1.75rem 2rem;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1rem;
 }
 
 .shap-title {
@@ -459,6 +459,48 @@ html, body, [data-testid="stAppViewContainer"] {
     color: var(--muted) !important;
     margin-bottom: 1.25rem !important;
     line-height: 1.5 !important;
+}
+
+/* ─── Lightbox (click-to-maximize graph) ───────────────── */
+.chart-lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    animation: lbFadeIn 0.2s ease;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+@keyframes lbFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.chart-lightbox-overlay img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 12px 48px rgba(0,0,0,0.4);
+    object-fit: contain;
+}
+
+/* Make the pyplot chart look clickable */
+[data-testid="stImage"] img,
+.stImage img,
+[data-testid="stPyplot"] img,
+div[data-testid="stImage"],
+.shap-chart-wrapper img {
+    cursor: zoom-in;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+[data-testid="stPyplot"] img:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
 /* ─── Welcome State ────────────────────────────────────── */
@@ -928,35 +970,6 @@ button:focus,
     color: var(--accent) !important;
 }
 
-/* ─── Dark Mode Toggle Button ─────────────────────────── */
-.theme-toggle {
-    position: absolute;
-    top: 0.85rem;
-    right: 1rem;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 1px solid var(--border);
-    background: var(--off);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    transition: all 0.25s cubic-bezier(.16,.84,.44,1);
-    color: var(--muted);
-    z-index: 10;
-    padding: 0;
-    line-height: 1;
-}
-
-.theme-toggle:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    background: var(--accent-light);
-    transform: scale(1.08);
-}
-
 /* ─── Streamlit Element Overrides ──────────────────────── */
 /* Hide default header decoration */
 header[data-testid="stHeader"] {
@@ -1011,6 +1024,12 @@ def load_artifacts():
     return model, columns
 
 model, model_columns = load_artifacts()
+
+@st.cache_resource
+def get_explainer(_model):
+    return shap.TreeExplainer(_model)
+
+explainer = get_explainer(model)
 
 
 # ── 4. Hero Banner ─────────────────────────────────────────────────────────────
@@ -1260,13 +1279,19 @@ components.html("""
                 '[data-baseweb="popover"], [data-baseweb="popover"] *, ' +
                 '[data-baseweb="menu"], [data-baseweb="menu"] *, ' +
                 '[role="listbox"], [role="listbox"] *, ' +
-                '[data-testid="stNumberInput"] input'
+                '[data-testid="stNumberInput"] *'
             );
             elementsToClean.forEach(function(el) {
                 el.style.removeProperty('background-color');
                 el.style.removeProperty('background');
                 el.style.removeProperty('color');
                 el.style.removeProperty('border-color');
+                
+                // Fallback for some browsers where removeProperty on shorthand doesn't stick
+                el.style.backgroundColor = '';
+                el.style.background = '';
+                el.style.color = '';
+                el.style.borderColor = '';
             });
             return;
         }
@@ -1434,7 +1459,51 @@ if predict_clicked:
     risk_class = "high" if prediction == 1 else "safe"
 
     # ── Results Row ──
-    col_left, col_right = st.columns([1, 1], gap="large")
+    st.markdown('<div id="prediction-results-anchor"></div>', unsafe_allow_html=True)
+    components.html("""
+    <script>
+    (function() {
+        const doc = window.parent.document;
+        const anchor = doc.getElementById('prediction-results-anchor');
+        if (!anchor) return;
+
+        // Streamlit scrolls inside an internal container, not the window
+        const containers = [
+            doc.querySelector('[data-testid="stMainBlockContainer"]'),
+            doc.querySelector('[data-testid="stAppViewContainer"]'),
+            doc.querySelector('[data-testid="stMain"]'),
+            doc.querySelector('.main .block-container'),
+            doc.querySelector('section.main'),
+        ];
+        // Find the actual scrolling container
+        let scroller = null;
+        for (let i = 0; i < containers.length; i++) {
+            const c = containers[i];
+            if (c && c.scrollHeight > c.clientHeight) { scroller = c; break; }
+        }
+        // Also check parent elements of the anchor
+        if (!scroller) {
+            let el = anchor.parentElement;
+            while (el && el !== doc.body) {
+                if (el.scrollHeight > el.clientHeight + 10) { scroller = el; break; }
+                el = el.parentElement;
+            }
+        }
+
+        const rect = anchor.getBoundingClientRect();
+        if (scroller) {
+            const containerRect = scroller.getBoundingClientRect();
+            const targetY = scroller.scrollTop + (rect.top - containerRect.top) + 300;
+            scroller.scrollTo({ top: targetY, behavior: 'smooth' });
+        } else {
+            const currentScroll = window.parent.pageYOffset || doc.documentElement.scrollTop;
+            const targetY = currentScroll + rect.top + 300;
+            window.parent.scrollTo({ top: targetY, behavior: 'smooth' });
+        }
+    })();
+    </script>
+    """, height=0)
+    col_left, col_right = st.columns([3, 2], gap="medium")
 
     with col_left:
         # Prediction result card
@@ -1462,7 +1531,140 @@ if predict_clicked:
         </div>
         """, unsafe_allow_html=True)
 
-        # Input summary card
+        # SHAP waterfall chart (moved from right column)
+        with st.spinner("Computing SHAP values..."):
+            shap_obj = explainer(input_df)
+            shap_values = shap_obj[:, :, 1]
+            shap_values.feature_names = model_columns
+
+            # Build SHAP chart with portfolio-matching style
+            matplotlib.rcParams.update({
+                'font.family': 'sans-serif',
+                'font.sans-serif': ['Source Sans 3', 'Segoe UI', 'Arial'],
+                'axes.facecolor': '#ffffff',
+                'figure.facecolor': '#ffffff',
+                'text.color': '#3d3d3d',
+                'axes.labelcolor': '#3d3d3d',
+                'xtick.color': '#888888',
+                'ytick.color': '#3d3d3d',
+                'axes.edgecolor': '#e0e0e0',
+                'grid.color': '#e8e8e8',
+            })
+
+            # NOTE: shap.plots.waterfall() draws into its own figure and always
+            # resets its size internally — pre-creating a fig/ax with plt.subplots()
+            # here would just be silently overridden, so we let shap create it,
+            # then resize it ourselves afterwards so the size actually sticks.
+            shap.plots.waterfall(shap_values[0], max_display=8, show=False)
+            fig = plt.gcf()
+            fig.set_size_inches(9, 4.5)
+
+            # Style every axis in the figure (waterfall plots can add more than
+            # one, e.g. a twin axis for the top f(x) label)
+            for chart_ax in fig.axes:
+                for spine in chart_ax.spines.values():
+                    spine.set_color('#e0e0e0')
+                    spine.set_linewidth(0.75)
+                chart_ax.tick_params(axis='both', labelsize=9)
+
+            plt.tight_layout(pad=1.5)
+            st.pyplot(fig, use_container_width=True)
+            plt.close(fig)  # release the figure — otherwise every click leaks memory
+
+        # Lightbox JS — click SHAP chart to maximize
+        components.html("""
+        <script>
+        (function() {
+            const parentDoc = window.parent.document;
+
+            function dismissLightbox() {
+                const existing = parentDoc.querySelector('.chart-lightbox-overlay');
+                if (existing) existing.remove();
+            }
+
+            function attachChartClick() {
+                // Try multiple selectors to find pyplot chart images
+                const selectors = [
+                    '[data-testid="stPyplot"] img',
+                    '[data-testid="stPyplotChart"] img',
+                    '[data-testid="stImage"] img',
+                    'img[src*="data:image"]'
+                ];
+                let charts = [];
+                for (let i = 0; i < selectors.length; i++) {
+                    charts = parentDoc.querySelectorAll(selectors[i]);
+                    if (charts.length > 0) break;
+                }
+
+                charts.forEach(function(img) {
+                    if (img.dataset.lightboxBound) return;
+                    // Skip tiny images (icons, logos) — only target the chart
+                    if (img.naturalWidth < 200 && img.naturalWidth > 0) return;
+                    img.dataset.lightboxBound = 'true';
+                    img.style.cursor = 'zoom-in';
+                    img.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        dismissLightbox();
+                        const overlay = parentDoc.createElement('div');
+                        overlay.className = 'chart-lightbox-overlay';
+                        const clone = parentDoc.createElement('img');
+                        clone.src = img.src;
+                        clone.alt = 'SHAP Waterfall Chart (maximized)';
+                        overlay.appendChild(clone);
+                        overlay.addEventListener('click', dismissLightbox);
+                        parentDoc.body.appendChild(overlay);
+                    });
+                });
+            }
+
+            // Escape key dismisses
+            if (!parentDoc._lbEscBound) {
+                parentDoc._lbEscBound = true;
+                parentDoc.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') dismissLightbox();
+                });
+            }
+
+            // Delay slightly to let Streamlit finish rendering the image
+            setTimeout(attachChartClick, 500);
+            setTimeout(attachChartClick, 1500);
+            // Also re-attach on DOM changes
+            const obs = new MutationObserver(function() { setTimeout(attachChartClick, 100); });
+            obs.observe(parentDoc.body, { childList: true, subtree: true });
+        })();
+        </script>
+        """, height=0)
+
+        # Insight callout (moved from right column)
+        if risk_class == "high":
+            insight_text = (
+                "<strong>Key Insight:</strong> The model flags this customer as at-risk. "
+                "Review the top contributing factors above — addressing the strongest "
+                "churn drivers (red bars) can significantly improve retention odds."
+            )
+        else:
+            insight_text = (
+                "<strong>Key Insight:</strong> This customer shows healthy retention signals. "
+                "The features pushing toward retention (blue bars) outweigh churn risk factors. "
+                "Continue monitoring satisfaction and engagement metrics."
+            )
+
+        st.markdown(f'<div class="insight-callout">{insight_text}</div>', unsafe_allow_html=True)
+
+    with col_right:
+        # SHAP explainability header
+        st.markdown("""
+        <div class="shap-container">
+            <div class="shap-title">Risk Driver Analysis</div>
+            <div class="shap-description">
+                SHAP values show each feature's contribution toward the churn prediction.
+                Red bars push toward churn, blue bars push toward retention.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        # Input summary card (moved from left column)
         st.markdown(f"""
         <div class="result-card">
             <div class="result-card-title">Input Summary</div>
@@ -1485,66 +1687,6 @@ if predict_clicked:
             </table>
         </div>
         """, unsafe_allow_html=True)
-
-    with col_right:
-        # SHAP explainability card
-        st.markdown("""
-        <div class="shap-container">
-            <div class="shap-title">Risk Driver Analysis</div>
-            <div class="shap-description">
-                SHAP values show each feature's contribution toward the churn prediction.
-                Red bars push toward churn, blue bars push toward retention.
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-
-        with st.spinner("Computing SHAP values..."):
-            explainer = shap.TreeExplainer(model)
-            shap_obj = explainer(input_df)
-            shap_values = shap_obj[:, :, 1]
-            shap_values.feature_names = model_columns
-
-            # Build SHAP chart with portfolio-matching style
-            matplotlib.rcParams.update({
-                'font.family': 'sans-serif',
-                'font.sans-serif': ['Source Sans 3', 'Segoe UI', 'Arial'],
-                'axes.facecolor': '#ffffff',
-                'figure.facecolor': '#ffffff',
-                'text.color': '#3d3d3d',
-                'axes.labelcolor': '#3d3d3d',
-                'xtick.color': '#888888',
-                'ytick.color': '#3d3d3d',
-                'axes.edgecolor': '#e0e0e0',
-                'grid.color': '#e8e8e8',
-            })
-
-            fig, ax = plt.subplots(figsize=(9, 4.5))
-            shap.plots.waterfall(shap_values[0], max_display=8, show=False)
-
-            # Style the chart axes
-            for spine in ax.spines.values():
-                spine.set_color('#e0e0e0')
-                spine.set_linewidth(0.75)
-
-            ax.tick_params(axis='both', labelsize=9)
-            plt.tight_layout(pad=1.5)
-            st.pyplot(fig, use_container_width=True)
-
-        # Insight callout
-        if risk_class == "high":
-            insight_text = (
-                "<strong>Key Insight:</strong> The model flags this customer as at-risk. "
-                "Review the top contributing factors above — addressing the strongest "
-                "churn drivers (red bars) can significantly improve retention odds."
-            )
-        else:
-            insight_text = (
-                "<strong>Key Insight:</strong> This customer shows healthy retention signals. "
-                "The features pushing toward retention (blue bars) outweigh churn risk factors. "
-                "Continue monitoring satisfaction and engagement metrics."
-            )
-
-        st.markdown(f'<div class="insight-callout">{insight_text}</div>', unsafe_allow_html=True)
 
 else:
     # ── Welcome / Empty State ──
@@ -1582,3 +1724,4 @@ st.markdown("""
     Built with Streamlit · Random Forest Classifier · SHAP Explainability
 </div>
 """, unsafe_allow_html=True)
+
