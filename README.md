@@ -197,13 +197,8 @@ This master table is then fed into the Python modeling pipeline, where it is sca
 ---
 
 ## Pipeline Architecture <a name="pipeline-architecture"></a>
+<img width="707" height="170" alt="image" src="https://github.com/user-attachments/assets/791aa6f2-cb6e-40aa-8e4c-1d7fdc444d92" />
 
-```mermaid
-flowchart LR
-    A[Raw Data<br>Synthetic CSV] --> B[(SQL<br>Cleaning & Analysis)]
-    B --> C[Python<br>Scikit-Learn Model]
-    C --> D[Power BI & Streamlit<br>Dashboards & App]
-```
 
 ---
 
